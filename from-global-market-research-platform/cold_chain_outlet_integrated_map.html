@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_928881ab916c26fa2c997df9413a2c22 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+    <div style="position: fixed;
+                bottom: 50px; right: 50px; width: 300px; height: auto;
+                background-color: white; border:2px solid grey; z-index:9999;
+                font-size:14px; padding: 10px">
+    <p style="margin: 0 0 10px 0"><b>Cold Chain + Outlet Integration Map</b></p>
+    <p><i class="fa fa-circle" style="color:blue"></i> Cold Chain Projects & Capacity</p>
+    <p><i class="fa fa-marker" style="color:darkblue"></i> Top States (>30 projects)</p>
+    <p style="font-size: 12px; margin-top: 10px">
+    <b>Circle size:</b> Project capacity (MT)<br>
+    <b>Circle color:</b> Project density<br>
+    <b>Blue:</b> High capacity regions
+    </p>
+    <p style="font-size: 12px; margin-top: 10px; color: #666;">
+    📊 357 total cold chain projects<br>
+    🏪 104,961 SSRI petrol pumps<br>
+    🛢️ 693 Cash@PoS outlets extracted
+    </p>
+    </div>
+    
+    
+            <div class="folium-map" id="map_928881ab916c26fa2c997df9413a2c22" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_928881ab916c26fa2c997df9413a2c22 = L.map(
+                "map_928881ab916c26fa2c997df9413a2c22",
+                {
+                    center: [20.5937, 78.9629],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_be23f1f282db8289b7d4e165d78d9927 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_be23f1f282db8289b7d4e165d78d9927.addTo(map_928881ab916c26fa2c997df9413a2c22);
+        
+    
+            var circle_83585f305abfc80dade34d3a6faad5f2 = L.circle(
+                [19.076, 72.8777],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10338.0, "stroke": true, "weight": 2}
+            ).addTo(map_928881ab916c26fa2c997df9413a2c22);
+        
+    
+        var popup_579794d198003afe6e59b87294846bb4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5eccc9f39952b04db54c0c999a1d6a9e = $(`<div id="html_5eccc9f39952b04db54c0c999a1d6a9e" style="width: 100.0%; height: 100.0%;">             <b>Maharashtra</b><br>             <b>Cold Chain Projects:</b> 62<br>             <b>Capacity:</b> 103.38 MT<br>             <b>Sectors:</b> FAV, Dairy, Fishery<br>             <b>Service Outlets (Cash@PoS):</b> 62             </div>`)[0];
+                popup_579794d198003afe6e59b87294846bb4.setContent(html_5eccc9f39952b04db54c0c999a1d6a9e);
+            
+        
+
+        circle_83585f305abfc80dade34d3a6faad5f2.bindPopup(popup_579794d198003afe6e59b87294846bb4)
+        ;
+
+        
+    
+    
+            var marker_3b66feca73efb681f4f33352b865d3ba = L.marker(
+                [19.076, 72.8777],
+                {
+}
+            ).addTo(map_928881ab916c26fa2c997df9413a2c22);
+        
+    
+            var icon_660f0005aaa40707c85f2ec41b33bb1e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_de914395ab2f6dbf357c260f1b7f87ef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c91ef72275228af2c8e4d057c6013f2f = $(`<div id="html_c91ef72275228af2c8e4d057c6013f2f" style="width: 100.0%; height: 100.0%;">Maharashtra<br>62 projects</div>`)[0];
+                popup_de914395ab2f6dbf357c260f1b7f87ef.setContent(html_c91ef72275228af2c8e4d057c6013f2f);
+            
+        
+
+        marker_3b66feca73efb681f4f33352b865d3ba.bindPopup(popup_de914395ab2f6dbf357c260f1b7f87ef)
+        ;
+
+        
+    
+    
+            marker_3b66feca73efb681f4f33352b865d3ba.bindTooltip(
+                `<div>
+                     Maharashtra: 62 cold chain projects
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3b66feca73efb681f4f33352b865d3ba.setIcon(icon_660f0005aaa40707c85f2ec41b33bb1e);
+            
+    
+            var circle_de3c74f65e04bb87795c9f0ab02db546 = L.circle(
+                [17.385, 78.4867],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27032.0, "stroke": true, "weight": 2}
+            ).addTo(map_928881ab916c26fa2c997df9413a2c22);
+        
+    
+        var popup_f7be3a95769d484fb1a44af48c378057 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_74d22c9a10dfe247140fa735f6547781 = $(`<div id="html_74d22c9a10dfe247140fa735f6547781" style="width: 100.0%; height: 100.0%;">             <b>Andhra Pradesh</b><br>             <b>Cold Chain Projects:</b> 32<br>             <b>Capacity:</b> 270.32 MT<br>             <b>Sectors:</b> Fishery, Dairy, FAV<br>             <b>Service Outlets (Cash@PoS):</b> 14             </div>`)[0];
+                popup_f7be3a95769d484fb1a44af48c378057.setContent(html_74d22c9a10dfe247140fa735f6547781);
+            
+        
+
+        circle_de3c74f65e04bb87795c9f0ab02db546.bindPopup(popup_f7be3a95769d484fb1a44af48c378057)
+        ;
+
+        
+    
+    
+            var marker_190c6b36f94725caaf2efc0d40d1ae9c = L.marker(
+                [17.385, 78.4867],
+                {
+}
+            ).addTo(map_928881ab916c26fa2c997df9413a2c22);
+        
+    
+            var icon_e44d6983fbbcaeafe8d0610fbb506184 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_71e0b01f19f75dbb2c66ad48a6f93b54 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_530d9aa0893dd69a9249821da4af226e = $(`<div id="html_530d9aa0893dd69a9249821da4af226e" style="width: 100.0%; height: 100.0%;">Andhra Pradesh<br>32 projects</div>`)[0];
+                popup_71e0b01f19f75dbb2c66ad48a6f93b54.setContent(html_530d9aa0893dd69a9249821da4af226e);
+            
+        
+
+        marker_190c6b36f94725caaf2efc0d40d1ae9c.bindPopup(popup_71e0b01f19f75dbb2c66ad48a6f93b54)
+        ;
+
+        
+    
+    
+            marker_190c6b36f94725caaf2efc0d40d1ae9c.bindTooltip(
+                `<div>
+                     Andhra Pradesh: 32 cold chain projects
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_190c6b36f94725caaf2efc0d40d1ae9c.setIcon(icon_e44d6983fbbcaeafe8d0610fbb506184);
+            
+    
+            var circle_d569f6b5a047e03e87a1ab95e1ba7808 = L.circle(
+                [23.0225, 72.5714],
+                {"bubblingMouseEvents": true, "color": "cyan", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cyan", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25297.0, "stroke": true, "weight": 2}
+            ).addTo(map_928881ab916c26fa2c997df9413a2c22);
+        
+    
+        var popup_a25c68212f7d25d4a50ddcb096288bd4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_79a2e01ffd65cb888c8fcf14478121df = $(`<div id="html_79a2e01ffd65cb888c8fcf14478121df" style="width: 100.0%; height: 100.0%;">             <b>Gujarat</b><br>             <b>Cold Chain Projects:</b> 27<br>             <b>Capacity:</b> 252.97 MT<br>             <b>Sectors:</b> FAV, Dairy<br>             <b>Service Outlets (Cash@PoS):</b> 18             </div>`)[0];
+                popup_a25c68212f7d25d4a50ddcb096288bd4.setContent(html_79a2e01ffd65cb888c8fcf14478121df);
+            
+        
+
+        circle_d569f6b5a047e03e87a1ab95e1ba7808.bindPopup(popup_a25c68212f7d25d4a50ddcb096288bd4)
+        ;
+
+        
+    
+    
+            var marker_249fdd1f96f76255befe6cf6a56046f2 = L.marker(
+                [23.0225, 72.5714],
+                {
+}
+            ).addTo(map_928881ab916c26fa2c997df9413a2c22);
+        
+    
+            var icon_71b8bc52dc8df451adbc4cac98f27e72 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_753765f6d45dc8cc11a6b9b639cc3992 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc8b1b8f06f653889d3a627fb164175b = $(`<div id="html_cc8b1b8f06f653889d3a627fb164175b" style="width: 100.0%; height: 100.0%;">Gujarat<br>27 projects</div>`)[0];
+                popup_753765f6d45dc8cc11a6b9b639cc3992.setContent(html_cc8b1b8f06f653889d3a627fb164175b);
+            
+        
+
+        marker_249fdd1f96f76255befe6cf6a56046f2.bindPopup(popup_753765f6d45dc8cc11a6b9b639cc3992)
+        ;
+
+        
+    
+    
+            marker_249fdd1f96f76255befe6cf6a56046f2.bindTooltip(
+                `<div>
+                     Gujarat: 27 cold chain projects
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_249fdd1f96f76255befe6cf6a56046f2.setIcon(icon_71b8bc52dc8df451adbc4cac98f27e72);
+            
+    
+            var circle_7ebdb0df3f806caea39b8542fc5fdabc = L.circle(
+                [29.5673, 77.096],
+                {"bubblingMouseEvents": true, "color": "cyan", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cyan", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14372.999999999998, "stroke": true, "weight": 2}
+            ).addTo(map_928881ab916c26fa2c997df9413a2c22);
+        
+    
+        var popup_c29bcab73c6d418ff80260915c01605d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1a007cf1da5165bf99ff1e26acb9a246 = $(`<div id="html_1a007cf1da5165bf99ff1e26acb9a246" style="width: 100.0%; height: 100.0%;">             <b>Haryana</b><br>             <b>Cold Chain Projects:</b> 20<br>             <b>Capacity:</b> 143.73 MT<br>             <b>Sectors:</b> FAV, Irrigation<br>             <b>Service Outlets (Cash@PoS):</b> 15             </div>`)[0];
+                popup_c29bcab73c6d418ff80260915c01605d.setContent(html_1a007cf1da5165bf99ff1e26acb9a246);
+            
+        
+
+        circle_7ebdb0df3f806caea39b8542fc5fdabc.bindPopup(popup_c29bcab73c6d418ff80260915c01605d)
+        ;
+
+        
+    
+    
+            var marker_05c23ca0de4db2b68277e9f6de6e3317 = L.marker(
+                [29.5673, 77.096],
+                {
+}
+            ).addTo(map_928881ab916c26fa2c997df9413a2c22);
+        
+    
+            var icon_5dbf3762a652f87675cdeca31a523327 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3ba9e41a8e728995b20be09a4e14f1d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4c424082f7a7e58e4158c34f507e78d = $(`<div id="html_b4c424082f7a7e58e4158c34f507e78d" style="width: 100.0%; height: 100.0%;">Haryana<br>20 projects</div>`)[0];
+                popup_3ba9e41a8e728995b20be09a4e14f1d7.setContent(html_b4c424082f7a7e58e4158c34f507e78d);
+            
+        
+
+        marker_05c23ca0de4db2b68277e9f6de6e3317.bindPopup(popup_3ba9e41a8e728995b20be09a4e14f1d7)
+        ;
+
+        
+    
+    
+            marker_05c23ca0de4db2b68277e9f6de6e3317.bindTooltip(
+                `<div>
+                     Haryana: 20 cold chain projects
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_05c23ca0de4db2b68277e9f6de6e3317.setIcon(icon_5dbf3762a652f87675cdeca31a523327);
+            
+    
+            var circle_46d8e4a9d26b1b72ef821bc278da61fc = L.circle(
+                [31.7046, 77.1025],
+                {"bubblingMouseEvents": true, "color": "cyan", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cyan", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14871.0, "stroke": true, "weight": 2}
+            ).addTo(map_928881ab916c26fa2c997df9413a2c22);
+        
+    
+        var popup_35417e55d9a3d75e8ed321711666f6e9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4c5a05d2be4ad0e3e2095a498c6b36d7 = $(`<div id="html_4c5a05d2be4ad0e3e2095a498c6b36d7" style="width: 100.0%; height: 100.0%;">             <b>Himachal Pradesh</b><br>             <b>Cold Chain Projects:</b> 17<br>             <b>Capacity:</b> 148.71 MT<br>             <b>Sectors:</b> FAV, Dairy<br>             <b>Service Outlets (Cash@PoS):</b> 1             </div>`)[0];
+                popup_35417e55d9a3d75e8ed321711666f6e9.setContent(html_4c5a05d2be4ad0e3e2095a498c6b36d7);
+            
+        
+
+        circle_46d8e4a9d26b1b72ef821bc278da61fc.bindPopup(popup_35417e55d9a3d75e8ed321711666f6e9)
+        ;
+
+        
+    
+    
+            var marker_d2c2534ab7c1b76b636b780be0c0829e = L.marker(
+                [31.7046, 77.1025],
+                {
+}
+            ).addTo(map_928881ab916c26fa2c997df9413a2c22);
+        
+    
+            var icon_34b6d17e9fb67a7d60e7cba8e6897734 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_37260a6de77842f50af5e6a2b0e4d402 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a5393a5e6f86ca690953d15f01b1ad0d = $(`<div id="html_a5393a5e6f86ca690953d15f01b1ad0d" style="width: 100.0%; height: 100.0%;">Himachal Pradesh<br>17 projects</div>`)[0];
+                popup_37260a6de77842f50af5e6a2b0e4d402.setContent(html_a5393a5e6f86ca690953d15f01b1ad0d);
+            
+        
+
+        marker_d2c2534ab7c1b76b636b780be0c0829e.bindPopup(popup_37260a6de77842f50af5e6a2b0e4d402)
+        ;
+
+        
+    
+    
+            marker_d2c2534ab7c1b76b636b780be0c0829e.bindTooltip(
+                `<div>
+                     Himachal Pradesh: 17 cold chain projects
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d2c2534ab7c1b76b636b780be0c0829e.setIcon(icon_34b6d17e9fb67a7d60e7cba8e6897734);
+            
+    
+            var circle_35a5af964e988ecf15258887d7df823a = L.circle(
+                [15.2993, 75.7541],
+                {"bubblingMouseEvents": true, "color": "cyan", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cyan", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13138.0, "stroke": true, "weight": 2}
+            ).addTo(map_928881ab916c26fa2c997df9413a2c22);
+        
+    
+        var popup_b93a58f32e6eafe30df93aa8d3c21437 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5d0520fe4b0018559c3df6bb68bfc42b = $(`<div id="html_5d0520fe4b0018559c3df6bb68bfc42b" style="width: 100.0%; height: 100.0%;">             <b>Karnataka</b><br>             <b>Cold Chain Projects:</b> 16<br>             <b>Capacity:</b> 131.38 MT<br>             <b>Sectors:</b> FAV, Dairy, Meat<br>             <b>Service Outlets (Cash@PoS):</b> 4             </div>`)[0];
+                popup_b93a58f32e6eafe30df93aa8d3c21437.setContent(html_5d0520fe4b0018559c3df6bb68bfc42b);
+            
+        
+
+        circle_35a5af964e988ecf15258887d7df823a.bindPopup(popup_b93a58f32e6eafe30df93aa8d3c21437)
+        ;
+
+        
+    
+    
+            var marker_ee35742d9e4585473a1a39b35947af62 = L.marker(
+                [15.2993, 75.7541],
+                {
+}
+            ).addTo(map_928881ab916c26fa2c997df9413a2c22);
+        
+    
+            var icon_e02fa01fed5dc6b6caa4446f19febd3e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cad2407081f447b98982bc92686a4621 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eec242986d19e77a19bee20a88ce9b3e = $(`<div id="html_eec242986d19e77a19bee20a88ce9b3e" style="width: 100.0%; height: 100.0%;">Karnataka<br>16 projects</div>`)[0];
+                popup_cad2407081f447b98982bc92686a4621.setContent(html_eec242986d19e77a19bee20a88ce9b3e);
+            
+        
+
+        marker_ee35742d9e4585473a1a39b35947af62.bindPopup(popup_cad2407081f447b98982bc92686a4621)
+        ;
+
+        
+    
+    
+            marker_ee35742d9e4585473a1a39b35947af62.bindTooltip(
+                `<div>
+                     Karnataka: 16 cold chain projects
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ee35742d9e4585473a1a39b35947af62.setIcon(icon_e02fa01fed5dc6b6caa4446f19febd3e);
+            
+    
+            var circle_c02d4266c2f2abea7e3e01b0f11b87d9 = L.circle(
+                [23.1815, 79.9864],
+                {"bubblingMouseEvents": true, "color": "cyan", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cyan", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10338.0, "stroke": true, "weight": 2}
+            ).addTo(map_928881ab916c26fa2c997df9413a2c22);
+        
+    
+        var popup_4c7d72291db34f3b8169ddd260b7ccfa = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7ff9d799dc4c321d4af5c224fe5c739a = $(`<div id="html_7ff9d799dc4c321d4af5c224fe5c739a" style="width: 100.0%; height: 100.0%;">             <b>Madhya Pradesh</b><br>             <b>Cold Chain Projects:</b> 13<br>             <b>Capacity:</b> 103.38 MT<br>             <b>Sectors:</b> FAV, Irrigation<br>             <b>Service Outlets (Cash@PoS):</b> 64             </div>`)[0];
+                popup_4c7d72291db34f3b8169ddd260b7ccfa.setContent(html_7ff9d799dc4c321d4af5c224fe5c739a);
+            
+        
+
+        circle_c02d4266c2f2abea7e3e01b0f11b87d9.bindPopup(popup_4c7d72291db34f3b8169ddd260b7ccfa)
+        ;
+
+        
+    
+    
+            var marker_83a6d63b58f4a6d3c8be1b7fd7d53257 = L.marker(
+                [23.1815, 79.9864],
+                {
+}
+            ).addTo(map_928881ab916c26fa2c997df9413a2c22);
+        
+    
+            var icon_28538f81f75e60eee7f2f4c2e544211c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_022ac7f70b4869a8b2952a8f624b3cdb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e8b463a996ec6d4bc34a6a50c582c122 = $(`<div id="html_e8b463a996ec6d4bc34a6a50c582c122" style="width: 100.0%; height: 100.0%;">Madhya Pradesh<br>13 projects</div>`)[0];
+                popup_022ac7f70b4869a8b2952a8f624b3cdb.setContent(html_e8b463a996ec6d4bc34a6a50c582c122);
+            
+        
+
+        marker_83a6d63b58f4a6d3c8be1b7fd7d53257.bindPopup(popup_022ac7f70b4869a8b2952a8f624b3cdb)
+        ;
+
+        
+    
+    
+            marker_83a6d63b58f4a6d3c8be1b7fd7d53257.bindTooltip(
+                `<div>
+                     Madhya Pradesh: 13 cold chain projects
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_83a6d63b58f4a6d3c8be1b7fd7d53257.setIcon(icon_28538f81f75e60eee7f2f4c2e544211c);
+            
+    
+            var circle_4a8912efccaa2f20426fc22bd1000378 = L.circle(
+                [10.8505, 76.2711],
+                {"bubblingMouseEvents": true, "color": "cyan", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cyan", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4235.0, "stroke": true, "weight": 2}
+            ).addTo(map_928881ab916c26fa2c997df9413a2c22);
+        
+    
+        var popup_bba9e1712a2410a5a1c2b73b38349e71 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9af0f702c795d872c4832561d7b0fb88 = $(`<div id="html_9af0f702c795d872c4832561d7b0fb88" style="width: 100.0%; height: 100.0%;">             <b>Kerala</b><br>             <b>Cold Chain Projects:</b> 6<br>             <b>Capacity:</b> 42.35 MT<br>             <b>Sectors:</b> Dairy, Fishery<br>             <b>Service Outlets (Cash@PoS):</b> 0             </div>`)[0];
+                popup_bba9e1712a2410a5a1c2b73b38349e71.setContent(html_9af0f702c795d872c4832561d7b0fb88);
+            
+        
+
+        circle_4a8912efccaa2f20426fc22bd1000378.bindPopup(popup_bba9e1712a2410a5a1c2b73b38349e71)
+        ;
+
+        
+    
+    
+            var marker_1933b3fae1fe05742f20b445871a2281 = L.marker(
+                [10.8505, 76.2711],
+                {
+}
+            ).addTo(map_928881ab916c26fa2c997df9413a2c22);
+        
+    
+            var icon_9c37efb62ec36970b87b19815a7c3ef3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0d26b05ff17e5a53cd75cccac1379df2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0e73a777dfaaace23dc127251b5a6e9c = $(`<div id="html_0e73a777dfaaace23dc127251b5a6e9c" style="width: 100.0%; height: 100.0%;">Kerala<br>6 projects</div>`)[0];
+                popup_0d26b05ff17e5a53cd75cccac1379df2.setContent(html_0e73a777dfaaace23dc127251b5a6e9c);
+            
+        
+
+        marker_1933b3fae1fe05742f20b445871a2281.bindPopup(popup_0d26b05ff17e5a53cd75cccac1379df2)
+        ;
+
+        
+    
+    
+            marker_1933b3fae1fe05742f20b445871a2281.bindTooltip(
+                `<div>
+                     Kerala: 6 cold chain projects
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1933b3fae1fe05742f20b445871a2281.setIcon(icon_9c37efb62ec36970b87b19815a7c3ef3);
+            
+    
+            var circle_9f37e2056c55ffad5f33d9b756f0bef2 = L.circle(
+                [34.0837, 74.7973],
+                {"bubblingMouseEvents": true, "color": "cyan", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cyan", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5283.0, "stroke": true, "weight": 2}
+            ).addTo(map_928881ab916c26fa2c997df9413a2c22);
+        
+    
+        var popup_535ec049cdd2d67d140e02f1745db805 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a39e9c22ac220109eb82da3c60353979 = $(`<div id="html_a39e9c22ac220109eb82da3c60353979" style="width: 100.0%; height: 100.0%;">             <b>Jammu & Kashmir</b><br>             <b>Cold Chain Projects:</b> 7<br>             <b>Capacity:</b> 52.83 MT<br>             <b>Sectors:</b> FAV, Dairy<br>             <b>Service Outlets (Cash@PoS):</b> 0             </div>`)[0];
+                popup_535ec049cdd2d67d140e02f1745db805.setContent(html_a39e9c22ac220109eb82da3c60353979);
+            
+        
+
+        circle_9f37e2056c55ffad5f33d9b756f0bef2.bindPopup(popup_535ec049cdd2d67d140e02f1745db805)
+        ;
+
+        
+    
+    
+            var marker_bdba4d83d75914e8b1ad274cb36885db = L.marker(
+                [34.0837, 74.7973],
+                {
+}
+            ).addTo(map_928881ab916c26fa2c997df9413a2c22);
+        
+    
+            var icon_1f7a303e4d8897e3694da8ebf003d840 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_99c2f35310e696fe805a7b9e60104502 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_83d586abb112df7f37bb2ea2e0ac0f25 = $(`<div id="html_83d586abb112df7f37bb2ea2e0ac0f25" style="width: 100.0%; height: 100.0%;">Jammu & Kashmir<br>7 projects</div>`)[0];
+                popup_99c2f35310e696fe805a7b9e60104502.setContent(html_83d586abb112df7f37bb2ea2e0ac0f25);
+            
+        
+
+        marker_bdba4d83d75914e8b1ad274cb36885db.bindPopup(popup_99c2f35310e696fe805a7b9e60104502)
+        ;
+
+        
+    
+    
+            marker_bdba4d83d75914e8b1ad274cb36885db.bindTooltip(
+                `<div>
+                     Jammu & Kashmir: 7 cold chain projects
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_bdba4d83d75914e8b1ad274cb36885db.setIcon(icon_1f7a303e4d8897e3694da8ebf003d840);
+            
+    
+            var circle_5226323b0e160df61ef85507e09a32f4 = L.circle(
+                [26.1445, 91.7362],
+                {"bubblingMouseEvents": true, "color": "cyan", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cyan", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1737.0, "stroke": true, "weight": 2}
+            ).addTo(map_928881ab916c26fa2c997df9413a2c22);
+        
+    
+        var popup_a9e785f0a5ab2b1a4384695e9bc7c54d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_856be990196a5d37d1d784b271a64083 = $(`<div id="html_856be990196a5d37d1d784b271a64083" style="width: 100.0%; height: 100.0%;">             <b>Assam</b><br>             <b>Cold Chain Projects:</b> 2<br>             <b>Capacity:</b> 17.37 MT<br>             <b>Sectors:</b> FAV<br>             <b>Service Outlets (Cash@PoS):</b> 0             </div>`)[0];
+                popup_a9e785f0a5ab2b1a4384695e9bc7c54d.setContent(html_856be990196a5d37d1d784b271a64083);
+            
+        
+
+        circle_5226323b0e160df61ef85507e09a32f4.bindPopup(popup_a9e785f0a5ab2b1a4384695e9bc7c54d)
+        ;
+
+        
+    
+    
+            var marker_45bb006ccf688b6db04d63e26c3f74ca = L.marker(
+                [26.1445, 91.7362],
+                {
+}
+            ).addTo(map_928881ab916c26fa2c997df9413a2c22);
+        
+    
+            var icon_86e2ae98dcf6ea04d2e57537224144da = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e651b2556ae83b3f0f3381995e2fbc03 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7cde4bd004d377d900455cd592485285 = $(`<div id="html_7cde4bd004d377d900455cd592485285" style="width: 100.0%; height: 100.0%;">Assam<br>2 projects</div>`)[0];
+                popup_e651b2556ae83b3f0f3381995e2fbc03.setContent(html_7cde4bd004d377d900455cd592485285);
+            
+        
+
+        marker_45bb006ccf688b6db04d63e26c3f74ca.bindPopup(popup_e651b2556ae83b3f0f3381995e2fbc03)
+        ;
+
+        
+    
+    
+            marker_45bb006ccf688b6db04d63e26c3f74ca.bindTooltip(
+                `<div>
+                     Assam: 2 cold chain projects
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_45bb006ccf688b6db04d63e26c3f74ca.setIcon(icon_86e2ae98dcf6ea04d2e57537224144da);
+            
+    
+            var circle_ea813a2a3bbc9f633ab400ee2a0bf421 = L.circle(
+                [25.5941, 85.1376],
+                {"bubblingMouseEvents": true, "color": "cyan", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cyan", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4895.0, "stroke": true, "weight": 2}
+            ).addTo(map_928881ab916c26fa2c997df9413a2c22);
+        
+    
+        var popup_740d0ae0070cd146fbc0089f0ac06360 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_91fdaf893792cee527cdc5a46378d089 = $(`<div id="html_91fdaf893792cee527cdc5a46378d089" style="width: 100.0%; height: 100.0%;">             <b>Bihar</b><br>             <b>Cold Chain Projects:</b> 6<br>             <b>Capacity:</b> 48.95 MT<br>             <b>Sectors:</b> Dairy, FAV<br>             <b>Service Outlets (Cash@PoS):</b> 0             </div>`)[0];
+                popup_740d0ae0070cd146fbc0089f0ac06360.setContent(html_91fdaf893792cee527cdc5a46378d089);
+            
+        
+
+        circle_ea813a2a3bbc9f633ab400ee2a0bf421.bindPopup(popup_740d0ae0070cd146fbc0089f0ac06360)
+        ;
+
+        
+    
+    
+            var marker_136522e97a09c506204c686c69a41ec5 = L.marker(
+                [25.5941, 85.1376],
+                {
+}
+            ).addTo(map_928881ab916c26fa2c997df9413a2c22);
+        
+    
+            var icon_37a77a64fb5c32d5d576756928ea5bcc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3973d32904b2bd189acbf3ceed07cc93 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8f128970ac54ed8b57b40212d75f2cc6 = $(`<div id="html_8f128970ac54ed8b57b40212d75f2cc6" style="width: 100.0%; height: 100.0%;">Bihar<br>6 projects</div>`)[0];
+                popup_3973d32904b2bd189acbf3ceed07cc93.setContent(html_8f128970ac54ed8b57b40212d75f2cc6);
+            
+        
+
+        marker_136522e97a09c506204c686c69a41ec5.bindPopup(popup_3973d32904b2bd189acbf3ceed07cc93)
+        ;
+
+        
+    
+    
+            marker_136522e97a09c506204c686c69a41ec5.bindTooltip(
+                `<div>
+                     Bihar: 6 cold chain projects
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_136522e97a09c506204c686c69a41ec5.setIcon(icon_37a77a64fb5c32d5d576756928ea5bcc);
+            
+    
+            var circle_abc4e966f279d0e39c1994aec5f4d3ff = L.circle(
+                [21.2787, 81.8661],
+                {"bubblingMouseEvents": true, "color": "cyan", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cyan", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1150.0, "stroke": true, "weight": 2}
+            ).addTo(map_928881ab916c26fa2c997df9413a2c22);
+        
+    
+        var popup_4e5628c7757a3ecd7fbc82b005c1c47a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bdb01ca8b72e8e127002de260e9d188b = $(`<div id="html_bdb01ca8b72e8e127002de260e9d188b" style="width: 100.0%; height: 100.0%;">             <b>Chhattisgarh</b><br>             <b>Cold Chain Projects:</b> 2<br>             <b>Capacity:</b> 11.50 MT<br>             <b>Sectors:</b> FAV<br>             <b>Service Outlets (Cash@PoS):</b> 0             </div>`)[0];
+                popup_4e5628c7757a3ecd7fbc82b005c1c47a.setContent(html_bdb01ca8b72e8e127002de260e9d188b);
+            
+        
+
+        circle_abc4e966f279d0e39c1994aec5f4d3ff.bindPopup(popup_4e5628c7757a3ecd7fbc82b005c1c47a)
+        ;
+
+        
+    
+    
+            var marker_089f86d759cc37f524939ad509bce7b6 = L.marker(
+                [21.2787, 81.8661],
+                {
+}
+            ).addTo(map_928881ab916c26fa2c997df9413a2c22);
+        
+    
+            var icon_0fda278661dcb2ef7865dfd48bb3de47 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6218a4bbfa9aeb0bd1bc141c705f420f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9fd2eb36327b41c20053c3fe7a80aedc = $(`<div id="html_9fd2eb36327b41c20053c3fe7a80aedc" style="width: 100.0%; height: 100.0%;">Chhattisgarh<br>2 projects</div>`)[0];
+                popup_6218a4bbfa9aeb0bd1bc141c705f420f.setContent(html_9fd2eb36327b41c20053c3fe7a80aedc);
+            
+        
+
+        marker_089f86d759cc37f524939ad509bce7b6.bindPopup(popup_6218a4bbfa9aeb0bd1bc141c705f420f)
+        ;
+
+        
+    
+    
+            marker_089f86d759cc37f524939ad509bce7b6.bindTooltip(
+                `<div>
+                     Chhattisgarh: 2 cold chain projects
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_089f86d759cc37f524939ad509bce7b6.setIcon(icon_0fda278661dcb2ef7865dfd48bb3de47);
+            
+    
+            var circle_49e735f73e9b928be73c1b2517b4f320 = L.circle(
+                [11.7401, 92.6586],
+                {"bubblingMouseEvents": true, "color": "cyan", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cyan", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1286.0, "stroke": true, "weight": 2}
+            ).addTo(map_928881ab916c26fa2c997df9413a2c22);
+        
+    
+        var popup_8bb0fa72943fd1a70b55e4a2d0b5e6c4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a5a542b201e2feca963ad3d454279913 = $(`<div id="html_a5a542b201e2feca963ad3d454279913" style="width: 100.0%; height: 100.0%;">             <b>Andaman & Nicobar</b><br>             <b>Cold Chain Projects:</b> 2<br>             <b>Capacity:</b> 12.86 MT<br>             <b>Sectors:</b> Fishery<br>             <b>Service Outlets (Cash@PoS):</b> 0             </div>`)[0];
+                popup_8bb0fa72943fd1a70b55e4a2d0b5e6c4.setContent(html_a5a542b201e2feca963ad3d454279913);
+            
+        
+
+        circle_49e735f73e9b928be73c1b2517b4f320.bindPopup(popup_8bb0fa72943fd1a70b55e4a2d0b5e6c4)
+        ;
+
+        
+    
+    
+            var marker_e4a4fa72dffd4f3fc4e1770117ab3650 = L.marker(
+                [11.7401, 92.6586],
+                {
+}
+            ).addTo(map_928881ab916c26fa2c997df9413a2c22);
+        
+    
+            var icon_8c5334a33edab87f6300087c4ac33db2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3f2d0d0c004e4dc22af6dfe769b1291a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9049809c349a8a0e5542abcf2fd99a6e = $(`<div id="html_9049809c349a8a0e5542abcf2fd99a6e" style="width: 100.0%; height: 100.0%;">Andaman & Nicobar<br>2 projects</div>`)[0];
+                popup_3f2d0d0c004e4dc22af6dfe769b1291a.setContent(html_9049809c349a8a0e5542abcf2fd99a6e);
+            
+        
+
+        marker_e4a4fa72dffd4f3fc4e1770117ab3650.bindPopup(popup_3f2d0d0c004e4dc22af6dfe769b1291a)
+        ;
+
+        
+    
+    
+            marker_e4a4fa72dffd4f3fc4e1770117ab3650.bindTooltip(
+                `<div>
+                     Andaman & Nicobar: 2 cold chain projects
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e4a4fa72dffd4f3fc4e1770117ab3650.setIcon(icon_8c5334a33edab87f6300087c4ac33db2);
+            
+    
+            var circle_29e77f0ebfac3326d37fb797d2936b87 = L.circle(
+                [28.218, 94.2037],
+                {"bubblingMouseEvents": true, "color": "cyan", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cyan", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 646.0, "stroke": true, "weight": 2}
+            ).addTo(map_928881ab916c26fa2c997df9413a2c22);
+        
+    
+        var popup_9b0fdd81e307a0cfe3698dbc815086cb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ac926dc442265761579a03f160b8bca1 = $(`<div id="html_ac926dc442265761579a03f160b8bca1" style="width: 100.0%; height: 100.0%;">             <b>Arunachal Pradesh</b><br>             <b>Cold Chain Projects:</b> 1<br>             <b>Capacity:</b> 6.46 MT<br>             <b>Sectors:</b> Meat<br>             <b>Service Outlets (Cash@PoS):</b> 0             </div>`)[0];
+                popup_9b0fdd81e307a0cfe3698dbc815086cb.setContent(html_ac926dc442265761579a03f160b8bca1);
+            
+        
+
+        circle_29e77f0ebfac3326d37fb797d2936b87.bindPopup(popup_9b0fdd81e307a0cfe3698dbc815086cb)
+        ;
+
+        
+    
+    
+            var marker_db29b26879bb52bdbdb9fff0bfe5d3f3 = L.marker(
+                [28.218, 94.2037],
+                {
+}
+            ).addTo(map_928881ab916c26fa2c997df9413a2c22);
+        
+    
+            var icon_eeb4a09f172ffd47b9ab063b3c4e34ba = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e62ce212b7b36c4876579120361078dc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4a3e0a2a6a34c6c3884522673b5ad57a = $(`<div id="html_4a3e0a2a6a34c6c3884522673b5ad57a" style="width: 100.0%; height: 100.0%;">Arunachal Pradesh<br>1 projects</div>`)[0];
+                popup_e62ce212b7b36c4876579120361078dc.setContent(html_4a3e0a2a6a34c6c3884522673b5ad57a);
+            
+        
+
+        marker_db29b26879bb52bdbdb9fff0bfe5d3f3.bindPopup(popup_e62ce212b7b36c4876579120361078dc)
+        ;
+
+        
+    
+    
+            marker_db29b26879bb52bdbdb9fff0bfe5d3f3.bindTooltip(
+                `<div>
+                     Arunachal Pradesh: 1 cold chain projects
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_db29b26879bb52bdbdb9fff0bfe5d3f3.setIcon(icon_eeb4a09f172ffd47b9ab063b3c4e34ba);
+            
+</script>
+</html>
