@@ -1,0 +1,9 @@
+__pycache__/
+venv/
+*.pyc
+.DS_Store
+india_districts_clean.geojson
+ssri_pumps_raw.jsonl
+ga_rows_raw.json
+gj_pairs.json
+crawl.log

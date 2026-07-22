@@ -1,0 +1,409 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>India CGD Geographical Areas — District-wise Allotment</title>
+<style>
+:root{
+  --bg:#F7F8F5; --panel:#FFFFFF; --ink:#22282C; --muted:#66707A; --accent:#0E6FAE;
+  --line:#DDE2E0; --hover:#0E6FAE; --nogas:#ECEDE9; --nogas-ink:#A7ADA9;
+  --other:#9AA1A9; --chipbg:#EFF2EE;
+}
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#14181C; --panel:#1B2127; --ink:#E8ECEF; --muted:#98A2AC; --accent:#4FA3DC;
+    --line:#2A323A; --hover:#4FA3DC; --nogas:#23272B; --nogas-ink:#5A6268;
+    --other:#7A828C; --chipbg:#232A31; }
+}
+:root[data-theme="dark"]{ --bg:#14181C; --panel:#1B2127; --ink:#E8ECEF; --muted:#98A2AC;
+  --accent:#4FA3DC; --line:#2A323A; --hover:#4FA3DC; --nogas:#23272B; --nogas-ink:#5A6268;
+  --other:#7A828C; --chipbg:#232A31; }
+:root[data-theme="light"]{ --bg:#F7F8F5; --panel:#FFFFFF; --ink:#22282C; --muted:#66707A;
+  --accent:#0E6FAE; --line:#DDE2E0; --hover:#0E6FAE; --nogas:#ECEDE9; --nogas-ink:#A7ADA9;
+  --other:#9AA1A9; --chipbg:#EFF2EE; }
+
+*{box-sizing:border-box}
+html,body{margin:0;height:100%}
+body{background:var(--bg);color:var(--ink);
+  font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  display:flex;flex-direction:column}
+header{display:flex;align-items:baseline;gap:18px;flex-wrap:wrap;
+  padding:14px 20px 10px;border-bottom:1px solid var(--line)}
+h1{font-family:"Avenir Next","Segoe UI",sans-serif;font-size:19px;font-weight:600;
+  letter-spacing:-.01em;margin:0;text-wrap:balance}
+.sub{color:var(--muted);font-size:12.5px}
+.stats{display:flex;gap:14px;margin-left:auto;font-variant-numeric:tabular-nums}
+.stat{text-align:right}
+.stat b{display:block;font-size:17px;font-family:"Avenir Next","Segoe UI",sans-serif}
+.stat span{font-size:10.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.controls{display:flex;gap:8px;align-items:center;padding:10px 20px;flex-wrap:wrap;
+  border-bottom:1px solid var(--line)}
+input[type=search],select{background:var(--panel);color:var(--ink);border:1px solid var(--line);
+  border-radius:6px;padding:6px 10px;font:inherit;min-width:200px}
+select{min-width:150px}
+input[type=search]:focus-visible,select:focus-visible,button:focus-visible{
+  outline:2px solid var(--accent);outline-offset:1px}
+.viewbtn{background:var(--chipbg);border:1px solid var(--line);color:var(--ink);
+  border-radius:6px;padding:6px 12px;font:inherit;cursor:pointer}
+.viewbtn[aria-pressed="true"]{background:var(--accent);color:#fff;border-color:var(--accent)}
+main{flex:1;display:flex;min-height:0}
+#mapwrap{flex:1;position:relative;overflow:hidden;min-width:0}
+#mapwrap svg{width:100%;height:100%;display:block;cursor:grab}
+#mapwrap svg.panning{cursor:grabbing}
+#dots{position:absolute;inset:0;pointer-events:none}
+path.dist{stroke:var(--bg);stroke-width:.6;transition:opacity .15s}
+@media (prefers-reduced-motion: reduce){path.dist{transition:none}}
+path.dist:hover{stroke:var(--hover);stroke-width:1.4}
+path.dist.dim{opacity:.14}
+path.dist.sel{stroke:var(--ink);stroke-width:1.6}
+#tip{position:absolute;pointer-events:none;background:var(--panel);border:1px solid var(--line);
+  border-radius:8px;padding:8px 11px;font-size:12.5px;max-width:290px;
+  box-shadow:0 4px 14px rgba(0,0,0,.18);display:none;z-index:5}
+#tip .d{font-weight:600;font-size:13.5px}
+#tip .s{color:var(--muted);font-size:11.5px;margin-bottom:4px}
+#tip .e{display:flex;gap:6px;align-items:baseline;margin-top:3px}
+#tip .sw{width:9px;height:9px;border-radius:2px;flex:none;position:relative;top:1px}
+#tip .ga{color:var(--muted);font-size:11px;font-family:ui-monospace,Menlo,monospace}
+aside{width:330px;flex:none;border-left:1px solid var(--line);overflow-y:auto;
+  padding:14px 16px;background:var(--panel)}
+h2{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);
+  margin:14px 0 8px;font-weight:600}
+h2:first-child{margin-top:0}
+.legend{display:flex;flex-direction:column;gap:2px}
+.lg{display:flex;align-items:center;gap:8px;padding:3px 6px;border-radius:6px;border:none;
+  background:none;color:var(--ink);font:12.5px/1.3 inherit;text-align:left;cursor:pointer;width:100%}
+.lg:hover{background:var(--chipbg)}
+.lg[aria-pressed="true"]{background:var(--chipbg);box-shadow:inset 0 0 0 1px var(--accent)}
+.lg .sw{width:12px;height:12px;border-radius:3px;flex:none}
+.lg .n{margin-left:auto;color:var(--muted);font-variant-numeric:tabular-nums;font-size:11.5px}
+#detail{border:1px solid var(--line);border-radius:8px;padding:10px 12px;font-size:12.5px}
+#detail .empty{color:var(--muted)}
+#detail .dn{font-weight:600;font-size:14px}
+#detail .st{color:var(--muted);margin-bottom:6px}
+.garow{border-top:1px solid var(--line);padding:7px 0}
+.garow:first-of-type{border-top:none}
+.garow .gid{font-family:ui-monospace,Menlo,monospace;font-size:11px;color:var(--muted)}
+.garow .ent{font-weight:600}
+.garow .note{color:var(--muted);font-size:11.5px;margin-top:2px}
+.round{display:inline-block;background:var(--chipbg);border-radius:4px;padding:0 6px;
+  font-size:10.5px;margin-left:6px;color:var(--muted)}
+#tablewrap{flex:1;overflow:auto;padding:0 20px 20px;display:none}
+table{border-collapse:collapse;width:100%;font-size:12.5px;margin-top:12px}
+th{position:sticky;top:0;background:var(--bg);text-align:left;font-size:11px;
+  text-transform:uppercase;letter-spacing:.05em;color:var(--muted);
+  border-bottom:2px solid var(--line);padding:6px 10px 6px 0;cursor:default}
+td{border-bottom:1px solid var(--line);padding:5px 10px 5px 0;vertical-align:top}
+td.gid{font-family:ui-monospace,Menlo,monospace;font-size:11.5px;white-space:nowrap}
+td .sw{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:6px}
+footer{padding:8px 20px;border-top:1px solid var(--line);color:var(--muted);font-size:11.5px}
+footer a{color:var(--accent)}
+@media (max-width:860px){
+  main{flex-direction:column}
+  aside{width:auto;border-left:none;border-top:1px solid var(--line);max-height:45vh}
+}
+</style>
+
+<header>
+  <div>
+    <h1>India City Gas Distribution — Geographical Areas by District</h1>
+    <div class="sub">PNGRB-authorised CGD entities · all bidding rounds through 12A · pre-PNGRB legacy GAs included</div>
+  </div>
+  <div class="stats" id="stats"></div>
+</header>
+
+<div class="controls">
+  <input type="search" id="q" placeholder="Search district, entity or GA…" aria-label="Search district, entity or GA">
+  <select id="stsel" aria-label="Filter by state"><option value="">All states / UTs</option></select>
+  <button class="viewbtn" id="btnmap" aria-pressed="true">Map</button>
+  <button class="viewbtn" id="btntab" aria-pressed="false">Table</button>
+  <span id="outletctl" style="display:none;align-items:center;gap:8px">
+    <span style="width:1px;height:20px;background:var(--line)"></span>
+    <button class="viewbtn" id="btnout" aria-pressed="false">Retail outlets</button>
+    <label class="sub" style="display:flex;align-items:center;gap:4px">
+      <input type="checkbox" id="cngonly"> CNG-equipped only</label>
+    <select id="omcsel" aria-label="Filter outlets by company" style="min-width:110px">
+      <option value="">All OMCs</option></select>
+  </span>
+  <span class="sub" id="matchinfo"></span>
+</div>
+
+<main>
+  <div id="mapwrap">
+    <svg id="svg" role="img" aria-label="Choropleth map of Indian districts coloured by authorised CGD entity"></svg>
+    <canvas id="dots" aria-hidden="true"></canvas>
+    <div id="tip"></div>
+  </div>
+  <div id="tablewrap"><table id="tbl"><thead><tr>
+    <th>State</th><th>District</th><th>GA ID</th><th>Round</th><th>Geographical Area</th><th>Authorised entity</th><th>Note</th>
+  </tr></thead><tbody></tbody></table></div>
+  <aside>
+    <h2>Authorised entity</h2>
+    <div class="legend" id="legend"></div>
+    <h2>District detail</h2>
+    <div id="detail"><div class="empty">Hover the map to inspect; click a district to pin its GA details here.</div></div>
+  </aside>
+</main>
+
+<footer>
+  Sources: PNGRB <em>State and Entity-wise list of GAs</em> (pngrb.gov.in) · operator disclosures for post-split district mapping ·
+  boundaries: udit-001/india-maps-data. Colour shows the first-listed GA where a district falls under more than one
+  (overlapping EAAA / legacy city GAs) — the tooltip and table list all. Districts in grey outline have no authorised CGD GA in the PNGRB list.
+  Retail-outlet layer: SSRI/FuelABC public petrol-pump API (content-deduplicated); orange dots are CNG-equipped outlets. An outlet inside a GA can be
+  supplied by that GA's authorised CGD entity — by cascade immediately, by pipeline where the entity's steel network reaches; outlets in grey districts
+  have no authorised CGD supplier.
+</footer>
+
+<script>
+/*__DATA__*/
+const $=id=>document.getElementById(id);
+const G=DATA.groups, N=G.length;
+const isDark=()=>{
+  const t=document.documentElement.dataset.theme;
+  if(t==='dark')return true; if(t==='light')return false;
+  return matchMedia('(prefers-color-scheme: dark)').matches;
+};
+const pal=()=>isDark()?DATA.dark:DATA.light;
+const cssv=n=>getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const colorOf=gi=>gi<0?cssv('--nogas'):(gi>=N?cssv('--other'):pal()[gi]);
+
+function roundOf(id){
+  if(id==='-'||/^9[89]\./.test(id))return 'Legacy (pre-PNGRB)';
+  if(/^12A/.test(id))return 'Round 12A';
+  if(/^11A/.test(id))return 'Round 11A';
+  const m=id.match(/^(\d+)\./); return m?'Round '+m[1]:'—';
+}
+
+/* stats */
+const S=DATA.stats;
+$('stats').innerHTML=
+  `<div class="stat"><b>${S.gas}</b><span>GAs</span></div>`+
+  `<div class="stat"><b>${S.entities}</b><span>entities</span></div>`+
+  `<div class="stat"><b>${S.covered}<span style="font-weight:400;color:var(--muted)">/${S.total}</span></b><span>districts</span></div>`;
+
+/* build svg */
+const svg=$('svg');
+svg.setAttribute('viewBox',`0 0 ${DATA.w} ${DATA.h}`);
+const gEl=document.createElementNS('http://www.w3.org/2000/svg','g');
+svg.appendChild(gEl);
+const els=[];
+DATA.dist.forEach((d,i)=>{
+  const p=document.createElementNS('http://www.w3.org/2000/svg','path');
+  p.setAttribute('d',DATA.paths[i]);
+  p.setAttribute('class','dist');
+  p.dataset.i=i;
+  gEl.appendChild(p); els.push(p);
+});
+function paint(){ DATA.dist.forEach((d,i)=>{ els[i].setAttribute('fill',colorOf(d.g)); }); buildLegend(); if(typeof drawDots==='function')drawDots(); }
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change',paint);
+new MutationObserver(paint).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
+
+/* legend */
+const counts=Array(N+1).fill(0); let uncnt=0;
+DATA.dist.forEach(d=>{ if(d.g<0)uncnt++; else counts[Math.min(d.g,N)]++; });
+let selGroup=null;
+function buildLegend(){
+  const L=$('legend'); L.innerHTML='';
+  const mk=(label,color,count,key)=>{
+    const b=document.createElement('button');
+    b.className='lg'; b.setAttribute('aria-pressed',String(selGroup===key));
+    b.innerHTML=`<span class="sw" style="background:${color}"></span><span>${label}</span><span class="n">${count}</span>`;
+    b.onclick=()=>{ selGroup=(selGroup===key)?null:key; applyFilters(); buildLegend(); };
+    L.appendChild(b);
+  };
+  G.forEach((g,i)=>mk(g,pal()[i],counts[i],i));
+  mk('Other CGD entities',cssv('--other'),counts[N],N);
+  mk('No authorised GA',cssv('--nogas'),uncnt,-1);
+}
+
+/* filters */
+const stset=[...new Set(DATA.dist.map(d=>d.s))].sort();
+stset.forEach(s=>{ const o=document.createElement('option'); o.value=o.textContent=s; $('stsel').appendChild(o); });
+let q='', stf='';
+function matches(d){
+  if(stf && d.s!==stf) return false;
+  if(selGroup!==null){
+    const gi=d.g<0?-1:Math.min(d.g,N);
+    if(gi!==selGroup) return false;
+  }
+  if(q){
+    const hay=(d.d+' '+d.s+' '+d.a.map(a=>a[0]+' '+a[1]+' '+a[2]).join(' ')).toLowerCase();
+    if(!hay.includes(q)) return false;
+  }
+  return true;
+}
+function applyFilters(){
+  let n=0;
+  DATA.dist.forEach((d,i)=>{ const m=matches(d); els[i].classList.toggle('dim',!m); if(m)n++; });
+  $('matchinfo').textContent=(q||stf||selGroup!==null)?`${n} district${n===1?'':'s'} match`:'';
+  renderTable(); drawDots();
+}
+$('q').addEventListener('input',e=>{ q=e.target.value.trim().toLowerCase(); applyFilters(); });
+$('stsel').addEventListener('change',e=>{ stf=e.target.value; applyFilters(); });
+
+/* tooltip + detail */
+const tip=$('tip');
+function entRows(d){
+  return d.a.map(a=>{
+    const gi=DATA.dist.find(x=>x===d).g;
+    return `<div class="e"><span class="sw" style="background:${colorOf(G.indexOf(a[2])>=0&&G.indexOf(a[2])<N?G.indexOf(a[2]):(d.g>=N?N:d.g))}"></span>`+
+      `<span><b>${a[2]}</b> <span class="ga">${a[0]}</span></span></div>`;
+  }).join('');
+}
+svg.addEventListener('mousemove',e=>{
+  const t=e.target;
+  if(!t.classList||!t.classList.contains('dist')){ tip.style.display='none'; return; }
+  const d=DATA.dist[+t.dataset.i];
+  let html=`<div class="d">${d.d}</div><div class="s">${d.s}</div>`;
+  if(d.a.length===0) html+=`<div class="e" style="color:var(--nogas-ink)">No authorised CGD GA</div>`;
+  else html+=d.a.map(a=>`<div class="e"><span class="sw" style="background:${colorOf(d.g)}"></span><span><b>${a[2]}</b><br><span class="ga">${a[0]} · ${a[1]}</span></span></div>`).join('');
+  tip.innerHTML=html; tip.style.display='block';
+  const r=$('mapwrap').getBoundingClientRect();
+  let x=e.clientX-r.left+14, y=e.clientY-r.top+12;
+  if(x+tip.offsetWidth>r.width-8) x=e.clientX-r.left-tip.offsetWidth-10;
+  if(y+tip.offsetHeight>r.height-8) y=e.clientY-r.top-tip.offsetHeight-8;
+  tip.style.left=x+'px'; tip.style.top=y+'px';
+});
+svg.addEventListener('mouseleave',()=>tip.style.display='none');
+let selEl=null;
+svg.addEventListener('click',e=>{
+  const t=e.target;
+  if(!t.classList||!t.classList.contains('dist'))return;
+  if(selEl)selEl.classList.remove('sel');
+  selEl=t; t.classList.add('sel');
+  const d=DATA.dist[+t.dataset.i];
+  let html=`<div class="dn">${d.d}</div><div class="st">${d.s}</div>`;
+  if(d.a.length===0) html+=`<div class="empty">No authorised CGD geographical area covers this district in the PNGRB list.</div>`;
+  else html+=d.a.map(a=>
+    `<div class="garow"><div class="gid">${a[0]}<span class="round">${roundOf(a[0])}</span></div>`+
+    `<div class="ent">${a[2]}</div><div>${a[1]}</div>`+
+    (a[3]?`<div class="note">${a[3]}</div>`:'')+`</div>`).join('');
+  html+=outletSummary(+t.dataset.i);
+  $('detail').innerHTML=html;
+});
+
+/* ---- outlet layer ---- */
+const OUT=DATA.outlets||null;
+let outletsOn=false, cngOnly=false, omcFilter=-1;
+const cv=$('dots'), ctx=cv.getContext('2d');
+let outX=null,outY=null,distCounts=null,distCng=null,distByOmc=null;
+if(OUT){
+  $('outletctl').style.display='inline-flex';
+  OUT.companies.forEach((c,i)=>{ const o=document.createElement('option'); o.value=i; o.textContent=c; $('omcsel').appendChild(o); });
+  const P=DATA.proj, n=OUT.lat.length;
+  outX=new Float32Array(n); outY=new Float32Array(n);
+  distCounts=new Uint32Array(DATA.dist.length); distCng=new Uint32Array(DATA.dist.length);
+  distByOmc=Array.from({length:DATA.dist.length},()=>null);
+  for(let i=0;i<n;i++){
+    outX[i]=(OUT.lon[i]-P.lomin)*P.kx; outY[i]=(P.lamax-OUT.lat[i])*P.ky;
+    const di=OUT.dist[i];
+    if(di>=0){
+      distCounts[di]++; if(OUT.cng[i])distCng[di]++;
+      (distByOmc[di]||(distByOmc[di]=new Uint32Array(OUT.companies.length)))[OUT.comp[i]]++;
+    }
+  }
+  $('stats').insertAdjacentHTML('beforeend',
+    `<div class="stat"><b>${OUT.lat.length.toLocaleString()}</b><span>outlets</span></div>`);
+  $('btnout').onclick=()=>{ outletsOn=!outletsOn; $('btnout').setAttribute('aria-pressed',String(outletsOn)); drawDots(); };
+  $('cngonly').addEventListener('change',e=>{ cngOnly=e.target.checked; drawDots(); });
+  $('omcsel').addEventListener('change',e=>{ omcFilter=e.target.value===''?-1:+e.target.value; drawDots(); });
+  new ResizeObserver(drawDots).observe($('mapwrap'));
+}
+function visOutlet(i){
+  if(cngOnly&&!OUT.cng[i])return false;
+  if(omcFilter>=0&&OUT.comp[i]!==omcFilter)return false;
+  const di=OUT.dist[i];
+  if(di>=0&&!matches(DATA.dist[di]))return false;
+  return true;
+}
+function drawDots(){
+  if(!OUT)return;
+  const r=$('mapwrap').getBoundingClientRect(), dpr=devicePixelRatio||1;
+  if(cv.width!==Math.round(r.width*dpr)||cv.height!==Math.round(r.height*dpr)){
+    cv.width=Math.round(r.width*dpr); cv.height=Math.round(r.height*dpr);
+    cv.style.width=r.width+'px'; cv.style.height=r.height+'px';
+  }
+  ctx.clearRect(0,0,cv.width,cv.height);
+  if(!outletsOn)return;
+  // svg viewBox letterboxing (preserveAspectRatio=xMidYMid meet)
+  const sc=Math.min(r.width/vb.w, r.height/vb.h);
+  const ox=(r.width-vb.w*sc)/2, oy=(r.height-vb.h*sc)/2;
+  const dark=isDark();
+  const base=dark?'rgba(232,236,239,0.4)':'rgba(24,28,32,0.28)';
+  const cngc=dark?'rgba(255,176,58,0.9)':'rgba(217,72,15,0.85)';
+  const rad=Math.max(0.5,Math.min(2.4,sc*0.9))*dpr;
+  ctx.fillStyle=base;
+  const n=OUT.lat.length;
+  for(let i=0;i<n;i++){
+    if(!visOutlet(i)||OUT.cng[i])continue;
+    const x=(outX[i]-vb.x)*sc+ox, y=(outY[i]-vb.y)*sc+oy;
+    if(x<0||y<0||x>r.width||y>r.height)continue;
+    ctx.fillRect(x*dpr-rad/2,y*dpr-rad/2,rad,rad);
+  }
+  ctx.fillStyle=cngc;
+  const rc=rad*1.6;
+  for(let i=0;i<n;i++){
+    if(!visOutlet(i)||!OUT.cng[i])continue;
+    const x=(outX[i]-vb.x)*sc+ox, y=(outY[i]-vb.y)*sc+oy;
+    if(x<0||y<0||x>r.width||y>r.height)continue;
+    ctx.beginPath(); ctx.arc(x*dpr,y*dpr,rc,0,6.2832); ctx.fill();
+  }
+}
+function outletSummary(di){
+  if(!OUT||!distCounts[di])return '';
+  let html=`<div class="garow"><div class="gid">RETAIL OUTLETS</div>`+
+    `<div><b>${distCounts[di].toLocaleString()}</b> outlets · <b>${distCng[di].toLocaleString()}</b> CNG-equipped</div>`;
+  const arr=distByOmc[di];
+  if(arr){
+    const parts=[];
+    arr.forEach((c,i)=>{ if(c)parts.push([OUT.companies[i],c]); });
+    parts.sort((a,b)=>b[1]-a[1]);
+    html+=`<div class="note">${parts.map(p=>`${p[0]} ${p[1].toLocaleString()}`).join(' · ')}</div>`;
+  }
+  return html+'</div>';
+}
+
+/* pan/zoom */
+let vb={x:0,y:0,w:DATA.w,h:DATA.h};
+function setVB(){ svg.setAttribute('viewBox',`${vb.x} ${vb.y} ${vb.w} ${vb.h}`); drawDots(); }
+svg.addEventListener('wheel',e=>{
+  e.preventDefault();
+  const r=svg.getBoundingClientRect();
+  const mx=vb.x+(e.clientX-r.left)/r.width*vb.w, my=vb.y+(e.clientY-r.top)/r.height*vb.h;
+  const k=e.deltaY>0?1.15:1/1.15;
+  const nw=Math.min(DATA.w*1.2,Math.max(DATA.w/40,vb.w*k)); const nh=nw*(DATA.h/DATA.w);
+  vb.x=mx-(mx-vb.x)*(nw/vb.w); vb.y=my-(my-vb.y)*(nh/vb.h); vb.w=nw; vb.h=nh; setVB();
+},{passive:false});
+let pan=null;
+svg.addEventListener('mousedown',e=>{ pan={x:e.clientX,y:e.clientY,vx:vb.x,vy:vb.y}; svg.classList.add('panning'); });
+window.addEventListener('mousemove',e=>{
+  if(!pan)return;
+  const r=svg.getBoundingClientRect();
+  vb.x=pan.vx-(e.clientX-pan.x)/r.width*vb.w; vb.y=pan.vy-(e.clientY-pan.y)/r.height*vb.h; setVB();
+});
+window.addEventListener('mouseup',()=>{ pan=null; svg.classList.remove('panning'); });
+svg.addEventListener('dblclick',()=>{ vb={x:0,y:0,w:DATA.w,h:DATA.h}; setVB(); });
+
+/* table view */
+function renderTable(){
+  if($('tablewrap').style.display==='none')return;
+  const tb=$('tbl').tBodies[0]; tb.innerHTML='';
+  const frag=document.createDocumentFragment();
+  DATA.dist.filter(matches).forEach(d=>{
+    if(d.a.length===0){
+      const tr=document.createElement('tr');
+      tr.innerHTML=`<td>${d.s}</td><td><span class="sw" style="background:${colorOf(-1)}"></span>${d.d}</td><td class="gid">—</td><td>—</td><td>—</td><td style="color:var(--muted)">No authorised GA</td><td></td>`;
+      frag.appendChild(tr); return;
+    }
+    d.a.forEach(a=>{
+      const tr=document.createElement('tr');
+      tr.innerHTML=`<td>${d.s}</td><td><span class="sw" style="background:${colorOf(d.g)}"></span>${d.d}</td>`+
+        `<td class="gid">${a[0]}</td><td>${roundOf(a[0])}</td><td>${a[1]}</td><td>${a[2]}</td><td style="color:var(--muted)">${a[3]||''}</td>`;
+      frag.appendChild(tr);
+    });
+  });
+  tb.appendChild(frag);
+}
+$('btnmap').onclick=()=>{ $('btnmap').setAttribute('aria-pressed','true'); $('btntab').setAttribute('aria-pressed','false');
+  $('tablewrap').style.display='none'; $('mapwrap').style.display='block'; };
+$('btntab').onclick=()=>{ $('btntab').setAttribute('aria-pressed','true'); $('btnmap').setAttribute('aria-pressed','false');
+  $('mapwrap').style.display='none'; $('tablewrap').style.display='block'; renderTable(); };
+
+paint(); applyFilters();
+</script>

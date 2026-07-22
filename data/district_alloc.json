@@ -1,0 +1,6902 @@
+{
+ "Andhra Pradesh|East Godavari": [
+  {
+   "ga_id": "1.04",
+   "ga_name": "Kakinada",
+   "entity": "Bhagyanagar Gas Limited",
+   "group": "Bhagyanagar Gas Limited",
+   "note": ""
+  },
+  {
+   "ga_id": "5.03",
+   "ga_name": "East Godavari District (EAAA)",
+   "entity": "Godavari Gas Private Limited",
+   "group": "Godavari Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "Andhra Pradesh|Kakinada": [
+  {
+   "ga_id": "1.04",
+   "ga_name": "Kakinada",
+   "entity": "Bhagyanagar Gas Limited",
+   "group": "Bhagyanagar Gas Limited",
+   "note": "successor of pre-2022 district"
+  },
+  {
+   "ga_id": "5.03",
+   "ga_name": "East Godavari District (EAAA)",
+   "entity": "Godavari Gas Private Limited",
+   "group": "Godavari Gas Private Limited",
+   "note": "successor of pre-2022 district"
+  }
+ ],
+ "Andhra Pradesh|Konaseema": [
+  {
+   "ga_id": "1.04",
+   "ga_name": "Kakinada",
+   "entity": "Bhagyanagar Gas Limited",
+   "group": "Bhagyanagar Gas Limited",
+   "note": "successor of pre-2022 district"
+  },
+  {
+   "ga_id": "5.03",
+   "ga_name": "East Godavari District (EAAA)",
+   "entity": "Godavari Gas Private Limited",
+   "group": "Godavari Gas Private Limited",
+   "note": "successor of pre-2022 district"
+  }
+ ],
+ "Andhra Pradesh|Alluri Sitharama Raju": [
+  {
+   "ga_id": "1.04",
+   "ga_name": "Kakinada",
+   "entity": "Bhagyanagar Gas Limited",
+   "group": "Bhagyanagar Gas Limited",
+   "note": "successor of pre-2022 district"
+  },
+  {
+   "ga_id": "5.03",
+   "ga_name": "East Godavari District (EAAA)",
+   "entity": "Godavari Gas Private Limited",
+   "group": "Godavari Gas Private Limited",
+   "note": "successor of pre-2022 district"
+  }
+ ],
+ "Andhra Pradesh|West Godavari": [
+  {
+   "ga_id": "5.04",
+   "ga_name": "West Godavari District",
+   "entity": "Godavari Gas Private Limited",
+   "group": "Godavari Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "Andhra Pradesh|Eluru": [
+  {
+   "ga_id": "5.04",
+   "ga_name": "West Godavari District",
+   "entity": "Godavari Gas Private Limited",
+   "group": "Godavari Gas Private Limited",
+   "note": "successor of pre-2022 district"
+  }
+ ],
+ "Andhra Pradesh|Krishna": [
+  {
+   "ga_id": "5.06",
+   "ga_name": "Krishna District (EAAA)",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  },
+  {
+   "ga_id": "99.06",
+   "ga_name": "Vijaywada",
+   "entity": "Bhagyanagar Gas Limited",
+   "group": "Bhagyanagar Gas Limited",
+   "note": ""
+  }
+ ],
+ "Andhra Pradesh|NTR": [
+  {
+   "ga_id": "5.06",
+   "ga_name": "Krishna District (EAAA)",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": "successor of pre-2022 district"
+  },
+  {
+   "ga_id": "99.06",
+   "ga_name": "Vijaywada",
+   "entity": "Bhagyanagar Gas Limited",
+   "group": "Bhagyanagar Gas Limited",
+   "note": "successor of pre-2022 district"
+  }
+ ],
+ "Andhra Pradesh|Srikakulam": [
+  {
+   "ga_id": "9.01",
+   "ga_name": "Srikakulam, Visakhapatnam & Vizianagaram Districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Andhra Pradesh|Visakhapatnam": [
+  {
+   "ga_id": "9.01",
+   "ga_name": "Srikakulam, Visakhapatnam & Vizianagaram Districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Andhra Pradesh|Anakapalli": [
+  {
+   "ga_id": "9.01",
+   "ga_name": "Srikakulam, Visakhapatnam & Vizianagaram Districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": "successor of pre-2022 district"
+  }
+ ],
+ "Andhra Pradesh|Vizianagaram": [
+  {
+   "ga_id": "9.01",
+   "ga_name": "Srikakulam, Visakhapatnam & Vizianagaram Districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Andhra Pradesh|Parvathipuram Manyam": [
+  {
+   "ga_id": "9.01",
+   "ga_name": "Srikakulam, Visakhapatnam & Vizianagaram Districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": "successor of pre-2022 district"
+  }
+ ],
+ "Andhra Pradesh|Anantapuramu": [
+  {
+   "ga_id": "10.01",
+   "ga_name": "Anantapur and YSR (Kadapa) Districts",
+   "entity": "AGP City Gas Private Limited",
+   "group": "AGP / AG&P Pratham",
+   "note": "successor of pre-2022 district"
+  }
+ ],
+ "Andhra Pradesh|Sri Sathya Sai": [
+  {
+   "ga_id": "10.01",
+   "ga_name": "Anantapur and YSR (Kadapa) Districts",
+   "entity": "AGP City Gas Private Limited",
+   "group": "AGP / AG&P Pratham",
+   "note": "successor of pre-2022 district"
+  }
+ ],
+ "Andhra Pradesh|YSR": [
+  {
+   "ga_id": "10.01",
+   "ga_name": "Anantapur and YSR (Kadapa) Districts",
+   "entity": "AGP City Gas Private Limited",
+   "group": "AGP / AG&P Pratham",
+   "note": "Kadapa"
+  }
+ ],
+ "Andhra Pradesh|Annamayya": [
+  {
+   "ga_id": "10.01",
+   "ga_name": "Anantapur and YSR (Kadapa) Districts",
+   "entity": "AGP City Gas Private Limited",
+   "group": "AGP / AG&P Pratham",
+   "note": "Kadapa; successor of pre-2022 district"
+  }
+ ],
+ "Andhra Pradesh|Sri Potti Sriramulu Nellore": [
+  {
+   "ga_id": "10.02",
+   "ga_name": "Sri Potti Sriramulu Nellore District",
+   "entity": "AGP City Gas Private Limited",
+   "group": "AGP / AG&P Pratham",
+   "note": ""
+  }
+ ],
+ "Andhra Pradesh|Chittoor": [
+  {
+   "ga_id": "10.03",
+   "ga_name": "Chittoor, Kolar and Vellore Districts",
+   "entity": "AGP City Gas Private Limited",
+   "group": "AGP / AG&P Pratham",
+   "note": ""
+  }
+ ],
+ "Andhra Pradesh|Tirupati": [
+  {
+   "ga_id": "10.03",
+   "ga_name": "Chittoor, Kolar and Vellore Districts",
+   "entity": "AGP City Gas Private Limited",
+   "group": "AGP / AG&P Pratham",
+   "note": "successor of pre-2022 district"
+  }
+ ],
+ "Andhra Pradesh|Kurnool": [
+  {
+   "ga_id": "11.01",
+   "ga_name": "Kurnool, Guntur, and Prakasam districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Andhra Pradesh|Nandyal": [
+  {
+   "ga_id": "11.01",
+   "ga_name": "Kurnool, Guntur, and Prakasam districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": "successor of pre-2022 district"
+  }
+ ],
+ "Andhra Pradesh|Guntur": [
+  {
+   "ga_id": "11.01",
+   "ga_name": "Kurnool, Guntur, and Prakasam districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Andhra Pradesh|Palnadu": [
+  {
+   "ga_id": "11.01",
+   "ga_name": "Kurnool, Guntur, and Prakasam districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": "successor of pre-2022 district"
+  }
+ ],
+ "Andhra Pradesh|Bapatla": [
+  {
+   "ga_id": "11.01",
+   "ga_name": "Kurnool, Guntur, and Prakasam districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": "successor of pre-2022 district"
+  }
+ ],
+ "Andhra Pradesh|Prakasam": [
+  {
+   "ga_id": "11.01",
+   "ga_name": "Kurnool, Guntur, and Prakasam districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Telangana|Bhadradri Kothagudem": [
+  {
+   "ga_id": "9.68",
+   "ga_name": "Bhadradri Kothagudem & Khamman Districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Telangana|Khammam": [
+  {
+   "ga_id": "9.68",
+   "ga_name": "Bhadradri Kothagudem & Khamman Districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Telangana|Jagtial": [
+  {
+   "ga_id": "9.69",
+   "ga_name": "Jagtial, Peddapalli, Karimnagar & Rajanna Sircilla Districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Telangana|Peddapalli": [
+  {
+   "ga_id": "9.69",
+   "ga_name": "Jagtial, Peddapalli, Karimnagar & Rajanna Sircilla Districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Telangana|Karimnagar": [
+  {
+   "ga_id": "9.69",
+   "ga_name": "Jagtial, Peddapalli, Karimnagar & Rajanna Sircilla Districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Telangana|Rajanna Sircilla": [
+  {
+   "ga_id": "9.69",
+   "ga_name": "Jagtial, Peddapalli, Karimnagar & Rajanna Sircilla Districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Telangana|Jangaon": [
+  {
+   "ga_id": "9.70",
+   "ga_name": "Jangaon, Jayashankar Bhupalpally, Mahabubabad, Warangal Urban & Warangal Rural Districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Telangana|Jayashankar Bhupalapally": [
+  {
+   "ga_id": "9.70",
+   "ga_name": "Jangaon, Jayashankar Bhupalpally, Mahabubabad, Warangal Urban & Warangal Rural Districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Telangana|Mahabubabad": [
+  {
+   "ga_id": "9.70",
+   "ga_name": "Jangaon, Jayashankar Bhupalpally, Mahabubabad, Warangal Urban & Warangal Rural Districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Telangana|Warangal Urban": [
+  {
+   "ga_id": "9.70",
+   "ga_name": "Jangaon, Jayashankar Bhupalpally, Mahabubabad, Warangal Urban & Warangal Rural Districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Telangana|Warangal Rural": [
+  {
+   "ga_id": "9.70",
+   "ga_name": "Jangaon, Jayashankar Bhupalpally, Mahabubabad, Warangal Urban & Warangal Rural Districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Telangana|Medak": [
+  {
+   "ga_id": "9.71",
+   "ga_name": "Medak, Siddipet & Sangareddy Districts",
+   "entity": "Torrent Gas Private Limited",
+   "group": "Torrent Gas",
+   "note": ""
+  },
+  {
+   "ga_id": "99.09",
+   "ga_name": "Hyderabad",
+   "entity": "Bhagyanagar Gas Limited",
+   "group": "Bhagyanagar Gas Limited",
+   "note": ""
+  }
+ ],
+ "Telangana|Siddipet": [
+  {
+   "ga_id": "9.71",
+   "ga_name": "Medak, Siddipet & Sangareddy Districts",
+   "entity": "Torrent Gas Private Limited",
+   "group": "Torrent Gas",
+   "note": ""
+  }
+ ],
+ "Telangana|Sangareddy": [
+  {
+   "ga_id": "9.71",
+   "ga_name": "Medak, Siddipet & Sangareddy Districts",
+   "entity": "Torrent Gas Private Limited",
+   "group": "Torrent Gas",
+   "note": ""
+  },
+  {
+   "ga_id": "99.09",
+   "ga_name": "Hyderabad",
+   "entity": "Bhagyanagar Gas Limited",
+   "group": "Bhagyanagar Gas Limited",
+   "note": ""
+  }
+ ],
+ "Telangana|Medchal Malkajgiri": [
+  {
+   "ga_id": "9.72",
+   "ga_name": "Medchal-Malkajgiri, Ranga Reddy & Vikarabad Districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  },
+  {
+   "ga_id": "99.09",
+   "ga_name": "Hyderabad",
+   "entity": "Bhagyanagar Gas Limited",
+   "group": "Bhagyanagar Gas Limited",
+   "note": ""
+  }
+ ],
+ "Telangana|Ranga Reddy": [
+  {
+   "ga_id": "9.72",
+   "ga_name": "Medchal-Malkajgiri, Ranga Reddy & Vikarabad Districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  },
+  {
+   "ga_id": "99.09",
+   "ga_name": "Hyderabad",
+   "entity": "Bhagyanagar Gas Limited",
+   "group": "Bhagyanagar Gas Limited",
+   "note": ""
+  }
+ ],
+ "Telangana|Vikarabad": [
+  {
+   "ga_id": "9.72",
+   "ga_name": "Medchal-Malkajgiri, Ranga Reddy & Vikarabad Districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Telangana|Nalgonda": [
+  {
+   "ga_id": "9.73",
+   "ga_name": "Nalgonda Suryapet & Yadadri Bhuvanagiri Districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Telangana|Suryapet": [
+  {
+   "ga_id": "9.73",
+   "ga_name": "Nalgonda Suryapet & Yadadri Bhuvanagiri Districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Telangana|Yadadri Bhuvanagiri": [
+  {
+   "ga_id": "9.73",
+   "ga_name": "Nalgonda Suryapet & Yadadri Bhuvanagiri Districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Telangana|Nizamabad": [
+  {
+   "ga_id": "11.54",
+   "ga_name": "Nizamabad, Adilabad, Nirmal, Mancherial Kumuram Bheem Asifabad and Kamareddy districts",
+   "entity": "Maharashtra Natural Gas Limited",
+   "group": "Maharashtra Natural Gas Limited",
+   "note": ""
+  }
+ ],
+ "Telangana|Adilabad": [
+  {
+   "ga_id": "11.54",
+   "ga_name": "Nizamabad, Adilabad, Nirmal, Mancherial Kumuram Bheem Asifabad and Kamareddy districts",
+   "entity": "Maharashtra Natural Gas Limited",
+   "group": "Maharashtra Natural Gas Limited",
+   "note": ""
+  }
+ ],
+ "Telangana|Nirmal": [
+  {
+   "ga_id": "11.54",
+   "ga_name": "Nizamabad, Adilabad, Nirmal, Mancherial Kumuram Bheem Asifabad and Kamareddy districts",
+   "entity": "Maharashtra Natural Gas Limited",
+   "group": "Maharashtra Natural Gas Limited",
+   "note": ""
+  }
+ ],
+ "Telangana|Mancherial": [
+  {
+   "ga_id": "11.54",
+   "ga_name": "Nizamabad, Adilabad, Nirmal, Mancherial Kumuram Bheem Asifabad and Kamareddy districts",
+   "entity": "Maharashtra Natural Gas Limited",
+   "group": "Maharashtra Natural Gas Limited",
+   "note": ""
+  }
+ ],
+ "Telangana|Komaram Bheem": [
+  {
+   "ga_id": "11.54",
+   "ga_name": "Nizamabad, Adilabad, Nirmal, Mancherial Kumuram Bheem Asifabad and Kamareddy districts",
+   "entity": "Maharashtra Natural Gas Limited",
+   "group": "Maharashtra Natural Gas Limited",
+   "note": ""
+  }
+ ],
+ "Telangana|Kamareddy": [
+  {
+   "ga_id": "11.54",
+   "ga_name": "Nizamabad, Adilabad, Nirmal, Mancherial Kumuram Bheem Asifabad and Kamareddy districts",
+   "entity": "Maharashtra Natural Gas Limited",
+   "group": "Maharashtra Natural Gas Limited",
+   "note": ""
+  }
+ ],
+ "Telangana|Jogulamba Gadwal": [
+  {
+   "ga_id": "11.55",
+   "ga_name": "Jogulamba Gadwal, Nagarkurnool, Mahabubnagar, Narayanpet, Wanaparthy and Yadgir districts#",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Telangana|Nagarkurnool": [
+  {
+   "ga_id": "11.55",
+   "ga_name": "Jogulamba Gadwal, Nagarkurnool, Mahabubnagar, Narayanpet, Wanaparthy and Yadgir districts#",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Telangana|Mahabubnagar": [
+  {
+   "ga_id": "11.55",
+   "ga_name": "Jogulamba Gadwal, Nagarkurnool, Mahabubnagar, Narayanpet, Wanaparthy and Yadgir districts#",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Telangana|Narayanpet": [
+  {
+   "ga_id": "11.55",
+   "ga_name": "Jogulamba Gadwal, Nagarkurnool, Mahabubnagar, Narayanpet, Wanaparthy and Yadgir districts#",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Telangana|Wanaparthy": [
+  {
+   "ga_id": "11.55",
+   "ga_name": "Jogulamba Gadwal, Nagarkurnool, Mahabubnagar, Narayanpet, Wanaparthy and Yadgir districts#",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Telangana|Hyderabad": [
+  {
+   "ga_id": "99.09",
+   "ga_name": "Hyderabad",
+   "entity": "Bhagyanagar Gas Limited",
+   "group": "Bhagyanagar Gas Limited",
+   "note": ""
+  }
+ ],
+ "West Bengal|Purba Bardhaman": [
+  {
+   "ga_id": "9.86",
+   "ga_name": "Burdwan District",
+   "entity": "Indian Oil-Adani Gas Private Limited",
+   "group": "Indian Oil-Adani Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "West Bengal|Paschim Bardhaman": [
+  {
+   "ga_id": "9.86",
+   "ga_name": "Burdwan District",
+   "entity": "Indian Oil-Adani Gas Private Limited",
+   "group": "Indian Oil-Adani Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "West Bengal|Darjeeling": [
+  {
+   "ga_id": "10.47",
+   "ga_name": "Darjeeling, Jalpaiguri and Uttar Dinajpur Districts",
+   "entity": "Hindustan Petroleum Corporation Limited",
+   "group": "Hindustan Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "West Bengal|Jalpaiguri": [
+  {
+   "ga_id": "10.47",
+   "ga_name": "Darjeeling, Jalpaiguri and Uttar Dinajpur Districts",
+   "entity": "Hindustan Petroleum Corporation Limited",
+   "group": "Hindustan Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "West Bengal|Uttar Dinajpur": [
+  {
+   "ga_id": "10.47",
+   "ga_name": "Darjeeling, Jalpaiguri and Uttar Dinajpur Districts",
+   "entity": "Hindustan Petroleum Corporation Limited",
+   "group": "Hindustan Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "West Bengal|Hooghly": [
+  {
+   "ga_id": "10.48",
+   "ga_name": "Howrah (EAAA) District and Hoogly (EAAA) District",
+   "entity": "Hindustan Petroleum Corporation Limited",
+   "group": "Hindustan Petroleum Corporation Limited",
+   "note": ""
+  },
+  {
+   "ga_id": "99.14",
+   "ga_name": "Kolkata Muncipal Corporation and Parts of Adjoining Districts",
+   "entity": "Bengal Gas Company Limited",
+   "group": "Bengal Gas Company Limited",
+   "note": ""
+  }
+ ],
+ "West Bengal|Howrah": [
+  {
+   "ga_id": "10.48",
+   "ga_name": "Howrah (EAAA) District and Hoogly (EAAA) District",
+   "entity": "Hindustan Petroleum Corporation Limited",
+   "group": "Hindustan Petroleum Corporation Limited",
+   "note": ""
+  },
+  {
+   "ga_id": "99.14",
+   "ga_name": "Kolkata Muncipal Corporation and Parts of Adjoining Districts",
+   "entity": "Bengal Gas Company Limited",
+   "group": "Bengal Gas Company Limited",
+   "note": ""
+  }
+ ],
+ "West Bengal|Nadia": [
+  {
+   "ga_id": "10.49",
+   "ga_name": "Nadia (EAAA) District and North 24 Parganas (EAAA) District",
+   "entity": "Hindustan Petroleum Corporation Limited",
+   "group": "Hindustan Petroleum Corporation Limited",
+   "note": ""
+  },
+  {
+   "ga_id": "99.14",
+   "ga_name": "Kolkata Muncipal Corporation and Parts of Adjoining Districts",
+   "entity": "Bengal Gas Company Limited",
+   "group": "Bengal Gas Company Limited",
+   "note": ""
+  }
+ ],
+ "West Bengal|North 24 Parganas": [
+  {
+   "ga_id": "10.49",
+   "ga_name": "Nadia (EAAA) District and North 24 Parganas (EAAA) District",
+   "entity": "Hindustan Petroleum Corporation Limited",
+   "group": "Hindustan Petroleum Corporation Limited",
+   "note": ""
+  },
+  {
+   "ga_id": "99.14",
+   "ga_name": "Kolkata Muncipal Corporation and Parts of Adjoining Districts",
+   "entity": "Bengal Gas Company Limited",
+   "group": "Bengal Gas Company Limited",
+   "note": ""
+  }
+ ],
+ "West Bengal|South 24 Parganas": [
+  {
+   "ga_id": "10.50",
+   "ga_name": "South 24 Parganas (EAAA) District",
+   "entity": "Hindustan Petroleum Corporation Limited",
+   "group": "Hindustan Petroleum Corporation Limited",
+   "note": ""
+  },
+  {
+   "ga_id": "99.14",
+   "ga_name": "Kolkata Muncipal Corporation and Parts of Adjoining Districts",
+   "entity": "Bengal Gas Company Limited",
+   "group": "Bengal Gas Company Limited",
+   "note": ""
+  }
+ ],
+ "West Bengal|Purulia": [
+  {
+   "ga_id": "11.60",
+   "ga_name": "Purulia and Bankura districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "West Bengal|Bankura": [
+  {
+   "ga_id": "11.60",
+   "ga_name": "Purulia and Bankura districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "West Bengal|Purba Medinipur": [
+  {
+   "ga_id": "11.61",
+   "ga_name": "East Mednipore, West Mednipore and Jhargram districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "West Bengal|Jhargram": [
+  {
+   "ga_id": "11.61",
+   "ga_name": "East Mednipore, West Mednipore and Jhargram districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "West Bengal|Paschim Medinipur": [
+  {
+   "ga_id": "11.61",
+   "ga_name": "East Mednipore, West Mednipore and Jhargram districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "West Bengal|Alipurduar": [
+  {
+   "ga_id": "11.62",
+   "ga_name": "Alipurduar and Koch Bihar",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "West Bengal|Cooch Behar": [
+  {
+   "ga_id": "11.62",
+   "ga_name": "Alipurduar and Koch Bihar",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "West Bengal|Kolkata": [
+  {
+   "ga_id": "99.14",
+   "ga_name": "Kolkata Muncipal Corporation and Parts of Adjoining Districts",
+   "entity": "Bengal Gas Company Limited",
+   "group": "Bengal Gas Company Limited",
+   "note": ""
+  }
+ ],
+ "West Bengal|Birbhum": [
+  {
+   "ga_id": "11A.03",
+   "ga_name": "Birbhum, Murshidabad, Maldah & Dakshin Dinajpur districts",
+   "entity": "Hindustan Petroleum Corporation Limited",
+   "group": "Hindustan Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "West Bengal|Murshidabad": [
+  {
+   "ga_id": "11A.03",
+   "ga_name": "Birbhum, Murshidabad, Maldah & Dakshin Dinajpur districts",
+   "entity": "Hindustan Petroleum Corporation Limited",
+   "group": "Hindustan Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "West Bengal|Malda": [
+  {
+   "ga_id": "11A.03",
+   "ga_name": "Birbhum, Murshidabad, Maldah & Dakshin Dinajpur districts",
+   "entity": "Hindustan Petroleum Corporation Limited",
+   "group": "Hindustan Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "West Bengal|Dakshin Dinajpur": [
+  {
+   "ga_id": "11A.03",
+   "ga_name": "Birbhum, Murshidabad, Maldah & Dakshin Dinajpur districts",
+   "entity": "Hindustan Petroleum Corporation Limited",
+   "group": "Hindustan Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Bihar|Aurangabad": [
+  {
+   "ga_id": "9.04",
+   "ga_name": "Aurangabad, Kaimur & Rohtas Districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Bihar|Kaimur": [
+  {
+   "ga_id": "9.04",
+   "ga_name": "Aurangabad, Kaimur & Rohtas Districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Bihar|Rohtas": [
+  {
+   "ga_id": "9.04",
+   "ga_name": "Aurangabad, Kaimur & Rohtas Districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Bihar|Begusarai": [
+  {
+   "ga_id": "9.05",
+   "ga_name": "Begusarai District",
+   "entity": "Think Gas Begusarai Private Limited",
+   "group": "Think Gas",
+   "note": ""
+  }
+ ],
+ "Bihar|Gaya": [
+  {
+   "ga_id": "9.06",
+   "ga_name": "Gaya & Nalanda Districts",
+   "entity": "Indian Oil-Adani Gas Private Limited",
+   "group": "Indian Oil-Adani Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "Bihar|Nalanda": [
+  {
+   "ga_id": "9.06",
+   "ga_name": "Gaya & Nalanda Districts",
+   "entity": "Indian Oil-Adani Gas Private Limited",
+   "group": "Indian Oil-Adani Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "Bihar|Araria": [
+  {
+   "ga_id": "10.04",
+   "ga_name": "Araria, Purnia, Katihar and Kishanganj Districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Bihar|Purnia": [
+  {
+   "ga_id": "10.04",
+   "ga_name": "Araria, Purnia, Katihar and Kishanganj Districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Bihar|Katihar": [
+  {
+   "ga_id": "10.04",
+   "ga_name": "Araria, Purnia, Katihar and Kishanganj Districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Bihar|Kishanganj": [
+  {
+   "ga_id": "10.04",
+   "ga_name": "Araria, Purnia, Katihar and Kishanganj Districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Bihar|Arwal": [
+  {
+   "ga_id": "10.05",
+   "ga_name": "Arwal, Jehanabad, Bhojpur and Buxar Districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Bihar|Jehanabad": [
+  {
+   "ga_id": "10.05",
+   "ga_name": "Arwal, Jehanabad, Bhojpur and Buxar Districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Bihar|Bhojpur": [
+  {
+   "ga_id": "10.05",
+   "ga_name": "Arwal, Jehanabad, Bhojpur and Buxar Districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Bihar|Buxar": [
+  {
+   "ga_id": "10.05",
+   "ga_name": "Arwal, Jehanabad, Bhojpur and Buxar Districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Bihar|Khagaria": [
+  {
+   "ga_id": "10.06",
+   "ga_name": "Khagaria, Saharsa and Madhepura Districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Bihar|Saharsa": [
+  {
+   "ga_id": "10.06",
+   "ga_name": "Khagaria, Saharsa and Madhepura Districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Bihar|Madhepura": [
+  {
+   "ga_id": "10.06",
+   "ga_name": "Khagaria, Saharsa and Madhepura Districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Bihar|Lakhisarai": [
+  {
+   "ga_id": "10.07",
+   "ga_name": "Lakhisarai, Munger and Bhagalpur Districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Bihar|Munger": [
+  {
+   "ga_id": "10.07",
+   "ga_name": "Lakhisarai, Munger and Bhagalpur Districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Bihar|Bhagalpur": [
+  {
+   "ga_id": "10.07",
+   "ga_name": "Lakhisarai, Munger and Bhagalpur Districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Bihar|Muzaffarpur": [
+  {
+   "ga_id": "10.08",
+   "ga_name": "Muzaffarpur, Vaishali, Saran and Samastipur Districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Bihar|Samastipur": [
+  {
+   "ga_id": "10.08",
+   "ga_name": "Muzaffarpur, Vaishali, Saran and Samastipur Districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Bihar|Saran": [
+  {
+   "ga_id": "10.08",
+   "ga_name": "Muzaffarpur, Vaishali, Saran and Samastipur Districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Bihar|Vaishali": [
+  {
+   "ga_id": "10.08",
+   "ga_name": "Muzaffarpur, Vaishali, Saran and Samastipur Districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Bihar|Nawada": [
+  {
+   "ga_id": "10.09",
+   "ga_name": "Nawada and Koderma Districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Bihar|Sheikhpura": [
+  {
+   "ga_id": "10.10",
+   "ga_name": "Sheikhpura, Jamui and Deoghar Districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Bihar|Jamui": [
+  {
+   "ga_id": "10.10",
+   "ga_name": "Sheikhpura, Jamui and Deoghar Districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Bihar|Darbhanga": [
+  {
+   "ga_id": "11.06",
+   "ga_name": "Darbhanga, Madhubani, Supaul, Sitamarhi and Sheohar districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Bihar|Madhubani": [
+  {
+   "ga_id": "11.06",
+   "ga_name": "Darbhanga, Madhubani, Supaul, Sitamarhi and Sheohar districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Bihar|Supaul": [
+  {
+   "ga_id": "11.06",
+   "ga_name": "Darbhanga, Madhubani, Supaul, Sitamarhi and Sheohar districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Bihar|Sitamarhi": [
+  {
+   "ga_id": "11.06",
+   "ga_name": "Darbhanga, Madhubani, Supaul, Sitamarhi and Sheohar districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Bihar|Sheohar": [
+  {
+   "ga_id": "11.06",
+   "ga_name": "Darbhanga, Madhubani, Supaul, Sitamarhi and Sheohar districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Bihar|Gopalganj": [
+  {
+   "ga_id": "11.07",
+   "ga_name": "Gopalganj, Siwan, West Champaran, East Champaran and Deoria districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Bihar|Siwan": [
+  {
+   "ga_id": "11.07",
+   "ga_name": "Gopalganj, Siwan, West Champaran, East Champaran and Deoria districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Bihar|West Champaran": [
+  {
+   "ga_id": "11.07",
+   "ga_name": "Gopalganj, Siwan, West Champaran, East Champaran and Deoria districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Bihar|East Champaran": [
+  {
+   "ga_id": "11.07",
+   "ga_name": "Gopalganj, Siwan, West Champaran, East Champaran and Deoria districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Bihar|Patna": [
+  {
+   "ga_id": "97.01",
+   "ga_name": "Patna District",
+   "entity": "GAIL (India) Limited",
+   "group": "GAIL (India) Limited",
+   "note": ""
+  }
+ ],
+ "Bihar|Banka": [
+  {
+   "ga_id": "11A.02",
+   "ga_name": "Banka (Bihar), Dumka, Godda, Jamtara, Pakur & Sahibganj districts",
+   "entity": "Hindustan Petroleum Corporation Limited",
+   "group": "Hindustan Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Kerala|Ernakulam": [
+  {
+   "ga_id": "4.09",
+   "ga_name": "Ernakulam District",
+   "entity": "Indian Oil-Adani Gas Private Limited",
+   "group": "Indian Oil-Adani Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "Kerala|Kozhikode": [
+  {
+   "ga_id": "9.30",
+   "ga_name": "Kozhikode & Wayanad Districts",
+   "entity": "Indian Oil-Adani Gas Private Limited",
+   "group": "Indian Oil-Adani Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "Kerala|Wayanad": [
+  {
+   "ga_id": "9.30",
+   "ga_name": "Kozhikode & Wayanad Districts",
+   "entity": "Indian Oil-Adani Gas Private Limited",
+   "group": "Indian Oil-Adani Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "Kerala|Malappuram": [
+  {
+   "ga_id": "9.31",
+   "ga_name": "Malappuram District",
+   "entity": "Indian Oil-Adani Gas Private Limited",
+   "group": "Indian Oil-Adani Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "Kerala|Kannur": [
+  {
+   "ga_id": "9.32",
+   "ga_name": "Kannur, Kasaragod & Mahe Districts",
+   "entity": "Indian Oil-Adani Gas Private Limited",
+   "group": "Indian Oil-Adani Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "Kerala|Kasaragod": [
+  {
+   "ga_id": "9.32",
+   "ga_name": "Kannur, Kasaragod & Mahe Districts",
+   "entity": "Indian Oil-Adani Gas Private Limited",
+   "group": "Indian Oil-Adani Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "Kerala|Palakkad": [
+  {
+   "ga_id": "9.33",
+   "ga_name": "Palakkad & Thrissur Districts",
+   "entity": "Indian Oil-Adani Gas Private Limited",
+   "group": "Indian Oil-Adani Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "Kerala|Thrissur": [
+  {
+   "ga_id": "9.33",
+   "ga_name": "Palakkad & Thrissur Districts",
+   "entity": "Indian Oil-Adani Gas Private Limited",
+   "group": "Indian Oil-Adani Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "Kerala|Alappuzha": [
+  {
+   "ga_id": "10.21",
+   "ga_name": "Alapuzzha, Kollam and Thiruvananthapuram Districts",
+   "entity": "AGP City Gas Private Limited",
+   "group": "AGP / AG&P Pratham",
+   "note": ""
+  }
+ ],
+ "Kerala|Kollam": [
+  {
+   "ga_id": "10.21",
+   "ga_name": "Alapuzzha, Kollam and Thiruvananthapuram Districts",
+   "entity": "AGP City Gas Private Limited",
+   "group": "AGP / AG&P Pratham",
+   "note": ""
+  }
+ ],
+ "Kerala|Thiruvananthapuram": [
+  {
+   "ga_id": "10.21",
+   "ga_name": "Alapuzzha, Kollam and Thiruvananthapuram Districts",
+   "entity": "AGP City Gas Private Limited",
+   "group": "AGP / AG&P Pratham",
+   "note": ""
+  }
+ ],
+ "Kerala|Idukki": [
+  {
+   "ga_id": "11.21",
+   "ga_name": "Idukki, Kottayam and Pattanamtitta districts",
+   "entity": "Sholagasco Private Limited",
+   "group": "Sholagasco Private Limited",
+   "note": ""
+  }
+ ],
+ "Kerala|Kottayam": [
+  {
+   "ga_id": "11.21",
+   "ga_name": "Idukki, Kottayam and Pattanamtitta districts",
+   "entity": "Sholagasco Private Limited",
+   "group": "Sholagasco Private Limited",
+   "note": ""
+  }
+ ],
+ "Kerala|Pathanamthitta": [
+  {
+   "ga_id": "11.21",
+   "ga_name": "Idukki, Kottayam and Pattanamtitta districts",
+   "entity": "Sholagasco Private Limited",
+   "group": "Sholagasco Private Limited",
+   "note": ""
+  }
+ ],
+ "Punjab|S.A.S. Nagar": [
+  {
+   "ga_id": "2.01",
+   "ga_name": "Chandigarh",
+   "entity": "Indian Oil-Adani Gas Private Limited",
+   "group": "Indian Oil-Adani Gas Private Limited",
+   "note": ""
+  },
+  {
+   "ga_id": "9.52",
+   "ga_name": "SAS Nagar District (EAAA), Patiala & Sangrur Districts",
+   "entity": "Torrent Gas Private Limited",
+   "group": "Torrent Gas",
+   "note": ""
+  }
+ ],
+ "Punjab|Jalandhar": [
+  {
+   "ga_id": "3.01",
+   "ga_name": "Jalandhar",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  },
+  {
+   "ga_id": "9.54",
+   "ga_name": "Jalandhar District (EAAA), Kapurthala & SBS Nagar Districts",
+   "entity": "Think Gas Ludhiana Private Limited",
+   "group": "Think Gas",
+   "note": ""
+  }
+ ],
+ "Punjab|Ludhiana": [
+  {
+   "ga_id": "3.06",
+   "ga_name": "Ludhiana",
+   "entity": "Jay Madhok Energy Private Limited led Consortium",
+   "group": "Jay Madhok Energy Private Limited led Consortium",
+   "note": ""
+  },
+  {
+   "ga_id": "9.53",
+   "ga_name": "Ludhiana District (Except area already authorized), Barnala & Moga Districts",
+   "entity": "Think Gas Ludhiana Private Limited",
+   "group": "Think Gas",
+   "note": ""
+  }
+ ],
+ "Punjab|Amritsar": [
+  {
+   "ga_id": "4.07",
+   "ga_name": "Amritsar District",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": ""
+  }
+ ],
+ "Punjab|Bathinda": [
+  {
+   "ga_id": "6.01",
+   "ga_name": "Bhatinda District",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": ""
+  }
+ ],
+ "Punjab|Rupnagar": [
+  {
+   "ga_id": "6.06",
+   "ga_name": "Rupnagar District",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Punjab|Fatehgarh Sahib": [
+  {
+   "ga_id": "6.12",
+   "ga_name": "Fatehgarh Sahib District",
+   "entity": "IRM Energy Limited",
+   "group": "IRM Energy Limited",
+   "note": ""
+  }
+ ],
+ "Punjab|Mansa": [
+  {
+   "ga_id": "10.12",
+   "ga_name": "Sirsa, Fatehabad and Mansa (Punjab) Districts",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": ""
+  }
+ ],
+ "Punjab|Fazilka": [
+  {
+   "ga_id": "10.32",
+   "ga_name": "Ferozepur, Faridkot and Sri Muktsar Sahib Districts",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": ""
+  },
+  {
+   "ga_id": "11.41",
+   "ga_name": "Fazilka (except area already authorized), Ganganagar and Hanumangarh districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": "except area already authorized"
+  }
+ ],
+ "Punjab|Faridkot": [
+  {
+   "ga_id": "10.32",
+   "ga_name": "Ferozepur, Faridkot and Sri Muktsar Sahib Districts",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": ""
+  }
+ ],
+ "Punjab|Ferozepur": [
+  {
+   "ga_id": "10.32",
+   "ga_name": "Ferozepur, Faridkot and Sri Muktsar Sahib Districts",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": ""
+  }
+ ],
+ "Punjab|Sri Muktsar Sahib": [
+  {
+   "ga_id": "10.32",
+   "ga_name": "Ferozepur, Faridkot and Sri Muktsar Sahib Districts",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": ""
+  }
+ ],
+ "Punjab|Hoshiarpur": [
+  {
+   "ga_id": "10.33",
+   "ga_name": "Hoshiarpur and Gurdaspur Districts",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": ""
+  }
+ ],
+ "Punjab|Gurdaspur": [
+  {
+   "ga_id": "10.33",
+   "ga_name": "Hoshiarpur and Gurdaspur Districts",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": ""
+  }
+ ],
+ "Punjab|Pathankot": [
+  {
+   "ga_id": "11.39",
+   "ga_name": "Pathankot district",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Punjab|Tarn Taran": [
+  {
+   "ga_id": "11.40",
+   "ga_name": "Tarn Taran district",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Mathura": [
+  {
+   "ga_id": "1.03",
+   "ga_name": "Mathura",
+   "entity": "Torrent Gas Private Limited",
+   "group": "Torrent Gas",
+   "note": ""
+  },
+  {
+   "ga_id": "99.13",
+   "ga_name": "Firozabad (Taj Trapezium Zone)",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Meerut": [
+  {
+   "ga_id": "1.06",
+   "ga_name": "Meerut",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  },
+  {
+   "ga_id": "9.82",
+   "ga_name": "Meerut District (EAAA), Muzaffarnagar & Shamli Districts",
+   "entity": "Indraprastha Gas Limited",
+   "group": "Indraprastha Gas Limited",
+   "note": "EAAA"
+  }
+ ],
+ "Uttar Pradesh|Prayagraj": [
+  {
+   "ga_id": "2.02",
+   "ga_name": "Allahabad",
+   "entity": "Indian Oil-Adani Gas Private Limited",
+   "group": "Indian Oil-Adani Gas Private Limited",
+   "note": ""
+  },
+  {
+   "ga_id": "9.77",
+   "ga_name": "Allahabad District (EAAA), Bhadohi & Kaushambi Districts",
+   "entity": "Indian Oil-Adani Gas Private Limited",
+   "group": "Indian Oil-Adani Gas Private Limited",
+   "note": "EAAA"
+  }
+ ],
+ "Uttar Pradesh|Jhansi": [
+  {
+   "ga_id": "2.03",
+   "ga_name": "Jhansi",
+   "entity": "Central UP Gas Limited",
+   "group": "Central UP Gas Limited",
+   "note": ""
+  },
+  {
+   "ga_id": "10.31",
+   "ga_name": "Jhansi (EAAA) District, Bhind, Jalaun, Lalitpur and Datia Districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Saharanpur": [
+  {
+   "ga_id": "6.02",
+   "ga_name": "Saharanpur District",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Bulandshahr": [
+  {
+   "ga_id": "8.05",
+   "ga_name": "Bulandshahr (part) District",
+   "entity": "Indian Oil-Adani Gas Private Limited",
+   "group": "Indian Oil-Adani Gas Private Limited",
+   "note": "part"
+  },
+  {
+   "ga_id": "9.76",
+   "ga_name": "Bulandshahr District (EAAA), Aligarh & Hathras Districts",
+   "entity": "Indian Oil-Adani Gas Private Limited",
+   "group": "Indian Oil-Adani Gas Private Limited",
+   "note": "EAAA"
+  },
+  {
+   "ga_id": "98.01",
+   "ga_name": "Khurja",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Baghpat": [
+  {
+   "ga_id": "8.06",
+   "ga_name": "Bagpat District",
+   "entity": "Bagpat Green Energy Private Limited",
+   "group": "Bagpat Green Energy Private Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Aligarh": [
+  {
+   "ga_id": "9.76",
+   "ga_name": "Bulandshahr District (EAAA), Aligarh & Hathras Districts",
+   "entity": "Indian Oil-Adani Gas Private Limited",
+   "group": "Indian Oil-Adani Gas Private Limited",
+   "note": ""
+  },
+  {
+   "ga_id": "99.13",
+   "ga_name": "Firozabad (Taj Trapezium Zone)",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Hathras": [
+  {
+   "ga_id": "9.76",
+   "ga_name": "Bulandshahr District (EAAA), Aligarh & Hathras Districts",
+   "entity": "Indian Oil-Adani Gas Private Limited",
+   "group": "Indian Oil-Adani Gas Private Limited",
+   "note": ""
+  },
+  {
+   "ga_id": "99.13",
+   "ga_name": "Firozabad (Taj Trapezium Zone)",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Bhadohi": [
+  {
+   "ga_id": "9.77",
+   "ga_name": "Allahabad District (EAAA), Bhadohi & Kaushambi Districts",
+   "entity": "Indian Oil-Adani Gas Private Limited",
+   "group": "Indian Oil-Adani Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Kaushambi": [
+  {
+   "ga_id": "9.77",
+   "ga_name": "Allahabad District (EAAA), Bhadohi & Kaushambi Districts",
+   "entity": "Indian Oil-Adani Gas Private Limited",
+   "group": "Indian Oil-Adani Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Amethi": [
+  {
+   "ga_id": "9.78",
+   "ga_name": "Amethi, Pratapgarh & Raebareli Districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Pratapgarh": [
+  {
+   "ga_id": "9.78",
+   "ga_name": "Amethi, Pratapgarh & Raebareli Districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Rae Bareli": [
+  {
+   "ga_id": "9.78",
+   "ga_name": "Amethi, Pratapgarh & Raebareli Districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Auraiya": [
+  {
+   "ga_id": "9.79",
+   "ga_name": "Auraiya, Kanpur Dehat & Etawah Districts",
+   "entity": "Torrent Gas Private Limited",
+   "group": "Torrent Gas",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Kanpur Dehat": [
+  {
+   "ga_id": "9.79",
+   "ga_name": "Auraiya, Kanpur Dehat & Etawah Districts",
+   "entity": "Torrent Gas Private Limited",
+   "group": "Torrent Gas",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Etawah": [
+  {
+   "ga_id": "9.79",
+   "ga_name": "Auraiya, Kanpur Dehat & Etawah Districts",
+   "entity": "Torrent Gas Private Limited",
+   "group": "Torrent Gas",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Ayodhya": [
+  {
+   "ga_id": "9.80",
+   "ga_name": "Faizabad & Sultanpur Districts",
+   "entity": "Green Gas Limited",
+   "group": "Green Gas Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Sultanpur": [
+  {
+   "ga_id": "9.80",
+   "ga_name": "Faizabad & Sultanpur Districts",
+   "entity": "Green Gas Limited",
+   "group": "Green Gas Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Gorakhpur": [
+  {
+   "ga_id": "9.81",
+   "ga_name": "Gorakhpur, Sant Kabir Nagar & Kushinagar Districts",
+   "entity": "Torrent Gas Private Limited",
+   "group": "Torrent Gas",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Sant Kabir Nagar": [
+  {
+   "ga_id": "9.81",
+   "ga_name": "Gorakhpur, Sant Kabir Nagar & Kushinagar Districts",
+   "entity": "Torrent Gas Private Limited",
+   "group": "Torrent Gas",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Kushinagar": [
+  {
+   "ga_id": "9.81",
+   "ga_name": "Gorakhpur, Sant Kabir Nagar & Kushinagar Districts",
+   "entity": "Torrent Gas Private Limited",
+   "group": "Torrent Gas",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Muzaffarnagar": [
+  {
+   "ga_id": "9.82",
+   "ga_name": "Meerut District (EAAA), Muzaffarnagar & Shamli Districts",
+   "entity": "Indraprastha Gas Limited",
+   "group": "Indraprastha Gas Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Shamli": [
+  {
+   "ga_id": "9.82",
+   "ga_name": "Meerut District (EAAA), Muzaffarnagar & Shamli Districts",
+   "entity": "Indraprastha Gas Limited",
+   "group": "Indraprastha Gas Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Moradabad": [
+  {
+   "ga_id": "9.83",
+   "ga_name": "Moradabad (EAAA) District",
+   "entity": "Torrent Gas Private Limited",
+   "group": "Torrent Gas",
+   "note": "EAAA"
+  },
+  {
+   "ga_id": "98.03",
+   "ga_name": "Moradabad",
+   "entity": "Torrent Gas Moradabad Limited",
+   "group": "Torrent Gas",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Unnao": [
+  {
+   "ga_id": "9.84",
+   "ga_name": "Unnao (EAAA) District",
+   "entity": "Green Gas Limited",
+   "group": "Green Gas Limited",
+   "note": "EAAA"
+  }
+ ],
+ "Uttar Pradesh|Jalaun": [
+  {
+   "ga_id": "10.31",
+   "ga_name": "Jhansi (EAAA) District, Bhind, Jalaun, Lalitpur and Datia Districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Lalitpur": [
+  {
+   "ga_id": "10.31",
+   "ga_name": "Jhansi (EAAA) District, Bhind, Jalaun, Lalitpur and Datia Districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Azamgarh": [
+  {
+   "ga_id": "10.36",
+   "ga_name": "Azamgarh, Mau and Ballia Districts",
+   "entity": "Torrent Gas Private Limited",
+   "group": "Torrent Gas",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Mau": [
+  {
+   "ga_id": "10.36",
+   "ga_name": "Azamgarh, Mau and Ballia Districts",
+   "entity": "Torrent Gas Private Limited",
+   "group": "Torrent Gas",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Ballia": [
+  {
+   "ga_id": "10.36",
+   "ga_name": "Azamgarh, Mau and Ballia Districts",
+   "entity": "Torrent Gas Private Limited",
+   "group": "Torrent Gas",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Bareilly": [
+  {
+   "ga_id": "10.37",
+   "ga_name": "Bareilly (EAAA) District, Pilibhit and Rampur Districts",
+   "entity": "Hindustan Petroleum Corporation Limited",
+   "group": "Hindustan Petroleum Corporation Limited",
+   "note": "EAAA"
+  },
+  {
+   "ga_id": "99.03",
+   "ga_name": "Bareilly",
+   "entity": "Central UP Gas Limited",
+   "group": "Central UP Gas Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Pilibhit": [
+  {
+   "ga_id": "10.37",
+   "ga_name": "Bareilly (EAAA) District, Pilibhit and Rampur Districts",
+   "entity": "Hindustan Petroleum Corporation Limited",
+   "group": "Hindustan Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Rampur": [
+  {
+   "ga_id": "10.37",
+   "ga_name": "Bareilly (EAAA) District, Pilibhit and Rampur Districts",
+   "entity": "Hindustan Petroleum Corporation Limited",
+   "group": "Hindustan Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Basti": [
+  {
+   "ga_id": "10.38",
+   "ga_name": "Basti and Ambedkarnagar Districts",
+   "entity": "Torrent Gas Private Limited",
+   "group": "Torrent Gas",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Ambedkar Nagar": [
+  {
+   "ga_id": "10.38",
+   "ga_name": "Basti and Ambedkarnagar Districts",
+   "entity": "Torrent Gas Private Limited",
+   "group": "Torrent Gas",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Farrukhabad": [
+  {
+   "ga_id": "10.39",
+   "ga_name": "Farrukhabad, Etah and Hardoi Districts",
+   "entity": "Hindustan Petroleum Corporation Limited",
+   "group": "Hindustan Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Etah": [
+  {
+   "ga_id": "10.39",
+   "ga_name": "Farrukhabad, Etah and Hardoi Districts",
+   "entity": "Hindustan Petroleum Corporation Limited",
+   "group": "Hindustan Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Hardoi": [
+  {
+   "ga_id": "10.39",
+   "ga_name": "Farrukhabad, Etah and Hardoi Districts",
+   "entity": "Hindustan Petroleum Corporation Limited",
+   "group": "Hindustan Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Gonda": [
+  {
+   "ga_id": "10.40",
+   "ga_name": "Gonda and Barabanki Districts",
+   "entity": "Torrent Gas Private Limited",
+   "group": "Torrent Gas",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Barabanki": [
+  {
+   "ga_id": "10.40",
+   "ga_name": "Gonda and Barabanki Districts",
+   "entity": "Torrent Gas Private Limited",
+   "group": "Torrent Gas",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Jaunpur": [
+  {
+   "ga_id": "10.41",
+   "ga_name": "Jaunpur and Ghazipur Districts",
+   "entity": "Indian Oil-Adani Gas Private Limited",
+   "group": "Indian Oil-Adani Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Ghazipur": [
+  {
+   "ga_id": "10.41",
+   "ga_name": "Jaunpur and Ghazipur Districts",
+   "entity": "Indian Oil-Adani Gas Private Limited",
+   "group": "Indian Oil-Adani Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Kanpur Nagar": [
+  {
+   "ga_id": "10.42",
+   "ga_name": "Kanpur (EAAA) District, Fatehpur and Hamirpur Districts",
+   "entity": "Indraprastha Gas Limited",
+   "group": "Indraprastha Gas Limited",
+   "note": "EAAA"
+  },
+  {
+   "ga_id": "99.04",
+   "ga_name": "Kanpur",
+   "entity": "Central UP Gas Limited",
+   "group": "Central UP Gas Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Fatehpur": [
+  {
+   "ga_id": "10.42",
+   "ga_name": "Kanpur (EAAA) District, Fatehpur and Hamirpur Districts",
+   "entity": "Indraprastha Gas Limited",
+   "group": "Indraprastha Gas Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Hamirpur": [
+  {
+   "ga_id": "10.42",
+   "ga_name": "Kanpur (EAAA) District, Fatehpur and Hamirpur Districts",
+   "entity": "Indraprastha Gas Limited",
+   "group": "Indraprastha Gas Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Mainpuri": [
+  {
+   "ga_id": "10.43",
+   "ga_name": "Mainpuri and Kannauj Districts",
+   "entity": "Hindustan Petroleum Corporation Limited",
+   "group": "Hindustan Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Kannauj": [
+  {
+   "ga_id": "10.43",
+   "ga_name": "Mainpuri and Kannauj Districts",
+   "entity": "Hindustan Petroleum Corporation Limited",
+   "group": "Hindustan Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Mirzapur": [
+  {
+   "ga_id": "10.44",
+   "ga_name": "Mirzapur, Chandauli and Sonbhadra Districts",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Chandauli": [
+  {
+   "ga_id": "10.44",
+   "ga_name": "Mirzapur, Chandauli and Sonbhadra Districts",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Sonbhadra": [
+  {
+   "ga_id": "10.44",
+   "ga_name": "Mirzapur, Chandauli and Sonbhadra Districts",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Shahjahanpur": [
+  {
+   "ga_id": "10.45",
+   "ga_name": "Shahjahanpur and Budaun Districts",
+   "entity": "Hindustan Petroleum Corporation Limited",
+   "group": "Hindustan Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Budaun": [
+  {
+   "ga_id": "10.45",
+   "ga_name": "Shahjahanpur and Budaun Districts",
+   "entity": "Hindustan Petroleum Corporation Limited",
+   "group": "Hindustan Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Bijnor": [
+  {
+   "ga_id": "10.46",
+   "ga_name": "Bijnor and Nainital Districts",
+   "entity": "Hindustan Petroleum Corporation Limited",
+   "group": "Hindustan Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Deoria": [
+  {
+   "ga_id": "11.07",
+   "ga_name": "Gopalganj, Siwan, West Champaran, East Champaran and Deoria districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Amroha": [
+  {
+   "ga_id": "11.58",
+   "ga_name": "Amroha (except area already authorized) & Sambhal (except area already authorized) districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": "except area already authorized"
+  }
+ ],
+ "Uttar Pradesh|Sambhal": [
+  {
+   "ga_id": "11.58",
+   "ga_name": "Amroha (except area already authorized) & Sambhal (except area already authorized) districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": "except area already authorized"
+  }
+ ],
+ "Uttar Pradesh|Kasganj": [
+  {
+   "ga_id": "11.59",
+   "ga_name": "Kasganj district",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Banda": [
+  {
+   "ga_id": "11.63",
+   "ga_name": "Banda, Chitrakoot and Mahoba",
+   "entity": "Indraprastha Gas Limited",
+   "group": "Indraprastha Gas Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Chitrakoot": [
+  {
+   "ga_id": "11.63",
+   "ga_name": "Banda, Chitrakoot and Mahoba",
+   "entity": "Indraprastha Gas Limited",
+   "group": "Indraprastha Gas Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Mahoba": [
+  {
+   "ga_id": "11.63",
+   "ga_name": "Banda, Chitrakoot and Mahoba",
+   "entity": "Indraprastha Gas Limited",
+   "group": "Indraprastha Gas Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Varanasi": [
+  {
+   "ga_id": "97.06",
+   "ga_name": "Varanasi District",
+   "entity": "GAIL (India) Limited",
+   "group": "GAIL (India) Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Agra": [
+  {
+   "ga_id": "99.10",
+   "ga_name": "Agra",
+   "entity": "Green Gas Limited",
+   "group": "Green Gas Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Firozabad": [
+  {
+   "ga_id": "99.13",
+   "ga_name": "Firozabad (Taj Trapezium Zone)",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Lucknow": [
+  {
+   "ga_id": "99.17",
+   "ga_name": "Lucknow",
+   "entity": "Green Gas Limited",
+   "group": "Green Gas Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Ghaziabad": [
+  {
+   "ga_id": "99.19",
+   "ga_name": "Ghaziabad & Hapur Districts",
+   "entity": "Indraprastha Gas Limited",
+   "group": "Indraprastha Gas Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Hapur": [
+  {
+   "ga_id": "99.19",
+   "ga_name": "Ghaziabad & Hapur Districts",
+   "entity": "Indraprastha Gas Limited",
+   "group": "Indraprastha Gas Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Gautam Buddha Nagar": [
+  {
+   "ga_id": "99.20",
+   "ga_name": "Noida (including Greater Noida)",
+   "entity": "Indraprastha Gas Limited",
+   "group": "Indraprastha Gas Limited",
+   "note": "including Greater Noida"
+  }
+ ],
+ "Uttar Pradesh|Lakhimpur Kheri": [
+  {
+   "ga_id": "11A.01",
+   "ga_name": "Lakhimpur Kheri, Sitapur, Bahraich, Shrawasti, Balrampur, Siddharth Nagar & Maharajganj districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Sitapur": [
+  {
+   "ga_id": "11A.01",
+   "ga_name": "Lakhimpur Kheri, Sitapur, Bahraich, Shrawasti, Balrampur, Siddharth Nagar & Maharajganj districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Bahraich": [
+  {
+   "ga_id": "11A.01",
+   "ga_name": "Lakhimpur Kheri, Sitapur, Bahraich, Shrawasti, Balrampur, Siddharth Nagar & Maharajganj districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Shrawasti": [
+  {
+   "ga_id": "11A.01",
+   "ga_name": "Lakhimpur Kheri, Sitapur, Bahraich, Shrawasti, Balrampur, Siddharth Nagar & Maharajganj districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Balrampur": [
+  {
+   "ga_id": "11A.01",
+   "ga_name": "Lakhimpur Kheri, Sitapur, Bahraich, Shrawasti, Balrampur, Siddharth Nagar & Maharajganj districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Siddharthnagar": [
+  {
+   "ga_id": "11A.01",
+   "ga_name": "Lakhimpur Kheri, Sitapur, Bahraich, Shrawasti, Balrampur, Siddharth Nagar & Maharajganj districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Uttar Pradesh|Maharajganj": [
+  {
+   "ga_id": "11A.01",
+   "ga_name": "Lakhimpur Kheri, Sitapur, Bahraich, Shrawasti, Balrampur, Siddharth Nagar & Maharajganj districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Jammu and Kashmir|Jammu": [
+  {
+   "ga_id": "11.18",
+   "ga_name": "Jammu, Udhampur, Reasi, Samba and Kathua districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Jammu and Kashmir|Udhampur": [
+  {
+   "ga_id": "11.18",
+   "ga_name": "Jammu, Udhampur, Reasi, Samba and Kathua districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Jammu and Kashmir|Reasi": [
+  {
+   "ga_id": "11.18",
+   "ga_name": "Jammu, Udhampur, Reasi, Samba and Kathua districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Jammu and Kashmir|Samba": [
+  {
+   "ga_id": "11.18",
+   "ga_name": "Jammu, Udhampur, Reasi, Samba and Kathua districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Jammu and Kashmir|Kathua": [
+  {
+   "ga_id": "11.18",
+   "ga_name": "Jammu, Udhampur, Reasi, Samba and Kathua districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Tamil Nadu|Nagapattinam": [
+  {
+   "ga_id": "9.50",
+   "ga_name": "Karaikal & Nagapattinam Districts",
+   "entity": "Torrent Gas Private Limited",
+   "group": "Torrent Gas",
+   "note": ""
+  },
+  {
+   "ga_id": "9.64",
+   "ga_name": "Cuddalore, Nagapattinam & Tiruvarur Districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Tamil Nadu|Kancheepuram": [
+  {
+   "ga_id": "9.61",
+   "ga_name": "Kanchipuram District",
+   "entity": "AGP CGD India Private Limited",
+   "group": "AGP / AG&P Pratham",
+   "note": ""
+  }
+ ],
+ "Tamil Nadu|Chengalpattu": [
+  {
+   "ga_id": "9.61",
+   "ga_name": "Kanchipuram District",
+   "entity": "AGP CGD India Private Limited",
+   "group": "AGP / AG&P Pratham",
+   "note": ""
+  }
+ ],
+ "Tamil Nadu|Chennai": [
+  {
+   "ga_id": "9.62",
+   "ga_name": "Chennai & Tiruvallur Districts",
+   "entity": "Torrent Gas Chennai Private Limited",
+   "group": "Torrent Gas",
+   "note": ""
+  }
+ ],
+ "Tamil Nadu|Thiruvallur": [
+  {
+   "ga_id": "9.62",
+   "ga_name": "Chennai & Tiruvallur Districts",
+   "entity": "Torrent Gas Chennai Private Limited",
+   "group": "Torrent Gas",
+   "note": ""
+  }
+ ],
+ "Tamil Nadu|Coimbatore": [
+  {
+   "ga_id": "9.63",
+   "ga_name": "Coimbatore District",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Tamil Nadu|Cuddalore": [
+  {
+   "ga_id": "9.64",
+   "ga_name": "Cuddalore, Nagapattinam & Tiruvarur Districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Tamil Nadu|Thiruvarur": [
+  {
+   "ga_id": "9.64",
+   "ga_name": "Cuddalore, Nagapattinam & Tiruvarur Districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Tamil Nadu|Ramanathapuram": [
+  {
+   "ga_id": "9.65",
+   "ga_name": "Ramanathapuram District",
+   "entity": "AGP CGD India Private Limited",
+   "group": "AGP / AG&P Pratham",
+   "note": ""
+  }
+ ],
+ "Tamil Nadu|Salem": [
+  {
+   "ga_id": "9.66",
+   "ga_name": "Salem District",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Tamil Nadu|Tiruppur": [
+  {
+   "ga_id": "9.67",
+   "ga_name": "Tiruppur District",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Tamil Nadu|Vellore": [
+  {
+   "ga_id": "10.03",
+   "ga_name": "Chittoor, Kolar and Vellore Districts",
+   "entity": "AGP City Gas Private Limited",
+   "group": "AGP / AG&P Pratham",
+   "note": ""
+  }
+ ],
+ "Tamil Nadu|Ranipet": [
+  {
+   "ga_id": "10.03",
+   "ga_name": "Chittoor, Kolar and Vellore Districts",
+   "entity": "AGP City Gas Private Limited",
+   "group": "AGP / AG&P Pratham",
+   "note": ""
+  }
+ ],
+ "Tamil Nadu|Tirupathur": [
+  {
+   "ga_id": "10.03",
+   "ga_name": "Chittoor, Kolar and Vellore Districts",
+   "entity": "AGP City Gas Private Limited",
+   "group": "AGP / AG&P Pratham",
+   "note": ""
+  }
+ ],
+ "Tamil Nadu|Dharmapuri": [
+  {
+   "ga_id": "11.45",
+   "ga_name": "Dharmapuri and Krishnagiri districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Tamil Nadu|Krishnagiri": [
+  {
+   "ga_id": "11.45",
+   "ga_name": "Dharmapuri and Krishnagiri districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Tamil Nadu|Tiruvannamalai": [
+  {
+   "ga_id": "11.46",
+   "ga_name": "Tiruvannamalai, Villupuram and Kallakkurichi districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Tamil Nadu|Viluppuram": [
+  {
+   "ga_id": "11.46",
+   "ga_name": "Tiruvannamalai, Villupuram and Kallakkurichi districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Tamil Nadu|Kallakurichi": [
+  {
+   "ga_id": "11.46",
+   "ga_name": "Tiruvannamalai, Villupuram and Kallakkurichi districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Tamil Nadu|Ariyalur": [
+  {
+   "ga_id": "11.47",
+   "ga_name": "Ariyalur and Perambalur districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Tamil Nadu|Perambalur": [
+  {
+   "ga_id": "11.47",
+   "ga_name": "Ariyalur and Perambalur districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Tamil Nadu|Namakkal": [
+  {
+   "ga_id": "11.48",
+   "ga_name": "Namakkal and Tiruchirapalli districts",
+   "entity": "IRM Energy Limited",
+   "group": "IRM Energy Limited",
+   "note": ""
+  }
+ ],
+ "Tamil Nadu|Tiruchirappalli": [
+  {
+   "ga_id": "11.48",
+   "ga_name": "Namakkal and Tiruchirapalli districts",
+   "entity": "IRM Energy Limited",
+   "group": "IRM Energy Limited",
+   "note": ""
+  }
+ ],
+ "Tamil Nadu|Pudukkottai": [
+  {
+   "ga_id": "11.49",
+   "ga_name": "Pudukottai, Sivaganga and Thanjavur districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Tamil Nadu|Sivaganga": [
+  {
+   "ga_id": "11.49",
+   "ga_name": "Pudukottai, Sivaganga and Thanjavur districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Tamil Nadu|Thanjavur": [
+  {
+   "ga_id": "11.49",
+   "ga_name": "Pudukottai, Sivaganga and Thanjavur districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Tamil Nadu|Madurai": [
+  {
+   "ga_id": "11.50",
+   "ga_name": "Madurai, Theni and Virudhnagar districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Tamil Nadu|Theni": [
+  {
+   "ga_id": "11.50",
+   "ga_name": "Madurai, Theni and Virudhnagar districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Tamil Nadu|Virudhunagar": [
+  {
+   "ga_id": "11.50",
+   "ga_name": "Madurai, Theni and Virudhnagar districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Tamil Nadu|Kanyakumari": [
+  {
+   "ga_id": "11.51",
+   "ga_name": "Kanyakumari, Thoothukudi, Tiruneveli Kattabo and Tenkasi districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Tamil Nadu|Thoothukkudi": [
+  {
+   "ga_id": "11.51",
+   "ga_name": "Kanyakumari, Thoothukudi, Tiruneveli Kattabo and Tenkasi districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Tamil Nadu|Tirunelveli": [
+  {
+   "ga_id": "11.51",
+   "ga_name": "Kanyakumari, Thoothukudi, Tiruneveli Kattabo and Tenkasi districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Tamil Nadu|Tenkasi": [
+  {
+   "ga_id": "11.51",
+   "ga_name": "Kanyakumari, Thoothukudi, Tiruneveli Kattabo and Tenkasi districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Tamil Nadu|Dindigul": [
+  {
+   "ga_id": "11.52",
+   "ga_name": "Dindigul and Karur districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Tamil Nadu|Karur": [
+  {
+   "ga_id": "11.52",
+   "ga_name": "Dindigul and Karur districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Tamil Nadu|Nilgiris": [
+  {
+   "ga_id": "11.53",
+   "ga_name": "The Nilgiris and Erode districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Tamil Nadu|Erode": [
+  {
+   "ga_id": "11.53",
+   "ga_name": "The Nilgiris and Erode districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Delhi|Delhi": [
+  {
+   "ga_id": "99.01",
+   "ga_name": "National Capital Territory of Delhi",
+   "entity": "Indraprastha Gas Limited",
+   "group": "Indraprastha Gas Limited",
+   "note": ""
+  }
+ ],
+ "Assam|Cachar": [
+  {
+   "ga_id": "9.02",
+   "ga_name": "Cachar, Hailakandi & Karimganj Districts",
+   "entity": "Purba Bharti Gas Private Limited",
+   "group": "Purba Bharti Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "Assam|Hailakandi": [
+  {
+   "ga_id": "9.02",
+   "ga_name": "Cachar, Hailakandi & Karimganj Districts",
+   "entity": "Purba Bharti Gas Private Limited",
+   "group": "Purba Bharti Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "Assam|Karimganj": [
+  {
+   "ga_id": "9.02",
+   "ga_name": "Cachar, Hailakandi & Karimganj Districts",
+   "entity": "Purba Bharti Gas Private Limited",
+   "group": "Purba Bharti Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "Assam|Kamrup": [
+  {
+   "ga_id": "9.03",
+   "ga_name": "Kamrup & Kamrup Metropolitan Districts",
+   "entity": "Purba Bharti Gas Private Limited",
+   "group": "Purba Bharti Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "Assam|Kamrup Metropolitan": [
+  {
+   "ga_id": "9.03",
+   "ga_name": "Kamrup & Kamrup Metropolitan Districts",
+   "entity": "Purba Bharti Gas Private Limited",
+   "group": "Purba Bharti Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "Assam|Nagaon": [
+  {
+   "ga_id": "11.02",
+   "ga_name": "Nagaon, Morigaon, Hojai, Karbi Anglong, West Karbi Anglong and Dima Hasao districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Assam|Morigaon": [
+  {
+   "ga_id": "11.02",
+   "ga_name": "Nagaon, Morigaon, Hojai, Karbi Anglong, West Karbi Anglong and Dima Hasao districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Assam|Hojai": [
+  {
+   "ga_id": "11.02",
+   "ga_name": "Nagaon, Morigaon, Hojai, Karbi Anglong, West Karbi Anglong and Dima Hasao districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Assam|Karbi Anglong": [
+  {
+   "ga_id": "11.02",
+   "ga_name": "Nagaon, Morigaon, Hojai, Karbi Anglong, West Karbi Anglong and Dima Hasao districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Assam|West Karbi Anglong": [
+  {
+   "ga_id": "11.02",
+   "ga_name": "Nagaon, Morigaon, Hojai, Karbi Anglong, West Karbi Anglong and Dima Hasao districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Assam|Dima Hasao": [
+  {
+   "ga_id": "11.02",
+   "ga_name": "Nagaon, Morigaon, Hojai, Karbi Anglong, West Karbi Anglong and Dima Hasao districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Assam|Lakhimpur": [
+  {
+   "ga_id": "11.03",
+   "ga_name": "Lakhimpur, Dhemaji , Darrang, Udalgiri, Sonitpur and Biswanath Chariali districts",
+   "entity": "North East Gas Distribution Private Limited",
+   "group": "North East Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Assam|Dhemaji": [
+  {
+   "ga_id": "11.03",
+   "ga_name": "Lakhimpur, Dhemaji , Darrang, Udalgiri, Sonitpur and Biswanath Chariali districts",
+   "entity": "North East Gas Distribution Private Limited",
+   "group": "North East Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Assam|Darrang": [
+  {
+   "ga_id": "11.03",
+   "ga_name": "Lakhimpur, Dhemaji , Darrang, Udalgiri, Sonitpur and Biswanath Chariali districts",
+   "entity": "North East Gas Distribution Private Limited",
+   "group": "North East Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Assam|Udalguri": [
+  {
+   "ga_id": "11.03",
+   "ga_name": "Lakhimpur, Dhemaji , Darrang, Udalgiri, Sonitpur and Biswanath Chariali districts",
+   "entity": "North East Gas Distribution Private Limited",
+   "group": "North East Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Assam|Sonitpur": [
+  {
+   "ga_id": "11.03",
+   "ga_name": "Lakhimpur, Dhemaji , Darrang, Udalgiri, Sonitpur and Biswanath Chariali districts",
+   "entity": "North East Gas Distribution Private Limited",
+   "group": "North East Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Assam|Biswanath": [
+  {
+   "ga_id": "11.03",
+   "ga_name": "Lakhimpur, Dhemaji , Darrang, Udalgiri, Sonitpur and Biswanath Chariali districts",
+   "entity": "North East Gas Distribution Private Limited",
+   "group": "North East Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Assam|Kokrajhar": [
+  {
+   "ga_id": "11.04",
+   "ga_name": "Kokrajhar, Dhubri, South Salmara-Mankachar and Goalpara districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Assam|Dhubri": [
+  {
+   "ga_id": "11.04",
+   "ga_name": "Kokrajhar, Dhubri, South Salmara-Mankachar and Goalpara districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Assam|South Salmara Mankachar": [
+  {
+   "ga_id": "11.04",
+   "ga_name": "Kokrajhar, Dhubri, South Salmara-Mankachar and Goalpara districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Assam|Goalpara": [
+  {
+   "ga_id": "11.04",
+   "ga_name": "Kokrajhar, Dhubri, South Salmara-Mankachar and Goalpara districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Assam|Baksa": [
+  {
+   "ga_id": "11.05",
+   "ga_name": "Baksa, Barpeta, Bongaigaon, Chirang, Nalbari and Bajali districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Assam|Barpeta": [
+  {
+   "ga_id": "11.05",
+   "ga_name": "Baksa, Barpeta, Bongaigaon, Chirang, Nalbari and Bajali districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Assam|Bongaigaon": [
+  {
+   "ga_id": "11.05",
+   "ga_name": "Baksa, Barpeta, Bongaigaon, Chirang, Nalbari and Bajali districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Assam|Chirang": [
+  {
+   "ga_id": "11.05",
+   "ga_name": "Baksa, Barpeta, Bongaigaon, Chirang, Nalbari and Bajali districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Assam|Nalbari": [
+  {
+   "ga_id": "11.05",
+   "ga_name": "Baksa, Barpeta, Bongaigaon, Chirang, Nalbari and Bajali districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Assam|Dibrugarh": [
+  {
+   "ga_id": "99.15",
+   "ga_name": "Upper Assam",
+   "entity": "Assam Gas Company Limited",
+   "group": "Assam Gas Company Limited",
+   "note": ""
+  }
+ ],
+ "Assam|Tinsukia": [
+  {
+   "ga_id": "99.15",
+   "ga_name": "Upper Assam",
+   "entity": "Assam Gas Company Limited",
+   "group": "Assam Gas Company Limited",
+   "note": ""
+  }
+ ],
+ "Assam|Sivasagar": [
+  {
+   "ga_id": "99.15",
+   "ga_name": "Upper Assam",
+   "entity": "Assam Gas Company Limited",
+   "group": "Assam Gas Company Limited",
+   "note": ""
+  }
+ ],
+ "Assam|Charaideo": [
+  {
+   "ga_id": "99.15",
+   "ga_name": "Upper Assam",
+   "entity": "Assam Gas Company Limited",
+   "group": "Assam Gas Company Limited",
+   "note": ""
+  }
+ ],
+ "Assam|Jorhat": [
+  {
+   "ga_id": "99.15",
+   "ga_name": "Upper Assam",
+   "entity": "Assam Gas Company Limited",
+   "group": "Assam Gas Company Limited",
+   "note": ""
+  }
+ ],
+ "Assam|Golaghat": [
+  {
+   "ga_id": "99.15",
+   "ga_name": "Upper Assam",
+   "entity": "Assam Gas Company Limited",
+   "group": "Assam Gas Company Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Anuppur": [
+  {
+   "ga_id": "10.29",
+   "ga_name": "Anuppur, Bilaspur and Korba Districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Chhattisgarh|Bilaspur": [
+  {
+   "ga_id": "10.29",
+   "ga_name": "Anuppur, Bilaspur and Korba Districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Chhattisgarh|Korba": [
+  {
+   "ga_id": "10.29",
+   "ga_name": "Anuppur, Bilaspur and Korba Districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Chhattisgarh|Baloda Bazar": [
+  {
+   "ga_id": "11.08",
+   "ga_name": "Baloda Bazar, Gariyaband and Raipur districts",
+   "entity": "HCG Raipur Private Limited",
+   "group": "Haryana City Gas group",
+   "note": ""
+  }
+ ],
+ "Chhattisgarh|Gariaband": [
+  {
+   "ga_id": "11.08",
+   "ga_name": "Baloda Bazar, Gariyaband and Raipur districts",
+   "entity": "HCG Raipur Private Limited",
+   "group": "Haryana City Gas group",
+   "note": ""
+  }
+ ],
+ "Chhattisgarh|Raipur": [
+  {
+   "ga_id": "11.08",
+   "ga_name": "Baloda Bazar, Gariyaband and Raipur districts",
+   "entity": "HCG Raipur Private Limited",
+   "group": "Haryana City Gas group",
+   "note": ""
+  }
+ ],
+ "Chhattisgarh|Kabeerdham": [
+  {
+   "ga_id": "11.09",
+   "ga_name": "Kabirdham, Raj Nandgaon and Kanker districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Chhattisgarh|Rajnandgaon": [
+  {
+   "ga_id": "11.09",
+   "ga_name": "Kabirdham, Raj Nandgaon and Kanker districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Chhattisgarh|Uttar Bastar Kanker": [
+  {
+   "ga_id": "11.09",
+   "ga_name": "Kabirdham, Raj Nandgaon and Kanker districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Chhattisgarh|Mungeli": [
+  {
+   "ga_id": "11.10",
+   "ga_name": "Mungeli, Bemetara, Durg, Balod and Dhamtari districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Chhattisgarh|Bametara": [
+  {
+   "ga_id": "11.10",
+   "ga_name": "Mungeli, Bemetara, Durg, Balod and Dhamtari districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Chhattisgarh|Durg": [
+  {
+   "ga_id": "11.10",
+   "ga_name": "Mungeli, Bemetara, Durg, Balod and Dhamtari districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Chhattisgarh|Balod": [
+  {
+   "ga_id": "11.10",
+   "ga_name": "Mungeli, Bemetara, Durg, Balod and Dhamtari districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Chhattisgarh|Dhamtari": [
+  {
+   "ga_id": "11.10",
+   "ga_name": "Mungeli, Bemetara, Durg, Balod and Dhamtari districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Chhattisgarh|Jashpur": [
+  {
+   "ga_id": "11.11",
+   "ga_name": "Jashpur, Raigarh, Janjgir-Champa and Mahasamund districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Chhattisgarh|Raigarh": [
+  {
+   "ga_id": "11.11",
+   "ga_name": "Jashpur, Raigarh, Janjgir-Champa and Mahasamund districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Chhattisgarh|Janjgir Champa": [
+  {
+   "ga_id": "11.11",
+   "ga_name": "Jashpur, Raigarh, Janjgir-Champa and Mahasamund districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Chhattisgarh|Mahasamund": [
+  {
+   "ga_id": "11.11",
+   "ga_name": "Jashpur, Raigarh, Janjgir-Champa and Mahasamund districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Chhattisgarh|Koriya": [
+  {
+   "ga_id": "11A.04",
+   "ga_name": "Koriya, Surajpur, Balrampur and Surguja districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Chhattisgarh|Surajpur": [
+  {
+   "ga_id": "11A.04",
+   "ga_name": "Koriya, Surajpur, Balrampur and Surguja districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Chhattisgarh|Balrampur": [
+  {
+   "ga_id": "11A.04",
+   "ga_name": "Koriya, Surajpur, Balrampur and Surguja districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Chhattisgarh|Surguja": [
+  {
+   "ga_id": "11A.04",
+   "ga_name": "Koriya, Surajpur, Balrampur and Surguja districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Chhattisgarh|Kondagaon": [
+  {
+   "ga_id": "11A.05",
+   "ga_name": "Kondagaon, Bastar, Sukma, Narayanpur, Bijapur and Dantewada districts",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Chhattisgarh|Bastar": [
+  {
+   "ga_id": "11A.05",
+   "ga_name": "Kondagaon, Bastar, Sukma, Narayanpur, Bijapur and Dantewada districts",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Chhattisgarh|Sukma": [
+  {
+   "ga_id": "11A.05",
+   "ga_name": "Kondagaon, Bastar, Sukma, Narayanpur, Bijapur and Dantewada districts",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Chhattisgarh|Narayanpur": [
+  {
+   "ga_id": "11A.05",
+   "ga_name": "Kondagaon, Bastar, Sukma, Narayanpur, Bijapur and Dantewada districts",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Chhattisgarh|Bijapur": [
+  {
+   "ga_id": "11A.05",
+   "ga_name": "Kondagaon, Bastar, Sukma, Narayanpur, Bijapur and Dantewada districts",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Chhattisgarh|Dakshin Bastar Dantewada": [
+  {
+   "ga_id": "11A.05",
+   "ga_name": "Kondagaon, Bastar, Sukma, Narayanpur, Bijapur and Dantewada districts",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Chandigarh|Chandigarh": [
+  {
+   "ga_id": "2.01",
+   "ga_name": "Chandigarh#",
+   "entity": "Indian Oil-Adani Gas Private Limited",
+   "group": "Indian Oil-Adani Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "Dadra and Nagar Haveli and Daman and Diu|Dadra and Nagar Haveli": [
+  {
+   "ga_id": "4.05",
+   "ga_name": "UT of Dadra & Nagar Haveli",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": ""
+  }
+ ],
+ "Dadra and Nagar Haveli and Daman and Diu|Daman": [
+  {
+   "ga_id": "4.06",
+   "ga_name": "UT of Daman",
+   "entity": "Indian Oil-Adani Gas Private Limited",
+   "group": "Indian Oil-Adani Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "Dadra and Nagar Haveli and Daman and Diu|Diu": [
+  {
+   "ga_id": "9.07",
+   "ga_name": "Diu and Gir Somnath Districts",
+   "entity": "IRM Energy Limited",
+   "group": "IRM Energy Limited",
+   "note": ""
+  }
+ ],
+ "Goa|North Goa": [
+  {
+   "ga_id": "6.07",
+   "ga_name": "North Goa District",
+   "entity": "Goa Natural Gas Private Limited",
+   "group": "Goa Natural Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "Goa|South Goa": [
+  {
+   "ga_id": "8.01",
+   "ga_name": "South Goa District",
+   "entity": "Indian Oil-Adani Gas Private Limited",
+   "group": "Indian Oil-Adani Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "Gujarat|Bhavnagar": [
+  {
+   "ga_id": "3.02",
+   "ga_name": "Bhavnagar",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": ""
+  }
+ ],
+ "Gujarat|Jamnagar": [
+  {
+   "ga_id": "3.03",
+   "ga_name": "Jamnagar",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": ""
+  }
+ ],
+ "Gujarat|Kutch": [
+  {
+   "ga_id": "3.04",
+   "ga_name": "Kutch (West)",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": "West"
+  },
+  {
+   "ga_id": "3.05",
+   "ga_name": "Kutch (East)*",
+   "entity": "Jay Madhok Energy Private Limited led Consortium",
+   "group": "Jay Madhok Energy Private Limited led Consortium",
+   "note": "East"
+  }
+ ],
+ "Gujarat|Amreli": [
+  {
+   "ga_id": "6.03",
+   "ga_name": "Amreli District",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": ""
+  }
+ ],
+ "Gujarat|Patan": [
+  {
+   "ga_id": "6.04",
+   "ga_name": "Patan District",
+   "entity": "Sabarmati Gas Limited",
+   "group": "Sabarmati Gas Limited",
+   "note": ""
+  }
+ ],
+ "Gujarat|Bharuch": [
+  {
+   "ga_id": "6.05",
+   "ga_name": "Dahej Vagra Taluka",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": ""
+  },
+  {
+   "ga_id": "98.02",
+   "ga_name": "Surat, Bharuch, Ankleshwar",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": ""
+  }
+ ],
+ "Gujarat|Dahod": [
+  {
+   "ga_id": "6.08",
+   "ga_name": "Dahod District",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": ""
+  }
+ ],
+ "Gujarat|Banaskantha": [
+  {
+   "ga_id": "6.09",
+   "ga_name": "Banaskantha District",
+   "entity": "IRM Energy Limited",
+   "group": "IRM Energy Limited",
+   "note": ""
+  }
+ ],
+ "Gujarat|Vav-Tharad": [
+  {
+   "ga_id": "6.09",
+   "ga_name": "Banaskantha District",
+   "entity": "IRM Energy Limited",
+   "group": "IRM Energy Limited",
+   "note": ""
+  }
+ ],
+ "Gujarat|Anand": [
+  {
+   "ga_id": "6.10",
+   "ga_name": "Anand District (EAAA)",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": "EAAA"
+  },
+  {
+   "ga_id": "98.11",
+   "ga_name": "Anand area including Kanjari & Vadtal Villages (in Kheda District)",
+   "entity": "Charotar Gas Sahakari Mandali Limited",
+   "group": "Charotar Gas Sahakari Mandali Limited",
+   "note": ""
+  }
+ ],
+ "Gujarat|Panchmahal": [
+  {
+   "ga_id": "6.11",
+   "ga_name": "Panchmahal District",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": ""
+  }
+ ],
+ "Gujarat|Ahmedabad": [
+  {
+   "ga_id": "6.18",
+   "ga_name": "Ahmedabad District (EAAA)",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": "EAAA"
+  },
+  {
+   "ga_id": "98.08",
+   "ga_name": "Ahmedabad City and Daskroi Area",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  },
+  {
+   "ga_id": "-",
+   "ga_name": "Ahmedabad City (Only for CNG)**",
+   "entity": "Hindustan Petroleum Corporation Limited",
+   "group": "Hindustan Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Gujarat|Gir Somnath": [
+  {
+   "ga_id": "9.07",
+   "ga_name": "Diu and Gir Somnath Districts",
+   "entity": "IRM Energy Limited",
+   "group": "IRM Energy Limited",
+   "note": ""
+  }
+ ],
+ "Gujarat|Surendranagar": [
+  {
+   "ga_id": "9.08",
+   "ga_name": "Surendranagar District (EAAA)",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": "EAAA"
+  },
+  {
+   "ga_id": "98.07",
+   "ga_name": "Surendranagar",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": ""
+  }
+ ],
+ "Gujarat|Botad": [
+  {
+   "ga_id": "9.09",
+   "ga_name": "Barwala & Ranpur Talukas",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Gujarat|Navsari": [
+  {
+   "ga_id": "9.10",
+   "ga_name": "Navsari District (EAAA), Surat District (EAAA), Tapi District (EAAA) & the Dangs District",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": "EAAA"
+  },
+  {
+   "ga_id": "98.05",
+   "ga_name": "Navsari",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": ""
+  }
+ ],
+ "Gujarat|Surat": [
+  {
+   "ga_id": "9.10",
+   "ga_name": "Navsari District (EAAA), Surat District (EAAA), Tapi District (EAAA) & the Dangs District",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": "EAAA"
+  },
+  {
+   "ga_id": "98.02",
+   "ga_name": "Surat, Bharuch, Ankleshwar",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": ""
+  },
+  {
+   "ga_id": "98.09",
+   "ga_name": "Hazira",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": ""
+  }
+ ],
+ "Gujarat|Tapi": [
+  {
+   "ga_id": "9.10",
+   "ga_name": "Navsari District (EAAA), Surat District (EAAA), Tapi District (EAAA) & the Dangs District",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": "EAAA"
+  }
+ ],
+ "Gujarat|Dang": [
+  {
+   "ga_id": "9.10",
+   "ga_name": "Navsari District (EAAA), Surat District (EAAA), Tapi District (EAAA) & the Dangs District",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Gujarat|Junagadh": [
+  {
+   "ga_id": "9.11",
+   "ga_name": "Junagadh District",
+   "entity": "Torrent Gas Private Limited",
+   "group": "Torrent Gas",
+   "note": ""
+  }
+ ],
+ "Gujarat|Kheda": [
+  {
+   "ga_id": "9.12",
+   "ga_name": "Kheda District (EAAA) & Mahisagar District",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": "EAAA"
+  },
+  {
+   "ga_id": "98.04",
+   "ga_name": "Nadiad",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": ""
+  },
+  {
+   "ga_id": "98.11",
+   "ga_name": "Anand area including Kanjari & Vadtal Villages (in Kheda District)",
+   "entity": "Charotar Gas Sahakari Mandali Limited",
+   "group": "Charotar Gas Sahakari Mandali Limited",
+   "note": "in Kheda"
+  }
+ ],
+ "Gujarat|Mahisagar": [
+  {
+   "ga_id": "9.12",
+   "ga_name": "Kheda District (EAAA) & Mahisagar District",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Gujarat|Narmada": [
+  {
+   "ga_id": "9.13",
+   "ga_name": "Narmada (Rajpipla) District",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": "Rajpipla"
+  }
+ ],
+ "Gujarat|Porbandar": [
+  {
+   "ga_id": "9.14",
+   "ga_name": "Porbandar District",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Gujarat|Valsad": [
+  {
+   "ga_id": "9.39",
+   "ga_name": "Valsad (EAAA), Dhule & Nashik Districts",
+   "entity": "Maharashtra Natural Gas Limited",
+   "group": "Maharashtra Natural Gas Limited",
+   "note": "EAAA"
+  },
+  {
+   "ga_id": "98.10",
+   "ga_name": "Valsad",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": ""
+  }
+ ],
+ "Gujarat|Rajkot": [
+  {
+   "ga_id": "98.06",
+   "ga_name": "Rajkot",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": ""
+  }
+ ],
+ "Gujarat|Gandhinagar": [
+  {
+   "ga_id": "99.11",
+   "ga_name": "Gandhinagar Mehsana Sabarkantha",
+   "entity": "Sabarmati Gas Limited",
+   "group": "Sabarmati Gas Limited",
+   "note": ""
+  },
+  {
+   "ga_id": "-",
+   "ga_name": "Gandhinagar**",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": ""
+  }
+ ],
+ "Gujarat|Mehsana": [
+  {
+   "ga_id": "99.11",
+   "ga_name": "Gandhinagar Mehsana Sabarkantha",
+   "entity": "Sabarmati Gas Limited",
+   "group": "Sabarmati Gas Limited",
+   "note": ""
+  }
+ ],
+ "Gujarat|Sabarkantha": [
+  {
+   "ga_id": "99.11",
+   "ga_name": "Gandhinagar Mehsana Sabarkantha",
+   "entity": "Sabarmati Gas Limited",
+   "group": "Sabarmati Gas Limited",
+   "note": ""
+  }
+ ],
+ "Gujarat|Vadodara": [
+  {
+   "ga_id": "99.18",
+   "ga_name": "Vadodara",
+   "entity": "Vadodara Gas Limited",
+   "group": "Vadodara Gas Limited",
+   "note": ""
+  },
+  {
+   "ga_id": "-",
+   "ga_name": "Vadodara**",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Haryana|Sonipat": [
+  {
+   "ga_id": "1.05",
+   "ga_name": "Sonipat",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  },
+  {
+   "ga_id": "9.19",
+   "ga_name": "Sonipat District (EAAA) & Jind District",
+   "entity": "Hindustan Petroleum Corporation Limited",
+   "group": "Hindustan Petroleum Corporation Limited",
+   "note": "EAAA"
+  }
+ ],
+ "Haryana|Panchkula": [
+  {
+   "ga_id": "2.01",
+   "ga_name": "Chandigarh",
+   "entity": "Indian Oil-Adani Gas Private Limited",
+   "group": "Indian Oil-Adani Gas Private Limited",
+   "note": ""
+  },
+  {
+   "ga_id": "9.15",
+   "ga_name": "Panchkula District (EAAA), Sirmaur, Shimla & Solan (EAAA) Districts",
+   "entity": "Indian Oil-Adani Gas Private Limited",
+   "group": "Indian Oil-Adani Gas Private Limited",
+   "note": "EAAA"
+  }
+ ],
+ "Haryana|Panipat": [
+  {
+   "ga_id": "4.02",
+   "ga_name": "Panipat District",
+   "entity": "Indian Oil-Adani Gas Private Limited",
+   "group": "Indian Oil-Adani Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "Haryana|Yamunanagar": [
+  {
+   "ga_id": "6.13",
+   "ga_name": "Yamunanagar District",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Haryana|Rewari": [
+  {
+   "ga_id": "6.15",
+   "ga_name": "Rewari District",
+   "entity": "Indraprastha Gas Limited",
+   "group": "Indraprastha Gas Limited",
+   "note": ""
+  }
+ ],
+ "Haryana|Rohtak": [
+  {
+   "ga_id": "6.17",
+   "ga_name": "Rohtak District",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Haryana|Karnal": [
+  {
+   "ga_id": "8.02",
+   "ga_name": "Karnal District",
+   "entity": "Indraprastha Gas Limited",
+   "group": "Indraprastha Gas Limited",
+   "note": ""
+  }
+ ],
+ "Haryana|Ambala": [
+  {
+   "ga_id": "8.03",
+   "ga_name": "Ambala & Kurukshetra Districts",
+   "entity": "HPOIL Gas Private Limited",
+   "group": "HPOIL Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "Haryana|Kurukshetra": [
+  {
+   "ga_id": "8.03",
+   "ga_name": "Ambala & Kurukshetra Districts",
+   "entity": "HPOIL Gas Private Limited",
+   "group": "HPOIL Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "Haryana|Bhiwani": [
+  {
+   "ga_id": "9.16",
+   "ga_name": "Bhiwani, Charkhi Dadri & Mahendragarh Districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Haryana|Charkhi Dadri": [
+  {
+   "ga_id": "9.16",
+   "ga_name": "Bhiwani, Charkhi Dadri & Mahendragarh Districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Haryana|Mahendragarh": [
+  {
+   "ga_id": "9.16",
+   "ga_name": "Bhiwani, Charkhi Dadri & Mahendragarh Districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Haryana|Hisar": [
+  {
+   "ga_id": "9.17",
+   "ga_name": "Hisar District",
+   "entity": "HCG (KCE) Private Limited",
+   "group": "Haryana City Gas group",
+   "note": ""
+  }
+ ],
+ "Haryana|Jhajjar": [
+  {
+   "ga_id": "9.18",
+   "ga_name": "Jhajjar District",
+   "entity": "Haryana City Gas (KCE) Private Limited",
+   "group": "Haryana City Gas group",
+   "note": ""
+  }
+ ],
+ "Haryana|Jind": [
+  {
+   "ga_id": "9.19",
+   "ga_name": "Sonipat District (EAAA) & Jind District",
+   "entity": "Hindustan Petroleum Corporation Limited",
+   "group": "Hindustan Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Haryana|Nuh": [
+  {
+   "ga_id": "9.2",
+   "ga_name": "Nuh & Palwal Districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Haryana|Palwal": [
+  {
+   "ga_id": "9.2",
+   "ga_name": "Nuh & Palwal Districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Haryana|Kaithal": [
+  {
+   "ga_id": "10.11",
+   "ga_name": "Kaithal District",
+   "entity": "Indraprastha Gas Limited",
+   "group": "Indraprastha Gas Limited",
+   "note": ""
+  }
+ ],
+ "Haryana|Sirsa": [
+  {
+   "ga_id": "10.12",
+   "ga_name": "Sirsa, Fatehabad and Mansa (Punjab) Districts",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": ""
+  }
+ ],
+ "Haryana|Fatehabad": [
+  {
+   "ga_id": "10.12",
+   "ga_name": "Sirsa, Fatehabad and Mansa (Punjab) Districts",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": ""
+  }
+ ],
+ "Haryana|Faridabad": [
+  {
+   "ga_id": "95.01",
+   "ga_name": "Faridabad-2",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  },
+  {
+   "ga_id": "-",
+   "ga_name": "Faridabad-1",
+   "entity": "Indraprastha Gas Limited",
+   "group": "Indraprastha Gas Limited",
+   "note": ""
+  }
+ ],
+ "Haryana|Gurugram": [
+  {
+   "ga_id": "98.13",
+   "ga_name": "Gurugram-2",
+   "entity": "Haryana City Gas Distribution Limited",
+   "group": "Haryana City Gas group",
+   "note": ""
+  },
+  {
+   "ga_id": "-",
+   "ga_name": "Gurugram-1",
+   "entity": "Indraprastha Gas Limited",
+   "group": "Indraprastha Gas Limited",
+   "note": ""
+  }
+ ],
+ "Himachal Pradesh|Solan": [
+  {
+   "ga_id": "2.01",
+   "ga_name": "Chandigarh",
+   "entity": "Indian Oil-Adani Gas Private Limited",
+   "group": "Indian Oil-Adani Gas Private Limited",
+   "note": ""
+  },
+  {
+   "ga_id": "9.15",
+   "ga_name": "Panchkula District (EAAA), Sirmaur, Shimla & Solan (EAAA) Districts",
+   "entity": "Indian Oil-Adani Gas Private Limited",
+   "group": "Indian Oil-Adani Gas Private Limited",
+   "note": "EAAA"
+  }
+ ],
+ "Himachal Pradesh|Sirmaur": [
+  {
+   "ga_id": "9.15",
+   "ga_name": "Panchkula District (EAAA), Sirmaur, Shimla & Solan (EAAA) Districts",
+   "entity": "Indian Oil-Adani Gas Private Limited",
+   "group": "Indian Oil-Adani Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "Himachal Pradesh|Shimla": [
+  {
+   "ga_id": "9.15",
+   "ga_name": "Panchkula District (EAAA), Sirmaur, Shimla & Solan (EAAA) Districts",
+   "entity": "Indian Oil-Adani Gas Private Limited",
+   "group": "Indian Oil-Adani Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "Himachal Pradesh|Bilaspur": [
+  {
+   "ga_id": "9.21",
+   "ga_name": "Bilaspur, Hamirpur & Una Districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Himachal Pradesh|Hamirpur": [
+  {
+   "ga_id": "9.21",
+   "ga_name": "Bilaspur, Hamirpur & Una Districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Himachal Pradesh|Una": [
+  {
+   "ga_id": "9.21",
+   "ga_name": "Bilaspur, Hamirpur & Una Districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Himachal Pradesh|Mandi": [
+  {
+   "ga_id": "11.16",
+   "ga_name": "Mandi, Kullu, Kinnaur and Lahaul & Spiti districts",
+   "entity": "Gasonet Services (HP) Limited",
+   "group": "Gasonet Services",
+   "note": ""
+  }
+ ],
+ "Himachal Pradesh|Kullu": [
+  {
+   "ga_id": "11.16",
+   "ga_name": "Mandi, Kullu, Kinnaur and Lahaul & Spiti districts",
+   "entity": "Gasonet Services (HP) Limited",
+   "group": "Gasonet Services",
+   "note": ""
+  }
+ ],
+ "Himachal Pradesh|Kinnaur": [
+  {
+   "ga_id": "11.16",
+   "ga_name": "Mandi, Kullu, Kinnaur and Lahaul & Spiti districts",
+   "entity": "Gasonet Services (HP) Limited",
+   "group": "Gasonet Services",
+   "note": ""
+  }
+ ],
+ "Himachal Pradesh|Lahaul and Spiti": [
+  {
+   "ga_id": "11.16",
+   "ga_name": "Mandi, Kullu, Kinnaur and Lahaul & Spiti districts",
+   "entity": "Gasonet Services (HP) Limited",
+   "group": "Gasonet Services",
+   "note": ""
+  }
+ ],
+ "Himachal Pradesh|Kangra": [
+  {
+   "ga_id": "11.17",
+   "ga_name": "Kangra and Chamba districts",
+   "entity": "Think Gas Himachal Private Limited",
+   "group": "Think Gas",
+   "note": ""
+  }
+ ],
+ "Himachal Pradesh|Chamba": [
+  {
+   "ga_id": "11.17",
+   "ga_name": "Kangra and Chamba districts",
+   "entity": "Think Gas Himachal Private Limited",
+   "group": "Think Gas",
+   "note": ""
+  }
+ ],
+ "Jharkhand|Bokaro": [
+  {
+   "ga_id": "9.22",
+   "ga_name": "Bokaro, Hazaribagh & Ramgarh Districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Jharkhand|Hazaribagh": [
+  {
+   "ga_id": "9.22",
+   "ga_name": "Bokaro, Hazaribagh & Ramgarh Districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Jharkhand|Ramgarh": [
+  {
+   "ga_id": "9.22",
+   "ga_name": "Bokaro, Hazaribagh & Ramgarh Districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Jharkhand|Giridih": [
+  {
+   "ga_id": "9.23",
+   "ga_name": "Giridih & Dhanbad Districts",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Jharkhand|Dhanbad": [
+  {
+   "ga_id": "9.23",
+   "ga_name": "Giridih & Dhanbad Districts",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Jharkhand|Koderma": [
+  {
+   "ga_id": "10.09",
+   "ga_name": "Nawada and Koderma Districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Jharkhand|Deoghar": [
+  {
+   "ga_id": "10.1",
+   "ga_name": "Sheikhpura, Jamui and Deoghar Districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Jharkhand|Chatra": [
+  {
+   "ga_id": "10.13",
+   "ga_name": "Chatra and Palamu Districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Jharkhand|Palamu": [
+  {
+   "ga_id": "10.13",
+   "ga_name": "Chatra and Palamu Districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Jharkhand|Saraikela-Kharsawan": [
+  {
+   "ga_id": "10.14",
+   "ga_name": "Seraikela-Kharsawan District",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Jharkhand|West Singhbhum": [
+  {
+   "ga_id": "10.15",
+   "ga_name": "West Singhbhum District",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Jharkhand|Gumla": [
+  {
+   "ga_id": "11.19",
+   "ga_name": "Gumla, Latehar, Lohardaga, Simdega, Garhwa and Khunti districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Jharkhand|Latehar": [
+  {
+   "ga_id": "11.19",
+   "ga_name": "Gumla, Latehar, Lohardaga, Simdega, Garhwa and Khunti districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Jharkhand|Lohardaga": [
+  {
+   "ga_id": "11.19",
+   "ga_name": "Gumla, Latehar, Lohardaga, Simdega, Garhwa and Khunti districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Jharkhand|Simdega": [
+  {
+   "ga_id": "11.19",
+   "ga_name": "Gumla, Latehar, Lohardaga, Simdega, Garhwa and Khunti districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Jharkhand|Garhwa": [
+  {
+   "ga_id": "11.19",
+   "ga_name": "Gumla, Latehar, Lohardaga, Simdega, Garhwa and Khunti districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Jharkhand|Khunti": [
+  {
+   "ga_id": "11.19",
+   "ga_name": "Gumla, Latehar, Lohardaga, Simdega, Garhwa and Khunti districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Jharkhand|East Singhbhum": [
+  {
+   "ga_id": "97.02",
+   "ga_name": "East Singhbhum District",
+   "entity": "GAIL (India) Limited",
+   "group": "GAIL (India) Limited",
+   "note": ""
+  }
+ ],
+ "Jharkhand|Ranchi": [
+  {
+   "ga_id": "97.03",
+   "ga_name": "Ranchi District",
+   "entity": "GAIL (India) Limited",
+   "group": "GAIL (India) Limited",
+   "note": ""
+  }
+ ],
+ "Jharkhand|Dumka": [
+  {
+   "ga_id": "11A.02",
+   "ga_name": "Banka (Bihar), Dumka, Godda, Jamtara, Pakur & Sahibganj districts",
+   "entity": "Hindustan Petroleum Corporation Limited",
+   "group": "Hindustan Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Jharkhand|Godda": [
+  {
+   "ga_id": "11A.02",
+   "ga_name": "Banka (Bihar), Dumka, Godda, Jamtara, Pakur & Sahibganj districts",
+   "entity": "Hindustan Petroleum Corporation Limited",
+   "group": "Hindustan Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Jharkhand|Jamtara": [
+  {
+   "ga_id": "11A.02",
+   "ga_name": "Banka (Bihar), Dumka, Godda, Jamtara, Pakur & Sahibganj districts",
+   "entity": "Hindustan Petroleum Corporation Limited",
+   "group": "Hindustan Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Jharkhand|Pakur": [
+  {
+   "ga_id": "11A.02",
+   "ga_name": "Banka (Bihar), Dumka, Godda, Jamtara, Pakur & Sahibganj districts",
+   "entity": "Hindustan Petroleum Corporation Limited",
+   "group": "Hindustan Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Jharkhand|Sahibganj": [
+  {
+   "ga_id": "11A.02",
+   "ga_name": "Banka (Bihar), Dumka, Godda, Jamtara, Pakur & Sahibganj districts",
+   "entity": "Hindustan Petroleum Corporation Limited",
+   "group": "Hindustan Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Karnataka|Bengaluru Rural": [
+  {
+   "ga_id": "4.01",
+   "ga_name": "Bengaluru Rural and Urban Districts",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Karnataka|Bengaluru Urban": [
+  {
+   "ga_id": "4.01",
+   "ga_name": "Bengaluru Rural and Urban Districts",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Karnataka|Tumakuru": [
+  {
+   "ga_id": "5.05",
+   "ga_name": "Tumkur District",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Karnataka|Dharwad": [
+  {
+   "ga_id": "5.07",
+   "ga_name": "Dharwad District",
+   "entity": "Indian Oil-Adani Gas Private Limited",
+   "group": "Indian Oil-Adani Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "Karnataka|Belagavi": [
+  {
+   "ga_id": "5.08",
+   "ga_name": "Belgaum District",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Karnataka|Chitradurga": [
+  {
+   "ga_id": "9.24",
+   "ga_name": "Chitradurga & Davanagere Districts",
+   "entity": "Unison Enviro Private Limited",
+   "group": "Unison Enviro Private Limited",
+   "note": ""
+  }
+ ],
+ "Karnataka|Davanagere": [
+  {
+   "ga_id": "9.24",
+   "ga_name": "Chitradurga & Davanagere Districts",
+   "entity": "Unison Enviro Private Limited",
+   "group": "Unison Enviro Private Limited",
+   "note": ""
+  }
+ ],
+ "Karnataka|Udupi": [
+  {
+   "ga_id": "9.25",
+   "ga_name": "Udupi District",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Karnataka|Ballari": [
+  {
+   "ga_id": "9.26",
+   "ga_name": "Ballari & Gadag Districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Karnataka|Gadag": [
+  {
+   "ga_id": "9.26",
+   "ga_name": "Ballari & Gadag Districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Karnataka|Bidar": [
+  {
+   "ga_id": "9.27",
+   "ga_name": "Bidar District",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Karnataka|Dakshina Kannada": [
+  {
+   "ga_id": "9.28",
+   "ga_name": "Dakshina Kannada District",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Karnataka|Ramanagara": [
+  {
+   "ga_id": "9.29",
+   "ga_name": "Ramanagara District",
+   "entity": "Maharashtra Natural Gas Limited",
+   "group": "Maharashtra Natural Gas Limited",
+   "note": ""
+  }
+ ],
+ "Karnataka|Kolar": [
+  {
+   "ga_id": "10.03",
+   "ga_name": "Chittoor, Kolar and Vellore Districts",
+   "entity": "AGP City Gas Private Limited",
+   "group": "AGP / AG&P Pratham",
+   "note": ""
+  }
+ ],
+ "Karnataka|Bagalkote": [
+  {
+   "ga_id": "10.16",
+   "ga_name": "Bagalkot, Koppal and Raichur Districts",
+   "entity": "AGP City Gas Private Limited",
+   "group": "AGP / AG&P Pratham",
+   "note": ""
+  }
+ ],
+ "Karnataka|Koppal": [
+  {
+   "ga_id": "10.16",
+   "ga_name": "Bagalkot, Koppal and Raichur Districts",
+   "entity": "AGP City Gas Private Limited",
+   "group": "AGP / AG&P Pratham",
+   "note": ""
+  }
+ ],
+ "Karnataka|Raichur": [
+  {
+   "ga_id": "10.16",
+   "ga_name": "Bagalkot, Koppal and Raichur Districts",
+   "entity": "AGP City Gas Private Limited",
+   "group": "AGP / AG&P Pratham",
+   "note": ""
+  }
+ ],
+ "Karnataka|Chikkamagaluru": [
+  {
+   "ga_id": "10.17",
+   "ga_name": "Chikkamagaluru, Hassan and Kodagu Districts",
+   "entity": "AGP City Gas Private Limited",
+   "group": "AGP / AG&P Pratham",
+   "note": ""
+  }
+ ],
+ "Karnataka|Hassan": [
+  {
+   "ga_id": "10.17",
+   "ga_name": "Chikkamagaluru, Hassan and Kodagu Districts",
+   "entity": "AGP City Gas Private Limited",
+   "group": "AGP / AG&P Pratham",
+   "note": ""
+  }
+ ],
+ "Karnataka|Kodagu": [
+  {
+   "ga_id": "10.17",
+   "ga_name": "Chikkamagaluru, Hassan and Kodagu Districts",
+   "entity": "AGP City Gas Private Limited",
+   "group": "AGP / AG&P Pratham",
+   "note": ""
+  }
+ ],
+ "Karnataka|Kalaburagi": [
+  {
+   "ga_id": "10.18",
+   "ga_name": "Kalaburagi and Vijayapura Districts",
+   "entity": "AGP City Gas Private Limited",
+   "group": "AGP / AG&P Pratham",
+   "note": ""
+  }
+ ],
+ "Karnataka|Vijayapura": [
+  {
+   "ga_id": "10.18",
+   "ga_name": "Kalaburagi and Vijayapura Districts",
+   "entity": "AGP City Gas Private Limited",
+   "group": "AGP / AG&P Pratham",
+   "note": ""
+  }
+ ],
+ "Karnataka|Mysuru": [
+  {
+   "ga_id": "10.19",
+   "ga_name": "Mysuru, Mandya and Chamarajanagar Districts",
+   "entity": "AGP City Gas Private Limited",
+   "group": "AGP / AG&P Pratham",
+   "note": ""
+  }
+ ],
+ "Karnataka|Mandya": [
+  {
+   "ga_id": "10.19",
+   "ga_name": "Mysuru, Mandya and Chamarajanagar Districts",
+   "entity": "AGP City Gas Private Limited",
+   "group": "AGP / AG&P Pratham",
+   "note": ""
+  }
+ ],
+ "Karnataka|Chamarajanagara": [
+  {
+   "ga_id": "10.19",
+   "ga_name": "Mysuru, Mandya and Chamarajanagar Districts",
+   "entity": "AGP City Gas Private Limited",
+   "group": "AGP / AG&P Pratham",
+   "note": ""
+  }
+ ],
+ "Karnataka|Uttara Kannada": [
+  {
+   "ga_id": "10.2",
+   "ga_name": "Uttara Kannada, Haveri and Shivamogga Districts",
+   "entity": "AGP City Gas Private Limited",
+   "group": "AGP / AG&P Pratham",
+   "note": ""
+  }
+ ],
+ "Karnataka|Haveri": [
+  {
+   "ga_id": "10.2",
+   "ga_name": "Uttara Kannada, Haveri and Shivamogga Districts",
+   "entity": "AGP City Gas Private Limited",
+   "group": "AGP / AG&P Pratham",
+   "note": ""
+  }
+ ],
+ "Karnataka|Shivamogga": [
+  {
+   "ga_id": "10.2",
+   "ga_name": "Uttara Kannada, Haveri and Shivamogga Districts",
+   "entity": "AGP City Gas Private Limited",
+   "group": "AGP / AG&P Pratham",
+   "note": ""
+  }
+ ],
+ "Karnataka|Chikkaballapura": [
+  {
+   "ga_id": "11.2",
+   "ga_name": "Chikkaballapur district",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Karnataka|Yadgir": [
+  {
+   "ga_id": "11.55",
+   "ga_name": "Jogulamba Gadwal, Nagarkurnool, Mahabubnagar, Narayanpet, Wanaparthy and Yadgir districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Dewas": [
+  {
+   "ga_id": "1.01",
+   "ga_name": "Dewas",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  },
+  {
+   "ga_id": "10.28",
+   "ga_name": "Ujjain (EAAA) District, Dewas (EAAA) District and Indore (EAAA) District",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": "EAAA"
+  }
+ ],
+ "Madhya Pradesh|Dhar": [
+  {
+   "ga_id": "6.16",
+   "ga_name": "Dhar District",
+   "entity": "Naveriya Gas Private Limited",
+   "group": "Naveriya Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Bhopal": [
+  {
+   "ga_id": "9.34",
+   "ga_name": "Bhopal & Rajgarh Districts",
+   "entity": "Think Gas Bhopal Private Limited",
+   "group": "Think Gas",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Rajgarh": [
+  {
+   "ga_id": "9.34",
+   "ga_name": "Bhopal & Rajgarh Districts",
+   "entity": "Think Gas Bhopal Private Limited",
+   "group": "Think Gas",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Guna": [
+  {
+   "ga_id": "9.35",
+   "ga_name": "Guna District",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Rewa": [
+  {
+   "ga_id": "9.36",
+   "ga_name": "Rewa District",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Satna": [
+  {
+   "ga_id": "9.37",
+   "ga_name": "Satna & Shandol Districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Shahdol": [
+  {
+   "ga_id": "9.37",
+   "ga_name": "Satna & Shandol Districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Ashoknagar": [
+  {
+   "ga_id": "10.22",
+   "ga_name": "Ashoknagar District",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Gwalior": [
+  {
+   "ga_id": "10.23",
+   "ga_name": "Gwalior (EAAA) District and Sheopur District",
+   "entity": "Rajasthan State Gas Limited",
+   "group": "Rajasthan State Gas Limited",
+   "note": "EAAA"
+  },
+  {
+   "ga_id": "99.12",
+   "ga_name": "Gwalior",
+   "entity": "Aavantika Gas Limited",
+   "group": "Aavantika Gas Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Sheopur": [
+  {
+   "ga_id": "10.23",
+   "ga_name": "Gwalior (EAAA) District and Sheopur District",
+   "entity": "Rajasthan State Gas Limited",
+   "group": "Rajasthan State Gas Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Morena": [
+  {
+   "ga_id": "10.24",
+   "ga_name": "Morena District",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Raisen": [
+  {
+   "ga_id": "10.25",
+   "ga_name": "Raisen, Shajapur and Sehore Districts",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Shajapur": [
+  {
+   "ga_id": "10.25",
+   "ga_name": "Raisen, Shajapur and Sehore Districts",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Sehore": [
+  {
+   "ga_id": "10.25",
+   "ga_name": "Raisen, Shajapur and Sehore Districts",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Shivpuri": [
+  {
+   "ga_id": "10.26",
+   "ga_name": "Shivpuri District",
+   "entity": "Think Gas Bhopal Private Limited",
+   "group": "Think Gas",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Sidhi": [
+  {
+   "ga_id": "10.27",
+   "ga_name": "Sidhi and Singrauli Districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Singrauli": [
+  {
+   "ga_id": "10.27",
+   "ga_name": "Sidhi and Singrauli Districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Ujjain": [
+  {
+   "ga_id": "10.28",
+   "ga_name": "Ujjain (EAAA) District, Dewas (EAAA) District and Indore (EAAA) District",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": "EAAA"
+  }
+ ],
+ "Madhya Pradesh|Indore": [
+  {
+   "ga_id": "10.28",
+   "ga_name": "Ujjain (EAAA) District, Dewas (EAAA) District and Indore (EAAA) District",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": "EAAA"
+  },
+  {
+   "ga_id": "99.08",
+   "ga_name": "Indore (including Ujjain City)",
+   "entity": "Aavantika Gas Limited",
+   "group": "Aavantika Gas Limited",
+   "note": "including Ujjain City"
+  }
+ ],
+ "Madhya Pradesh|Jhabua": [
+  {
+   "ga_id": "10.30",
+   "ga_name": "Jhabua, Banswara, Ratlam and Dungarpur Districts",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Ratlam": [
+  {
+   "ga_id": "10.30",
+   "ga_name": "Jhabua, Banswara, Ratlam and Dungarpur Districts",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Bhind": [
+  {
+   "ga_id": "10.31",
+   "ga_name": "Jhansi (EAAA) District, Bhind, Jalaun, Lalitpur and Datia Districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Datia": [
+  {
+   "ga_id": "10.31",
+   "ga_name": "Jhansi (EAAA) District, Bhind, Jalaun, Lalitpur and Datia Districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Agar Malwa": [
+  {
+   "ga_id": "11.22",
+   "ga_name": "Agar Malwa, Neemuch, Mandsaur and Jhalawar districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Neemuch": [
+  {
+   "ga_id": "11.22",
+   "ga_name": "Agar Malwa, Neemuch, Mandsaur and Jhalawar districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Mandsaur": [
+  {
+   "ga_id": "11.22",
+   "ga_name": "Agar Malwa, Neemuch, Mandsaur and Jhalawar districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Burhanpur": [
+  {
+   "ga_id": "11.23",
+   "ga_name": "Burhanpur, Khandwa, Khargone and Harda districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Khandwa": [
+  {
+   "ga_id": "11.23",
+   "ga_name": "Burhanpur, Khandwa, Khargone and Harda districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Khargone": [
+  {
+   "ga_id": "11.23",
+   "ga_name": "Burhanpur, Khandwa, Khargone and Harda districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Harda": [
+  {
+   "ga_id": "11.23",
+   "ga_name": "Burhanpur, Khandwa, Khargone and Harda districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Tikamgarh": [
+  {
+   "ga_id": "11.24",
+   "ga_name": "Tikamgarh, Niwari, Chattarpur and Panna districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Niwari": [
+  {
+   "ga_id": "11.24",
+   "ga_name": "Tikamgarh, Niwari, Chattarpur and Panna districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Chhatarpur": [
+  {
+   "ga_id": "11.24",
+   "ga_name": "Tikamgarh, Niwari, Chattarpur and Panna districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Panna": [
+  {
+   "ga_id": "11.24",
+   "ga_name": "Tikamgarh, Niwari, Chattarpur and Panna districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Betul": [
+  {
+   "ga_id": "11.25",
+   "ga_name": "Betul, Chhindwara, Seoni and Balaghat districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Chhindwara": [
+  {
+   "ga_id": "11.25",
+   "ga_name": "Betul, Chhindwara, Seoni and Balaghat districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Seoni": [
+  {
+   "ga_id": "11.25",
+   "ga_name": "Betul, Chhindwara, Seoni and Balaghat districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Balaghat": [
+  {
+   "ga_id": "11.25",
+   "ga_name": "Betul, Chhindwara, Seoni and Balaghat districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Damoh": [
+  {
+   "ga_id": "11.26",
+   "ga_name": "Damoh, Jabalpur, Katni, Mandla, Umaria and Dindori districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Jabalpur": [
+  {
+   "ga_id": "11.26",
+   "ga_name": "Damoh, Jabalpur, Katni, Mandla, Umaria and Dindori districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Katni": [
+  {
+   "ga_id": "11.26",
+   "ga_name": "Damoh, Jabalpur, Katni, Mandla, Umaria and Dindori districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Mandla": [
+  {
+   "ga_id": "11.26",
+   "ga_name": "Damoh, Jabalpur, Katni, Mandla, Umaria and Dindori districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Umaria": [
+  {
+   "ga_id": "11.26",
+   "ga_name": "Damoh, Jabalpur, Katni, Mandla, Umaria and Dindori districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Dindori": [
+  {
+   "ga_id": "11.26",
+   "ga_name": "Damoh, Jabalpur, Katni, Mandla, Umaria and Dindori districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Hoshangabad": [
+  {
+   "ga_id": "11.27",
+   "ga_name": "Hoshangabad, Narsinghpur, Sagar and Vidisha districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Narsinghpur": [
+  {
+   "ga_id": "11.27",
+   "ga_name": "Hoshangabad, Narsinghpur, Sagar and Vidisha districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Sagar": [
+  {
+   "ga_id": "11.27",
+   "ga_name": "Hoshangabad, Narsinghpur, Sagar and Vidisha districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Vidisha": [
+  {
+   "ga_id": "11.27",
+   "ga_name": "Hoshangabad, Narsinghpur, Sagar and Vidisha districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Alirajpur": [
+  {
+   "ga_id": "11.35",
+   "ga_name": "Alirajpur, Nandurbar and Barwani districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Madhya Pradesh|Barwani": [
+  {
+   "ga_id": "11.35",
+   "ga_name": "Alirajpur, Nandurbar and Barwani districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Maharashtra|Palghar": [
+  {
+   "ga_id": "4.03",
+   "ga_name": "Palghar District & Thane Rural",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": ""
+  }
+ ],
+ "Maharashtra|Thane": [
+  {
+   "ga_id": "4.03",
+   "ga_name": "Palghar District & Thane Rural",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": ""
+  },
+  {
+   "ga_id": "99.07",
+   "ga_name": "Thane urban and adjoining Municipalities",
+   "entity": "Mahanagar Gas Limited",
+   "group": "Mahanagar Gas Limited",
+   "note": ""
+  }
+ ],
+ "Maharashtra|Raigad": [
+  {
+   "ga_id": "4.04",
+   "ga_name": "Raigarh District (EAAA)",
+   "entity": "Mahanagar Gas Limited",
+   "group": "Mahanagar Gas Limited",
+   "note": "EAAA"
+  }
+ ],
+ "Maharashtra|Pune": [
+  {
+   "ga_id": "4.08",
+   "ga_name": "Pune District (EAAA)",
+   "entity": "Torrent Gas Private Limited",
+   "group": "Torrent Gas",
+   "note": "EAAA"
+  },
+  {
+   "ga_id": "99.05",
+   "ga_name": "Pune City including Pimpri - Chichwad & adjoining contigeneous areas Hinjewadi, Chakan, Talegaon",
+   "entity": "Maharashtra Natural Gas Limited",
+   "group": "Maharashtra Natural Gas Limited",
+   "note": ""
+  }
+ ],
+ "Maharashtra|Nandurbar": [
+  {
+   "ga_id": "6.14",
+   "ga_name": "Ratnagiri District",
+   "entity": "Unison Enviro Private Limited",
+   "group": "Unison Enviro Private Limited",
+   "note": ""
+  },
+  {
+   "ga_id": "11.35",
+   "ga_name": "Alirajpur, Nandurbar and Barwani districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Maharashtra|Solapur": [
+  {
+   "ga_id": "7.01",
+   "ga_name": "Solapur District",
+   "entity": "IMC Limited",
+   "group": "IMC Limited",
+   "note": ""
+  }
+ ],
+ "Maharashtra|Kolhapur": [
+  {
+   "ga_id": "8.04",
+   "ga_name": "Kolhapur District",
+   "entity": "HPOIL Gas Private Limited",
+   "group": "HPOIL Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "Maharashtra|Ahmednagar": [
+  {
+   "ga_id": "9.38",
+   "ga_name": "Ahmednagar & Aurangabad Districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Maharashtra|Aurangabad": [
+  {
+   "ga_id": "9.38",
+   "ga_name": "Ahmednagar & Aurangabad Districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Maharashtra|Dhule": [
+  {
+   "ga_id": "9.39",
+   "ga_name": "Valsad (EAAA), Dhule & Nashik Districts",
+   "entity": "Maharashtra Natural Gas Limited",
+   "group": "Maharashtra Natural Gas Limited",
+   "note": ""
+  }
+ ],
+ "Maharashtra|Nashik": [
+  {
+   "ga_id": "9.39",
+   "ga_name": "Valsad (EAAA), Dhule & Nashik Districts",
+   "entity": "Maharashtra Natural Gas Limited",
+   "group": "Maharashtra Natural Gas Limited",
+   "note": ""
+  }
+ ],
+ "Maharashtra|Latur": [
+  {
+   "ga_id": "9.40",
+   "ga_name": "Latur & Osmanabad Districts",
+   "entity": "Unison Enviro Private Limited",
+   "group": "Unison Enviro Private Limited",
+   "note": ""
+  }
+ ],
+ "Maharashtra|Osmanabad": [
+  {
+   "ga_id": "9.40",
+   "ga_name": "Latur & Osmanabad Districts",
+   "entity": "Unison Enviro Private Limited",
+   "group": "Unison Enviro Private Limited",
+   "note": ""
+  }
+ ],
+ "Maharashtra|Sangli": [
+  {
+   "ga_id": "9.41",
+   "ga_name": "Sangli & Satara Districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Maharashtra|Satara": [
+  {
+   "ga_id": "9.41",
+   "ga_name": "Sangli & Satara Districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Maharashtra|Sindhudurg": [
+  {
+   "ga_id": "9.42",
+   "ga_name": "Sindhudurg District",
+   "entity": "Maharashtra Natural Gas Limited",
+   "group": "Maharashtra Natural Gas Limited",
+   "note": ""
+  }
+ ],
+ "Maharashtra|Buldhana": [
+  {
+   "ga_id": "11.28",
+   "ga_name": "Buldana, Nanded and Parbhani districts",
+   "entity": "Maharashtra Natural Gas Limited",
+   "group": "Maharashtra Natural Gas Limited",
+   "note": ""
+  }
+ ],
+ "Maharashtra|Nanded": [
+  {
+   "ga_id": "11.28",
+   "ga_name": "Buldana, Nanded and Parbhani districts",
+   "entity": "Maharashtra Natural Gas Limited",
+   "group": "Maharashtra Natural Gas Limited",
+   "note": ""
+  }
+ ],
+ "Maharashtra|Parbhani": [
+  {
+   "ga_id": "11.28",
+   "ga_name": "Buldana, Nanded and Parbhani districts",
+   "entity": "Maharashtra Natural Gas Limited",
+   "group": "Maharashtra Natural Gas Limited",
+   "note": ""
+  }
+ ],
+ "Maharashtra|Beed": [
+  {
+   "ga_id": "11.29",
+   "ga_name": "Beed, Jalgaon and Jalna districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Maharashtra|Jalgaon": [
+  {
+   "ga_id": "11.29",
+   "ga_name": "Beed, Jalgaon and Jalna districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Maharashtra|Jalna": [
+  {
+   "ga_id": "11.29",
+   "ga_name": "Beed, Jalgaon and Jalna districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Maharashtra|Akola": [
+  {
+   "ga_id": "11.30",
+   "ga_name": "Akola, Hingoli and Washim districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Maharashtra|Hingoli": [
+  {
+   "ga_id": "11.30",
+   "ga_name": "Akola, Hingoli and Washim districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Maharashtra|Washim": [
+  {
+   "ga_id": "11.30",
+   "ga_name": "Akola, Hingoli and Washim districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Maharashtra|Amravati": [
+  {
+   "ga_id": "11.31",
+   "ga_name": "Amravati and Yavatmal districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Maharashtra|Yavatmal": [
+  {
+   "ga_id": "11.31",
+   "ga_name": "Amravati and Yavatmal districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Maharashtra|Chandrapur": [
+  {
+   "ga_id": "11.32",
+   "ga_name": "Chandrapur and Wardha districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Maharashtra|Wardha": [
+  {
+   "ga_id": "11.32",
+   "ga_name": "Chandrapur and Wardha districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Maharashtra|Nagpur": [
+  {
+   "ga_id": "11.33",
+   "ga_name": "Nagpur district",
+   "entity": "HCG Nagpur Private Limited",
+   "group": "Haryana City Gas group",
+   "note": ""
+  }
+ ],
+ "Maharashtra|Bhandara": [
+  {
+   "ga_id": "11.34",
+   "ga_name": "Bhandara, Gondiya and Garchiroli districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Maharashtra|Gondia": [
+  {
+   "ga_id": "11.34",
+   "ga_name": "Bhandara, Gondiya and Garchiroli districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Maharashtra|Gadchiroli": [
+  {
+   "ga_id": "11.34",
+   "ga_name": "Bhandara, Gondiya and Garchiroli districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Maharashtra|Mumbai": [
+  {
+   "ga_id": "99.02",
+   "ga_name": "Mumbai & Greater Mumbai",
+   "entity": "Mahanagar Gas Limited",
+   "group": "Mahanagar Gas Limited",
+   "note": ""
+  }
+ ],
+ "Odisha|Angul": [
+  {
+   "ga_id": "9.43",
+   "ga_name": "Angul & Dhekanal Districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Odisha|Dhenkanal": [
+  {
+   "ga_id": "9.43",
+   "ga_name": "Angul & Dhekanal Districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Odisha|Sundargarh": [
+  {
+   "ga_id": "9.44",
+   "ga_name": "Sundargarh & Jharsuguda Districts",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Odisha|Jharsuguda": [
+  {
+   "ga_id": "9.44",
+   "ga_name": "Sundargarh & Jharsuguda Districts",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Odisha|Balasore": [
+  {
+   "ga_id": "9.45",
+   "ga_name": "Balasore, Bhadrak & Mayurbhanj Districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Odisha|Bhadrak": [
+  {
+   "ga_id": "9.45",
+   "ga_name": "Balasore, Bhadrak & Mayurbhanj Districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Odisha|Mayurbhanj": [
+  {
+   "ga_id": "9.45",
+   "ga_name": "Balasore, Bhadrak & Mayurbhanj Districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Odisha|Bargarh": [
+  {
+   "ga_id": "9.46",
+   "ga_name": "Bargarh, Debagarh & Sambalpur Districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Odisha|Deogarh": [
+  {
+   "ga_id": "9.46",
+   "ga_name": "Bargarh, Debagarh & Sambalpur Districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Odisha|Sambalpur": [
+  {
+   "ga_id": "9.46",
+   "ga_name": "Bargarh, Debagarh & Sambalpur Districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Odisha|Ganjam": [
+  {
+   "ga_id": "9.47",
+   "ga_name": "Ganjam, Nayagarh & Puri Districts",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Odisha|Nayagarh": [
+  {
+   "ga_id": "9.47",
+   "ga_name": "Ganjam, Nayagarh & Puri Districts",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Odisha|Puri": [
+  {
+   "ga_id": "9.47",
+   "ga_name": "Ganjam, Nayagarh & Puri Districts",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Odisha|Jagatsinghpur": [
+  {
+   "ga_id": "9.48",
+   "ga_name": "Jagatsinghpur & Kendrapara Districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Odisha|Kendrapara": [
+  {
+   "ga_id": "9.48",
+   "ga_name": "Jagatsinghpur & Kendrapara Districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Odisha|Jajpur": [
+  {
+   "ga_id": "9.49",
+   "ga_name": "Jajpur & Kendujhar Districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Odisha|Kendujhar": [
+  {
+   "ga_id": "9.49",
+   "ga_name": "Jajpur & Kendujhar Districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Odisha|Koraput": [
+  {
+   "ga_id": "11.36",
+   "ga_name": "Koraput, Malkangiri, and Nabarangpur districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Odisha|Malkangiri": [
+  {
+   "ga_id": "11.36",
+   "ga_name": "Koraput, Malkangiri, and Nabarangpur districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Odisha|Nabarangapur": [
+  {
+   "ga_id": "11.36",
+   "ga_name": "Koraput, Malkangiri, and Nabarangpur districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Odisha|Gajapati": [
+  {
+   "ga_id": "11.37",
+   "ga_name": "Gajapati, Kandhamal, Boudh and Sonepur districts",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Odisha|Kandhamal": [
+  {
+   "ga_id": "11.37",
+   "ga_name": "Gajapati, Kandhamal, Boudh and Sonepur districts",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Odisha|Boudh": [
+  {
+   "ga_id": "11.37",
+   "ga_name": "Gajapati, Kandhamal, Boudh and Sonepur districts",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Odisha|Subarnapur": [
+  {
+   "ga_id": "11.37",
+   "ga_name": "Gajapati, Kandhamal, Boudh and Sonepur districts",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Odisha|Rayagada": [
+  {
+   "ga_id": "11.38",
+   "ga_name": "Rayagada, Kalahandi, Bolangir and Nuapada districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Odisha|Kalahandi": [
+  {
+   "ga_id": "11.38",
+   "ga_name": "Rayagada, Kalahandi, Bolangir and Nuapada districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Odisha|Balangir": [
+  {
+   "ga_id": "11.38",
+   "ga_name": "Rayagada, Kalahandi, Bolangir and Nuapada districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Odisha|Nuapada": [
+  {
+   "ga_id": "11.38",
+   "ga_name": "Rayagada, Kalahandi, Bolangir and Nuapada districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Odisha|Khordha": [
+  {
+   "ga_id": "97.04",
+   "ga_name": "Khordha District",
+   "entity": "GAIL (India) Limited",
+   "group": "GAIL (India) Limited",
+   "note": ""
+  }
+ ],
+ "Odisha|Cuttack": [
+  {
+   "ga_id": "97.05",
+   "ga_name": "Cuttack District",
+   "entity": "GAIL (India) Limited",
+   "group": "GAIL (India) Limited",
+   "note": ""
+  }
+ ],
+ "Puducherry|Mahe": [
+  {
+   "ga_id": "9.32",
+   "ga_name": "Kannur, Kasaragod & Mahe Districts",
+   "entity": "Indian Oil-Adani Gas Private Limited",
+   "group": "Indian Oil-Adani Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "Puducherry|Puducherry": [
+  {
+   "ga_id": "9.51",
+   "ga_name": "Puducherry District",
+   "entity": "East Coast Natural Gas Private Limited",
+   "group": "East Coast Natural Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "Puducherry|Yanam": [
+  {
+   "ga_id": "11A.06",
+   "ga_name": "Yanam",
+   "entity": "HCG Yanam Private Limited",
+   "group": "Haryana City Gas group",
+   "note": ""
+  }
+ ],
+ "Rajasthan|Kota": [
+  {
+   "ga_id": "1.02",
+   "ga_name": "Kota",
+   "entity": "Rajasthan State Gas Limited",
+   "group": "Rajasthan State Gas Limited",
+   "note": ""
+  },
+  {
+   "ga_id": "9.57",
+   "ga_name": "Kota District (EAAA), Baran & Chittorgarh (Only Rawatbhata Taluka) Districts",
+   "entity": "Torrent Gas Private Limited",
+   "group": "Torrent Gas",
+   "note": "EAAA"
+  }
+ ],
+ "Rajasthan|Barmer": [
+  {
+   "ga_id": "9.55",
+   "ga_name": "Barmer, Jaisalmer & Jodhpur Districts",
+   "entity": "AGP CGD India Private Limited",
+   "group": "AGP / AG&P Pratham",
+   "note": ""
+  }
+ ],
+ "Rajasthan|Jaisalmer": [
+  {
+   "ga_id": "9.55",
+   "ga_name": "Barmer, Jaisalmer & Jodhpur Districts",
+   "entity": "AGP CGD India Private Limited",
+   "group": "AGP / AG&P Pratham",
+   "note": ""
+  }
+ ],
+ "Rajasthan|Jodhpur": [
+  {
+   "ga_id": "9.55",
+   "ga_name": "Barmer, Jaisalmer & Jodhpur Districts",
+   "entity": "AGP CGD India Private Limited",
+   "group": "AGP / AG&P Pratham",
+   "note": ""
+  }
+ ],
+ "Rajasthan|Alwar": [
+  {
+   "ga_id": "9.56",
+   "ga_name": "Alwar (Other than Bhiwadi) & Jaipur Districts",
+   "entity": "Torrent Gas Jaipur Private Limited",
+   "group": "Torrent Gas",
+   "note": "Other than Bhiwadi"
+  },
+  {
+   "ga_id": "98.12",
+   "ga_name": "Bhiwadi (in Alwar District)",
+   "entity": "Haryana City Gas Distribution (Bhiwadi) Limited",
+   "group": "Haryana City Gas group",
+   "note": "in Alwar"
+  }
+ ],
+ "Rajasthan|Jaipur": [
+  {
+   "ga_id": "9.56",
+   "ga_name": "Alwar (Other than Bhiwadi) & Jaipur Districts",
+   "entity": "Torrent Gas Jaipur Private Limited",
+   "group": "Torrent Gas",
+   "note": ""
+  }
+ ],
+ "Rajasthan|Baran": [
+  {
+   "ga_id": "9.57",
+   "ga_name": "Kota District (EAAA), Baran & Chittorgarh (Only Rawatbhata Taluka) Districts",
+   "entity": "Torrent Gas Private Limited",
+   "group": "Torrent Gas",
+   "note": ""
+  }
+ ],
+ "Rajasthan|Chittorgarh": [
+  {
+   "ga_id": "9.57",
+   "ga_name": "Kota District (EAAA), Baran & Chittorgarh (Only Rawatbhata Taluka) Districts",
+   "entity": "Torrent Gas Private Limited",
+   "group": "Torrent Gas",
+   "note": "Only Rawatbhata Taluka"
+  },
+  {
+   "ga_id": "9.59",
+   "ga_name": "Chittorgarh (Other than Rawatbhata Taluka) & Udaipur Districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": "Other than Rawatbhata Taluka"
+  }
+ ],
+ "Rajasthan|Bhilwara": [
+  {
+   "ga_id": "9.58",
+   "ga_name": "Bhilwara & Bundi Districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Rajasthan|Bundi": [
+  {
+   "ga_id": "9.58",
+   "ga_name": "Bhilwara & Bundi Districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Rajasthan|Udaipur": [
+  {
+   "ga_id": "9.59",
+   "ga_name": "Chittorgarh (Other than Rawatbhata Taluka) & Udaipur Districts",
+   "entity": "Adani Total Gas Limited",
+   "group": "Adani Total Gas Limited",
+   "note": ""
+  }
+ ],
+ "Rajasthan|Dholpur": [
+  {
+   "ga_id": "9.60",
+   "ga_name": "Dholpur District",
+   "entity": "Dholpur CGD Private Limited",
+   "group": "Dholpur CGD Private Limited",
+   "note": ""
+  }
+ ],
+ "Rajasthan|Banswara": [
+  {
+   "ga_id": "10.30",
+   "ga_name": "Jhabua, Banswara, Ratlam and Dungarpur Districts",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": ""
+  }
+ ],
+ "Rajasthan|Dungarpur": [
+  {
+   "ga_id": "10.30",
+   "ga_name": "Jhabua, Banswara, Ratlam and Dungarpur Districts",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": ""
+  }
+ ],
+ "Rajasthan|Ajmer": [
+  {
+   "ga_id": "10.34",
+   "ga_name": "Ajmer, Pali and Rajsamand Districts",
+   "entity": "Indraprastha Gas Limited",
+   "group": "Indraprastha Gas Limited",
+   "note": ""
+  }
+ ],
+ "Rajasthan|Pali": [
+  {
+   "ga_id": "10.34",
+   "ga_name": "Ajmer, Pali and Rajsamand Districts",
+   "entity": "Indraprastha Gas Limited",
+   "group": "Indraprastha Gas Limited",
+   "note": ""
+  }
+ ],
+ "Rajasthan|Rajsamand": [
+  {
+   "ga_id": "10.34",
+   "ga_name": "Ajmer, Pali and Rajsamand Districts",
+   "entity": "Indraprastha Gas Limited",
+   "group": "Indraprastha Gas Limited",
+   "note": ""
+  }
+ ],
+ "Rajasthan|Jalore": [
+  {
+   "ga_id": "10.35",
+   "ga_name": "Jalore and Sirohi Districts",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": ""
+  }
+ ],
+ "Rajasthan|Sirohi": [
+  {
+   "ga_id": "10.35",
+   "ga_name": "Jalore and Sirohi Districts",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": ""
+  }
+ ],
+ "Rajasthan|Jhalawar": [
+  {
+   "ga_id": "11.22",
+   "ga_name": "Agar Malwa, Neemuch, Mandsaur and Jhalawar districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Rajasthan|Ganganagar": [
+  {
+   "ga_id": "11.41",
+   "ga_name": "Fazilka (except area already authorized), Ganganagar and Hanumangarh districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Rajasthan|Hanumangarh": [
+  {
+   "ga_id": "11.41",
+   "ga_name": "Fazilka (except area already authorized), Ganganagar and Hanumangarh districts",
+   "entity": "Bharat Petroleum Corporation Limited",
+   "group": "Bharat Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Rajasthan|Bikaner": [
+  {
+   "ga_id": "11.42",
+   "ga_name": "Bikaner and Churu districts",
+   "entity": "Gasonet Services (RJ) Limited",
+   "group": "Gasonet Services",
+   "note": ""
+  }
+ ],
+ "Rajasthan|Churu": [
+  {
+   "ga_id": "11.42",
+   "ga_name": "Bikaner and Churu districts",
+   "entity": "Gasonet Services (RJ) Limited",
+   "group": "Gasonet Services",
+   "note": ""
+  }
+ ],
+ "Rajasthan|Jhunjhunu": [
+  {
+   "ga_id": "11.43",
+   "ga_name": "Jhunjhunu, Sikar and Nagaur districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Rajasthan|Sikar": [
+  {
+   "ga_id": "11.43",
+   "ga_name": "Jhunjhunu, Sikar and Nagaur districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Rajasthan|Nagaur": [
+  {
+   "ga_id": "11.43",
+   "ga_name": "Jhunjhunu, Sikar and Nagaur districts",
+   "entity": "Indian Oil Corporation Limited",
+   "group": "Indian Oil Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Rajasthan|Dausa": [
+  {
+   "ga_id": "11.44",
+   "ga_name": "Dausa, Karauli, Sawai Madhopur and Tonk districts",
+   "entity": "Hindustan Petroleum Corporation Limited",
+   "group": "Hindustan Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Rajasthan|Karauli": [
+  {
+   "ga_id": "11.44",
+   "ga_name": "Dausa, Karauli, Sawai Madhopur and Tonk districts",
+   "entity": "Hindustan Petroleum Corporation Limited",
+   "group": "Hindustan Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Rajasthan|Sawai Madhopur": [
+  {
+   "ga_id": "11.44",
+   "ga_name": "Dausa, Karauli, Sawai Madhopur and Tonk districts",
+   "entity": "Hindustan Petroleum Corporation Limited",
+   "group": "Hindustan Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Rajasthan|Tonk": [
+  {
+   "ga_id": "11.44",
+   "ga_name": "Dausa, Karauli, Sawai Madhopur and Tonk districts",
+   "entity": "Hindustan Petroleum Corporation Limited",
+   "group": "Hindustan Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Rajasthan|Bharatpur": [
+  {
+   "ga_id": "99.13",
+   "ga_name": "Firozabad (Taj Trapezium Zone)",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Tripura|Gomati": [
+  {
+   "ga_id": "9.74",
+   "ga_name": "Gomati District",
+   "entity": "Tripura Natural Gas Company Limited",
+   "group": "Tripura Natural Gas Company Limited",
+   "note": ""
+  }
+ ],
+ "Tripura|West Tripura": [
+  {
+   "ga_id": "9.75",
+   "ga_name": "West Tripura (EAAA) District",
+   "entity": "Tripura Natural Gas Company Limited",
+   "group": "Tripura Natural Gas Company Limited",
+   "note": "EAAA"
+  },
+  {
+   "ga_id": "99.16",
+   "ga_name": "Agartala",
+   "entity": "Tripura Natural Gas Company Limited",
+   "group": "Tripura Natural Gas Company Limited",
+   "note": ""
+  }
+ ],
+ "Tripura|South Tripura": [
+  {
+   "ga_id": "11.56",
+   "ga_name": "South Tripura and Sepahijala district",
+   "entity": "North East Gas Distribution Private Limited",
+   "group": "North East Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Tripura|Sipahijala": [
+  {
+   "ga_id": "11.56",
+   "ga_name": "South Tripura and Sepahijala district",
+   "entity": "North East Gas Distribution Private Limited",
+   "group": "North East Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Tripura|Dhalai": [
+  {
+   "ga_id": "11.57",
+   "ga_name": "Dhalai, North Tripura, Unakoti and Khowai",
+   "entity": "North East Gas Distribution Private Limited",
+   "group": "North East Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Tripura|North Tripura": [
+  {
+   "ga_id": "11.57",
+   "ga_name": "Dhalai, North Tripura, Unakoti and Khowai",
+   "entity": "North East Gas Distribution Private Limited",
+   "group": "North East Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Tripura|Unokoti": [
+  {
+   "ga_id": "11.57",
+   "ga_name": "Dhalai, North Tripura, Unakoti and Khowai",
+   "entity": "North East Gas Distribution Private Limited",
+   "group": "North East Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Tripura|Khowai": [
+  {
+   "ga_id": "11.57",
+   "ga_name": "Dhalai, North Tripura, Unakoti and Khowai",
+   "entity": "North East Gas Distribution Private Limited",
+   "group": "North East Gas Distribution Private Limited",
+   "note": ""
+  }
+ ],
+ "Uttarakhand|Dehradun": [
+  {
+   "ga_id": "9.85",
+   "ga_name": "Dehradun District",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Uttarakhand|Pauri Garhwal": [
+  {
+   "ga_id": "11.64",
+   "ga_name": "Pauri Garhwal, Uttarkashi, Rudraprayag and Tehri Garhwal districts",
+   "entity": "Gasonet Services (UK) Limited",
+   "group": "Gasonet Services",
+   "note": ""
+  }
+ ],
+ "Uttarakhand|Rudraprayag": [
+  {
+   "ga_id": "11.64",
+   "ga_name": "Pauri Garhwal, Uttarkashi, Rudraprayag and Tehri Garhwal districts",
+   "entity": "Gasonet Services (UK) Limited",
+   "group": "Gasonet Services",
+   "note": ""
+  }
+ ],
+ "Uttarakhand|Tehri Garhwal": [
+  {
+   "ga_id": "11.64",
+   "ga_name": "Pauri Garhwal, Uttarkashi, Rudraprayag and Tehri Garhwal districts",
+   "entity": "Gasonet Services (UK) Limited",
+   "group": "Gasonet Services",
+   "note": ""
+  }
+ ],
+ "Uttarakhand|Uttarkashi": [
+  {
+   "ga_id": "11.64",
+   "ga_name": "Pauri Garhwal, Uttarkashi, Rudraprayag and Tehri Garhwal districts",
+   "entity": "Gasonet Services (UK) Limited",
+   "group": "Gasonet Services",
+   "note": ""
+  }
+ ],
+ "Uttarakhand|Pithoragarh": [
+  {
+   "ga_id": "11.65",
+   "ga_name": "Pithoragarh, Champawat, Almora, Chamoli and Bageshwar districts",
+   "entity": "Gasonet Services (UK) Limited",
+   "group": "Gasonet Services",
+   "note": ""
+  }
+ ],
+ "Uttarakhand|Champawat": [
+  {
+   "ga_id": "11.65",
+   "ga_name": "Pithoragarh, Champawat, Almora, Chamoli and Bageshwar districts",
+   "entity": "Gasonet Services (UK) Limited",
+   "group": "Gasonet Services",
+   "note": ""
+  }
+ ],
+ "Uttarakhand|Almora": [
+  {
+   "ga_id": "11.65",
+   "ga_name": "Pithoragarh, Champawat, Almora, Chamoli and Bageshwar districts",
+   "entity": "Gasonet Services (UK) Limited",
+   "group": "Gasonet Services",
+   "note": ""
+  }
+ ],
+ "Uttarakhand|Chamoli": [
+  {
+   "ga_id": "11.65",
+   "ga_name": "Pithoragarh, Champawat, Almora, Chamoli and Bageshwar districts",
+   "entity": "Gasonet Services (UK) Limited",
+   "group": "Gasonet Services",
+   "note": ""
+  }
+ ],
+ "Uttarakhand|Bageshwar": [
+  {
+   "ga_id": "11.65",
+   "ga_name": "Pithoragarh, Champawat, Almora, Chamoli and Bageshwar districts",
+   "entity": "Gasonet Services (UK) Limited",
+   "group": "Gasonet Services",
+   "note": ""
+  }
+ ],
+ "Uttarakhand|Nainital": [
+  {
+   "ga_id": "10.46",
+   "ga_name": "Bijnor and Nainital Districts",
+   "entity": "Hindustan Petroleum Corporation Limited",
+   "group": "Hindustan Petroleum Corporation Limited",
+   "note": ""
+  }
+ ],
+ "Uttarakhand|Udham Singh Nagar": [
+  {
+   "ga_id": "5.01",
+   "ga_name": "Udham Singh Nagar District",
+   "entity": "Indian Oil-Adani Gas Private Limited",
+   "group": "Indian Oil-Adani Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "Uttarakhand|Haridwar": [
+  {
+   "ga_id": "5.02",
+   "ga_name": "Haridwar District",
+   "entity": "Haridwar Natural Gas Private Limited",
+   "group": "Haridwar Natural Gas Private Limited",
+   "note": ""
+  }
+ ],
+ "Arunachal Pradesh|Anjaw": [
+  {
+   "ga_id": "12.01",
+   "ga_name": "Arunachal Pradesh State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Arunachal Pradesh|Lohit": [
+  {
+   "ga_id": "12.01",
+   "ga_name": "Arunachal Pradesh State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Arunachal Pradesh|Changlang": [
+  {
+   "ga_id": "12.01",
+   "ga_name": "Arunachal Pradesh State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Arunachal Pradesh|Namsai": [
+  {
+   "ga_id": "12.01",
+   "ga_name": "Arunachal Pradesh State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Arunachal Pradesh|Upper Dibang Valley": [
+  {
+   "ga_id": "12.01",
+   "ga_name": "Arunachal Pradesh State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Arunachal Pradesh|Lower Dibang Valley": [
+  {
+   "ga_id": "12.01",
+   "ga_name": "Arunachal Pradesh State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Arunachal Pradesh|East Kameng": [
+  {
+   "ga_id": "12.01",
+   "ga_name": "Arunachal Pradesh State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Arunachal Pradesh|Pakke Kessang": [
+  {
+   "ga_id": "12.01",
+   "ga_name": "Arunachal Pradesh State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Arunachal Pradesh|East Siang": [
+  {
+   "ga_id": "12.01",
+   "ga_name": "Arunachal Pradesh State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Arunachal Pradesh|Upper Siang": [
+  {
+   "ga_id": "12.01",
+   "ga_name": "Arunachal Pradesh State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Arunachal Pradesh|Kamle": [
+  {
+   "ga_id": "12.01",
+   "ga_name": "Arunachal Pradesh State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Arunachal Pradesh|Lower Siang": [
+  {
+   "ga_id": "12.01",
+   "ga_name": "Arunachal Pradesh State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Arunachal Pradesh|Lepa Rada": [
+  {
+   "ga_id": "12.01",
+   "ga_name": "Arunachal Pradesh State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Arunachal Pradesh|Kra Daadi": [
+  {
+   "ga_id": "12.01",
+   "ga_name": "Arunachal Pradesh State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Arunachal Pradesh|Kurung Kumey": [
+  {
+   "ga_id": "12.01",
+   "ga_name": "Arunachal Pradesh State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Arunachal Pradesh|Tirap": [
+  {
+   "ga_id": "12.01",
+   "ga_name": "Arunachal Pradesh State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Arunachal Pradesh|Longding": [
+  {
+   "ga_id": "12.01",
+   "ga_name": "Arunachal Pradesh State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Arunachal Pradesh|Papum Pare": [
+  {
+   "ga_id": "12.01",
+   "ga_name": "Arunachal Pradesh State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Arunachal Pradesh|Lower Subansiri": [
+  {
+   "ga_id": "12.01",
+   "ga_name": "Arunachal Pradesh State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Arunachal Pradesh|Shi Yomi": [
+  {
+   "ga_id": "12.01",
+   "ga_name": "Arunachal Pradesh State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Arunachal Pradesh|Siang": [
+  {
+   "ga_id": "12.01",
+   "ga_name": "Arunachal Pradesh State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Arunachal Pradesh|Tawang": [
+  {
+   "ga_id": "12.01",
+   "ga_name": "Arunachal Pradesh State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Arunachal Pradesh|West Kameng": [
+  {
+   "ga_id": "12.01",
+   "ga_name": "Arunachal Pradesh State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Arunachal Pradesh|Upper Subansiri": [
+  {
+   "ga_id": "12.01",
+   "ga_name": "Arunachal Pradesh State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Arunachal Pradesh|West Siang": [
+  {
+   "ga_id": "12.01",
+   "ga_name": "Arunachal Pradesh State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Meghalaya|East Garo Hills": [
+  {
+   "ga_id": "12.02",
+   "ga_name": "Meghalaya State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Meghalaya|North Garo Hills": [
+  {
+   "ga_id": "12.02",
+   "ga_name": "Meghalaya State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Meghalaya|South Garo Hills": [
+  {
+   "ga_id": "12.02",
+   "ga_name": "Meghalaya State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Meghalaya|South West Khasi Hills": [
+  {
+   "ga_id": "12.02",
+   "ga_name": "Meghalaya State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Meghalaya|West Garo Hills": [
+  {
+   "ga_id": "12.02",
+   "ga_name": "Meghalaya State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Meghalaya|South West Garo Hills": [
+  {
+   "ga_id": "12.02",
+   "ga_name": "Meghalaya State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Meghalaya|East Khasi Hills": [
+  {
+   "ga_id": "12.02",
+   "ga_name": "Meghalaya State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Meghalaya|East Jaintia Hills": [
+  {
+   "ga_id": "12.02",
+   "ga_name": "Meghalaya State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Meghalaya|West Jaintia Hills": [
+  {
+   "ga_id": "12.02",
+   "ga_name": "Meghalaya State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Meghalaya|West Khasi Hills": [
+  {
+   "ga_id": "12.02",
+   "ga_name": "Meghalaya State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Meghalaya|Ribhoi": [
+  {
+   "ga_id": "12.02",
+   "ga_name": "Meghalaya State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Manipur|Bishnupur": [
+  {
+   "ga_id": "12.03",
+   "ga_name": "Manipur State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Manipur|Kakching": [
+  {
+   "ga_id": "12.03",
+   "ga_name": "Manipur State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Manipur|Tengnoupal": [
+  {
+   "ga_id": "12.03",
+   "ga_name": "Manipur State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Manipur|Chandel": [
+  {
+   "ga_id": "12.03",
+   "ga_name": "Manipur State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Manipur|Churachandpur": [
+  {
+   "ga_id": "12.03",
+   "ga_name": "Manipur State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Manipur|Pherzawl": [
+  {
+   "ga_id": "12.03",
+   "ga_name": "Manipur State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Manipur|Imphal East": [
+  {
+   "ga_id": "12.03",
+   "ga_name": "Manipur State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Manipur|Thoubal": [
+  {
+   "ga_id": "12.03",
+   "ga_name": "Manipur State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Manipur|Imphal West": [
+  {
+   "ga_id": "12.03",
+   "ga_name": "Manipur State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Manipur|Kangpokpi": [
+  {
+   "ga_id": "12.03",
+   "ga_name": "Manipur State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Manipur|Jiribam": [
+  {
+   "ga_id": "12.03",
+   "ga_name": "Manipur State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Manipur|Kamjong": [
+  {
+   "ga_id": "12.03",
+   "ga_name": "Manipur State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Manipur|Ukhrul": [
+  {
+   "ga_id": "12.03",
+   "ga_name": "Manipur State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Manipur|Noney": [
+  {
+   "ga_id": "12.03",
+   "ga_name": "Manipur State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Manipur|Senapati": [
+  {
+   "ga_id": "12.03",
+   "ga_name": "Manipur State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Manipur|Tamenglong": [
+  {
+   "ga_id": "12.03",
+   "ga_name": "Manipur State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Nagaland|Dimapur": [
+  {
+   "ga_id": "12.04",
+   "ga_name": "Nagaland State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Nagaland|Kohima": [
+  {
+   "ga_id": "12.04",
+   "ga_name": "Nagaland State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Nagaland|Peren": [
+  {
+   "ga_id": "12.04",
+   "ga_name": "Nagaland State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Nagaland|Kiphire": [
+  {
+   "ga_id": "12.04",
+   "ga_name": "Nagaland State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Nagaland|Phek": [
+  {
+   "ga_id": "12.04",
+   "ga_name": "Nagaland State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Nagaland|Tuensang": [
+  {
+   "ga_id": "12.04",
+   "ga_name": "Nagaland State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Nagaland|Longleng": [
+  {
+   "ga_id": "12.04",
+   "ga_name": "Nagaland State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Nagaland|Mon": [
+  {
+   "ga_id": "12.04",
+   "ga_name": "Nagaland State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Nagaland|Mokokchung": [
+  {
+   "ga_id": "12.04",
+   "ga_name": "Nagaland State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Nagaland|Wokha": [
+  {
+   "ga_id": "12.04",
+   "ga_name": "Nagaland State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Nagaland|Zunheboto": [
+  {
+   "ga_id": "12.04",
+   "ga_name": "Nagaland State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Sikkim|East Sikkim": [
+  {
+   "ga_id": "12.05",
+   "ga_name": "Sikkim State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Sikkim|West Sikkim": [
+  {
+   "ga_id": "12.05",
+   "ga_name": "Sikkim State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Sikkim|South Sikkim": [
+  {
+   "ga_id": "12.05",
+   "ga_name": "Sikkim State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Sikkim|North Sikkim": [
+  {
+   "ga_id": "12.05",
+   "ga_name": "Sikkim State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Jammu and Kashmir|Anantnag": [
+  {
+   "ga_id": "12.06",
+   "ga_name": "UT of Jammu & Kashmir and Ladakh",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Jammu and Kashmir|Bandipora": [
+  {
+   "ga_id": "12.06",
+   "ga_name": "UT of Jammu & Kashmir and Ladakh",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Jammu and Kashmir|Baramulla": [
+  {
+   "ga_id": "12.06",
+   "ga_name": "UT of Jammu & Kashmir and Ladakh",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Jammu and Kashmir|Budgam": [
+  {
+   "ga_id": "12.06",
+   "ga_name": "UT of Jammu & Kashmir and Ladakh",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Jammu and Kashmir|Doda": [
+  {
+   "ga_id": "12.06",
+   "ga_name": "UT of Jammu & Kashmir and Ladakh",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Jammu and Kashmir|Ganderbal": [
+  {
+   "ga_id": "12.06",
+   "ga_name": "UT of Jammu & Kashmir and Ladakh",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Ladakh|Kargil": [
+  {
+   "ga_id": "12.06",
+   "ga_name": "UT of Jammu & Kashmir and Ladakh",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Jammu and Kashmir|Kishtwar": [
+  {
+   "ga_id": "12.06",
+   "ga_name": "UT of Jammu & Kashmir and Ladakh",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Jammu and Kashmir|Kulgam": [
+  {
+   "ga_id": "12.06",
+   "ga_name": "UT of Jammu & Kashmir and Ladakh",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Jammu and Kashmir|Kupwara": [
+  {
+   "ga_id": "12.06",
+   "ga_name": "UT of Jammu & Kashmir and Ladakh",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Ladakh|Leh": [
+  {
+   "ga_id": "12.06",
+   "ga_name": "UT of Jammu & Kashmir and Ladakh",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Jammu and Kashmir|Punch": [
+  {
+   "ga_id": "12.06",
+   "ga_name": "UT of Jammu & Kashmir and Ladakh",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Jammu and Kashmir|Pulwama": [
+  {
+   "ga_id": "12.06",
+   "ga_name": "UT of Jammu & Kashmir and Ladakh",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Jammu and Kashmir|Rajouri": [
+  {
+   "ga_id": "12.06",
+   "ga_name": "UT of Jammu & Kashmir and Ladakh",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Jammu and Kashmir|Ramban": [
+  {
+   "ga_id": "12.06",
+   "ga_name": "UT of Jammu & Kashmir and Ladakh",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Jammu and Kashmir|Shopiyan": [
+  {
+   "ga_id": "12.06",
+   "ga_name": "UT of Jammu & Kashmir and Ladakh",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Jammu and Kashmir|Srinagar": [
+  {
+   "ga_id": "12.06",
+   "ga_name": "UT of Jammu & Kashmir and Ladakh",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Mizoram|Aizawl": [
+  {
+   "ga_id": "12A",
+   "ga_name": "Mizoram State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Mizoram|Lunglei": [
+  {
+   "ga_id": "12A",
+   "ga_name": "Mizoram State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Mizoram|Serchhip": [
+  {
+   "ga_id": "12A",
+   "ga_name": "Mizoram State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Mizoram|Hnahthial": [
+  {
+   "ga_id": "12A",
+   "ga_name": "Mizoram State",
+   "entity": "GAIL Gas Limited",
+   "group": "GAIL Gas Limited",
+   "note": ""
+  }
+ ],
+ "Punjab|Patiala": [
+  {
+   "ga_id": "9.52",
+   "ga_name": "SAS Nagar District (EAAA), Patiala & Sangrur Districts",
+   "entity": "Torrent Gas Private Limited",
+   "group": "Torrent Gas",
+   "note": "district named in GA title (PDF column under-filled)"
+  }
+ ],
+ "Punjab|Sangrur": [
+  {
+   "ga_id": "9.52",
+   "ga_name": "SAS Nagar District (EAAA), Patiala & Sangrur Districts",
+   "entity": "Torrent Gas Private Limited",
+   "group": "Torrent Gas",
+   "note": "district named in GA title (PDF column under-filled)"
+  }
+ ],
+ "Punjab|Barnala": [
+  {
+   "ga_id": "9.53",
+   "ga_name": "Ludhiana District (Except area already authorized), Barnala & Moga Districts",
+   "entity": "Think Gas Ludhiana Private Limited",
+   "group": "Think Gas",
+   "note": "district named in GA title (PDF column under-filled)"
+  }
+ ],
+ "Punjab|Moga": [
+  {
+   "ga_id": "9.53",
+   "ga_name": "Ludhiana District (Except area already authorized), Barnala & Moga Districts",
+   "entity": "Think Gas Ludhiana Private Limited",
+   "group": "Think Gas",
+   "note": "district named in GA title (PDF column under-filled)"
+  }
+ ],
+ "Punjab|Kapurthala": [
+  {
+   "ga_id": "9.54",
+   "ga_name": "Jalandhar District (EAAA), Kapurthala & SBS Nagar Districts",
+   "entity": "Think Gas Ludhiana Private Limited",
+   "group": "Think Gas",
+   "note": "district named in GA title (PDF column under-filled)"
+  }
+ ],
+ "Punjab|Shahid Bhagat Singh Nagar": [
+  {
+   "ga_id": "9.54",
+   "ga_name": "Jalandhar District (EAAA), Kapurthala & SBS Nagar Districts",
+   "entity": "Think Gas Ludhiana Private Limited",
+   "group": "Think Gas",
+   "note": "district named in GA title (PDF column under-filled)"
+  }
+ ],
+ "Puducherry|Karaikal": [
+  {
+   "ga_id": "9.50",
+   "ga_name": "Karaikal & Nagapattinam Districts",
+   "entity": "Torrent Gas Private Limited",
+   "group": "Torrent Gas",
+   "note": "district named in GA title (PDF column under-filled)"
+  }
+ ],
+ "Gujarat|Morbi": [
+  {
+   "ga_id": "98.06",
+   "ga_name": "Rajkot",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": "district named in GA title (PDF column under-filled)"
+  }
+ ],
+ "Gujarat|Devbhumi Dwarka": [
+  {
+   "ga_id": "3.03",
+   "ga_name": "Jamnagar",
+   "entity": "Gujarat Gas Limited",
+   "group": "Gujarat Gas Limited",
+   "note": "district named in GA title (PDF column under-filled)"
+  }
+ ],
+ "Gujarat|Aravalli": [
+  {
+   "ga_id": "99.11",
+   "ga_name": "Gandhinagar Mehsana Sabarkantha",
+   "entity": "Sabarmati Gas Limited",
+   "group": "Sabarmati Gas Limited",
+   "note": "district named in GA title (PDF column under-filled)"
+  }
+ ],
+ "Telangana|Mulugu": [
+  {
+   "ga_id": "9.70",
+   "ga_name": "Jangaon, Jayashankar Bhupalpally, Mahabubabad, Warangal Urban & Warangal Rural Districts",
+   "entity": "Megha City Gas Distribution Private Limited",
+   "group": "Megha City Gas Distribution Private Limited",
+   "note": "district named in GA title (PDF column under-filled)"
+  }
+ ]
+}
