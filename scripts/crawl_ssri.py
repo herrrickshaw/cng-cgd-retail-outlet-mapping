@@ -28,18 +28,7 @@ def fetch(page, retries=5):
             time.sleep(2 * (a + 1))
     return page, None
 
-first = sess.get(BASE, params={"limit": LIMIT, "page": 1}, timeout=40).json()
-count = first["count"]
-pages = (count + LIMIT - 1) // LIMIT
-print(f"count={count} pages={pages}", flush=True)
-
-out = open("ssri_pumps_raw.jsonl", "w")
-seen = set()
-failed = []
-done = 0
-
-def write_rows(rows):
-    global done
+def write_rows(rows, out, seen):
     for p in rows:
         pid = p.get("id")
         if pid in seen:
@@ -47,23 +36,40 @@ def write_rows(rows):
         seen.add(pid)
         out.write(json.dumps({k: p.get(k) for k in KEEP}, separators=(",", ":")) + "\n")
 
-with ThreadPoolExecutor(max_workers=3) as ex:
-    futs = {ex.submit(fetch, pg): pg for pg in range(1, pages + 1)}
-    for f in as_completed(futs):
-        pg, rows = f.result()
-        done += 1
-        if rows is None:
-            failed.append(pg)
-        else:
-            write_rows(rows)
-        if done % 100 == 0:
-            print(f"{done}/{pages} pages, {len(seen)} unique, {len(failed)} failed", flush=True)
 
-# one sequential retry round for failures
-for pg in failed:
-    _, rows = fetch(pg, retries=3)
-    if rows:
-        write_rows(rows)
+def main():
+    try:
+        first = sess.get(BASE, params={"limit": LIMIT, "page": 1}, timeout=40).json()
+    except Exception as e:                       # noqa: BLE001 — report + exit, don't crash
+        print(f"initial request failed: {e}", file=sys.stderr)
+        return 1
+    count = first.get("count", 0)
+    pages = (count + LIMIT - 1) // LIMIT
+    print(f"count={count} pages={pages}", flush=True)
 
-out.close()
-print(f"DONE unique={len(seen)} failed_pages_after_retry={len(failed)}", flush=True)
+    seen, failed, done = set(), [], 0
+    with open("ssri_pumps_raw.jsonl", "w") as out:
+        with ThreadPoolExecutor(max_workers=3) as ex:
+            futs = {ex.submit(fetch, pg): pg for pg in range(1, pages + 1)}
+            for f in as_completed(futs):
+                pg, rows = f.result()
+                done += 1
+                if rows is None:
+                    failed.append(pg)
+                else:
+                    write_rows(rows, out, seen)
+                if done % 100 == 0:
+                    print(f"{done}/{pages} pages, {len(seen)} unique, "
+                          f"{len(failed)} failed", flush=True)
+        # one sequential retry round for failures
+        for pg in failed:
+            _, rows = fetch(pg, retries=3)
+            if rows:
+                write_rows(rows, out, seen)
+
+    print(f"DONE unique={len(seen)} failed_pages_after_retry={len(failed)}", flush=True)
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

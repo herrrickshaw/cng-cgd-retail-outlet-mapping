@@ -273,3 +273,31 @@ def test_join_is_idempotent_on_rerun(tmp_path, monkeypatch):
     second = (tmp_path / "cgd_ga_allotment.csv").read_text()
     assert first == second
     assert len(list(csv.reader(second.splitlines()))) == 3  # header + 2 rows
+
+
+# --------------------------- crawl_ssri.py : main() guard regression --------------
+
+def test_crawl_ssri_import_is_side_effect_free():
+    """After the main() refactor, importing the module must NOT hit the network
+    or write ssri_pumps_raw.jsonl — the crawl only runs under __main__."""
+    import importlib
+    import sys
+    sys.path.insert(0, SCRIPTS)
+    for m in ("crawl_ssri",):
+        sys.modules.pop(m, None)
+    mod = importlib.import_module("crawl_ssri")   # would raise/hang if it crawled
+    assert callable(mod.main)
+
+
+def test_write_rows_dedups_by_id():
+    """write_rows(rows, out, seen) — explicit args (the old `global done` was dead)."""
+    import io
+    import importlib
+    import sys
+    sys.path.insert(0, SCRIPTS)
+    mod = importlib.import_module("crawl_ssri")
+    out, seen = io.StringIO(), set()
+    mod.write_rows([{"id": 1, "name": "A"}, {"id": 1, "name": "dupe"},
+                    {"id": 2, "name": "B"}], out, seen)
+    lines = out.getvalue().strip().splitlines()
+    assert len(lines) == 2 and seen == {1, 2}
