@@ -1,5 +1,9 @@
 # CNG & CGD Retail Outlet Mapping
 
+<!-- how-to-use-with-ai -->
+> **New here?** See [How to use this repo with AI (Claude, Gemini, ChatGPT)](HOW_TO_USE_WITH_AI.md) — clone it, paste it into an AI tool, and ask in plain English.
+
+
 District-wise map of **all PNGRB-authorised City Gas Distribution (CGD) geographical
 areas** linked to **82,593 fuel retail outlets** — answering, for every outlet:
 *which CGD entity is authorised to supply it CNG (by cascade today, by pipeline where
