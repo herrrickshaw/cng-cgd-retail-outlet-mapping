@@ -85,6 +85,32 @@ into `india_districts_clean.geojson`.
   Mizoram beyond the Aizawl GA, Majuli, Kalimpong, Ratnagiri, Pratapgarh (RJ),
   Chhota Udaipur.
 
+## Data currency (checked 17 Oct 2026)
+
+Repo data is the **22 Jul 2026** snapshot. Newer open sources were probed with `curl`:
+
+| Source | Fetchable? | Finding |
+|---|---|---|
+| PNGRB GA list PDF (`State and Entity-wise list of GAs`) | **No stable URL found** | pngrb.gov.in home page loads, but the only CGD link (`cgd-auth.html`) returns 404 and the home page links no GA-list PDF; the guessed PDF path 404s. The committed `data/pngrb_ga_list.md` (309 GAs, through round 12A) therefore cannot be refreshed or checked for newer bidding rounds from here. The home page only says GA proposals are under review. |
+| PPAC "CGD Network" table (CNG stations + PNG connections by state, as on 31.07.2026 P) | **Yes** | New `scripts/refresh_ppac_cng.py` discovers the xlsx link on `ppac.gov.in/natural-gas/city-gas-distribution-network`, writes `data/ppac_cng_png_by_state.csv` (two dated blocks: 31.01.2025 and 31.07.2026) and prints a diff against `has_cng` in `outlets_cgd.csv.gz`. |
+| PPAC "Snapshot of India Oil & Gas" (Sept 2026 edition) | Yes (9.9 MB PDF, not committed) | CNG stations 9,158 as on 31.08.2026 (P); retail outlets 104,121 and 7,778 ROs with CNG/LNG as on 01.10.2026 (P). |
+| PPAC state-wise retail outlets xls | Yes | All-India 103,023 outlets at 01.04.2026 (96,724 at 01.04.2025); not committed. |
+| SSRI pumps API | Yes | `count` is now 107,380 raw records vs 105,035 in the committed crawl (22 Jul). **Not re-crawled** in this pass. |
+
+**Diff vs current data** (`python scripts/refresh_ppac_cng.py`): PPAC reports 9,096 CNG
+stations (31.07.2026) against 11,198 outlets flagged `has_cng` here (README headline
+says 11,194), so SSRI `has_cng` overstates PPAC by about 23% (roughly 2,100). Overstatement is
+broad (Gujarat +420, MP +323, UP +315, TN +213; only some states are under).
+Delhi is the outlier the other way: SSRI flags just 5 of 363 Delhi outlets as CNG versus
+PPAC's 459 stations. Treat `has_cng` as an upper-bound/noisy flag, not a station count.
+PPAC clubs multi-state GAs (e.g. "Bihar & Jharkhand"), so only single-state rows are compared.
+
+### Gaps / TODO
+- TODO: locate the current PNGRB authorised-entity / GA list (PDF or page) and check for GAs authorised after round 12A.
+- TODO: re-run `crawl_ssri.py` and `join_outlets.py` (raw count now 107,380) and regenerate headline numbers.
+- TODO: reconcile `has_cng` against PPAC (Delhi undercount, overstatement elsewhere), e.g. by cross-checking OMC CNG-station locators.
+- Gap: PPAC publishes no outlet-level or district-level CNG list; CGD sales volumes by entity were not located as a clean downloadable table.
+
 ## Sources
 
 - PNGRB, *State and Entity-wise list of GAs* — pngrb.gov.in
