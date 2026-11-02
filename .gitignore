@@ -9,3 +9,5 @@ gj_pairs.json
 crawl.log
 graphify-out/
 .pytest_cache/
+.venv/
+.ruff_cache/
