@@ -1,19 +1,12 @@
 """Tests for the CNG/CGD retail-outlet mapping pipeline (scripts/*.py).
 
-The pipeline scripts are written script-style: they run file/network I/O at module
-top level, so a plain ``import`` isn't hermetic. Two helpers bridge that gap:
-
-  * ``load_funcs()`` extracts only the top-level ``def``s, imports, and *literal*
-    constant tables (via AST), executing none of the I/O body — giving clean,
-    import-safe access to the pure functions (name normalizers, the SVG-path /
-    coordinate projector, and the network ``fetch`` retry loop).
-  * ``run_script()`` execs a whole script in a temp cwd against tiny fixture inputs
-    for a true end-to-end run (``join_final.py`` is pure file-in/file-out, no
-    network) — verifying output schema, alias/entity mapping, dedupe, and that a
-    re-run is idempotent (overwrites, never doubles).
+Every script is import-safe (work happens in ``main()`` under ``__main__``), so tests
+import the modules directly. File-in/file-out stages run ``main()`` in a temp cwd
+against tiny fixtures; network access is always mocked.
 """
-import ast
+import importlib
 import os
+import sys
 import types
 
 import pytest
@@ -21,54 +14,18 @@ import pytest
 SCRIPTS = os.path.join(
     os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "scripts"
 )
-
-
-# --------------------------- loaders --------------------------------------------
-
-def _is_literal(node):
-    """True for constant/list/tuple/set/dict literals (no calls, names, comprehensions)."""
-    if isinstance(node, ast.Constant):
-        return True
-    if isinstance(node, ast.UnaryOp) and isinstance(node.op, ast.USub):
-        return _is_literal(node.operand)
-    if isinstance(node, (ast.List, ast.Tuple, ast.Set)):
-        return all(_is_literal(e) for e in node.elts)
-    if isinstance(node, ast.Dict):
-        return all(k is None or _is_literal(k) for k in node.keys) and all(
-            _is_literal(v) for v in node.values
-        )
-    return False
+if SCRIPTS not in sys.path:
+    sys.path.insert(0, SCRIPTS)
 
 
 def load_funcs(name):
-    """Load a script's defs + imports + literal constants only — no top-level I/O runs."""
-    path = os.path.join(SCRIPTS, name)
-    with open(path) as fh:
-        tree = ast.parse(fh.read())
-    keep = []
-    for n in tree.body:
-        if isinstance(
-            n, (ast.Import, ast.ImportFrom, ast.FunctionDef, ast.AsyncFunctionDef, ast.ClassDef)
-        ):
-            keep.append(n)
-        elif isinstance(n, ast.Assign) and _is_literal(n.value):
-            keep.append(n)
-    mod = ast.Module(body=keep, type_ignores=[])
-    ast.fix_missing_locations(mod)
-    ns = types.ModuleType(name[:-3])
-    ns.__file__ = path
-    exec(compile(mod, path, "exec"), ns.__dict__)
-    return ns
+    """Import ``scripts/<name>`` (no side effects at import time)."""
+    return importlib.import_module(name[:-3])
 
 
 def run_script(name):
-    """Exec a full script (in whatever the current cwd is) — for end-to-end runs."""
-    path = os.path.join(SCRIPTS, name)
-    with open(path) as fh:
-        src = fh.read()
-    ns = {"__name__": "__main__", "__file__": path}
-    exec(compile(src, path, "exec"), ns)
-    return ns
+    """Run a script's ``main()`` in the current cwd — for end-to-end runs."""
+    return load_funcs(name).main()
 
 
 # --------------------------- normalize.py : name cleaning -----------------------
@@ -115,30 +72,29 @@ def test_entity_group_buckets_by_prefix_but_keeps_gail_distinct():
 
 def _load_projector():
     bh = load_funcs("build_html.py")
-    # inject the projection constants normally computed from the geojson bbox
-    bh.LOMIN, bh.LAMAX, bh.KX, bh.KY = 0.0, 10.0, 30.0, 30.0
-    return bh
+    # fixed projection normally derived from the geojson bbox
+    return bh.Projection(lomin=0.0, lamax=10.0, kx=30.0, ky=30.0)
 
 
 def test_px_projects_lonlat_to_pixels_north_up():
-    bh = _load_projector()
-    assert bh.px(1.0, 9.0) == (30.0, 30.0)
+    proj = _load_projector()
+    assert proj.px(1.0, 9.0) == (30.0, 30.0)
     # y grows downward as latitude drops (screen space is north-up)
-    assert bh.px(0.0, 10.0)[1] < bh.px(0.0, 8.0)[1]
+    assert proj.px(0.0, 10.0)[1] < proj.px(0.0, 8.0)[1]
 
 
 def test_ring_to_path_emits_svg_and_dedups_repeats():
-    bh = _load_projector()
-    path = bh.ring_to_path([(0, 10), (1, 10), (1, 10), (0, 9)])  # dup 2nd point
+    proj = _load_projector()
+    path = proj.ring_to_path([(0, 10), (1, 10), (1, 10), (0, 9)])  # dup 2nd point
     assert path.startswith("M")
     assert path.endswith("Z")
     assert path.count("L") == 2  # duplicate collapsed: 3 distinct verts -> M + 2 L
 
 
 def test_geom_to_path_handles_polygon_and_multipolygon():
-    bh = _load_projector()
-    poly = bh.geom_to_path({"type": "Polygon", "coordinates": [[[0, 10], [1, 10], [0, 9]]]})
-    multi = bh.geom_to_path(
+    proj = _load_projector()
+    poly = proj.geom_to_path({"type": "Polygon", "coordinates": [[[0, 10], [1, 10], [0, 9]]]})
+    multi = proj.geom_to_path(
         {"type": "MultiPolygon", "coordinates": [[[[0, 10], [1, 10], [0, 9]]]]}
     )
     assert poly == multi  # single-ring polygon == single-poly multipolygon
@@ -172,9 +128,10 @@ class _Sess:
 
 
 @pytest.fixture
-def crawl():
+def crawl(monkeypatch):
     mod = load_funcs("crawl_ssri.py")
-    mod.time = types.SimpleNamespace(sleep=lambda *_: None)  # never really wait
+    monkeypatch.setattr(mod, "time", types.SimpleNamespace(sleep=lambda *_: None))  # never wait
+    monkeypatch.setattr(mod, "sess", None)
     return mod
 
 
@@ -280,11 +237,7 @@ def test_join_is_idempotent_on_rerun(tmp_path, monkeypatch):
 def test_crawl_ssri_import_is_side_effect_free():
     """After the main() refactor, importing the module must NOT hit the network
     or write ssri_pumps_raw.jsonl — the crawl only runs under __main__."""
-    import importlib
-    import sys
-    sys.path.insert(0, SCRIPTS)
-    for m in ("crawl_ssri",):
-        sys.modules.pop(m, None)
+    sys.modules.pop("crawl_ssri", None)
     mod = importlib.import_module("crawl_ssri")   # would raise/hang if it crawled
     assert callable(mod.main)
 
@@ -292,12 +245,131 @@ def test_crawl_ssri_import_is_side_effect_free():
 def test_write_rows_dedups_by_id():
     """write_rows(rows, out, seen) — explicit args (the old `global done` was dead)."""
     import io
-    import importlib
-    import sys
-    sys.path.insert(0, SCRIPTS)
     mod = importlib.import_module("crawl_ssri")
     out, seen = io.StringIO(), set()
     mod.write_rows([{"id": 1, "name": "A"}, {"id": 1, "name": "dupe"},
                     {"id": 2, "name": "B"}], out, seen)
     lines = out.getvalue().strip().splitlines()
     assert len(lines) == 2 and seen == {1, 2}
+
+
+# --------------------------- normalize.py : to_district_rows -----------------------
+
+def test_to_district_rows_expands_special_cases():
+    nz = load_funcs("normalize.py")
+    rows = [
+        {"state": "Telangana", "ga_id": "3.1", "ga_name": "N  G", "districts": "Nalgonda Suryapet",
+         "entity": "Y  Ltd"},
+        {"state": "Gujarat", "ga_id": "2.1", "ga_name": "K", "districts": "Kutch (East)*, the Dangs",
+         "entity": "X"},
+        {"state": "Rajasthan", "ga_id": "4.1", "ga_name": "A",
+         "districts": "Bhiwadi (in Alwar ), (EAAA)", "entity": "Z"},
+    ]
+    out = nz.to_district_rows(rows)
+    assert [(r["district"], r["note"]) for r in out] == [
+        ("Nalgonda", ""), ("Suryapet", ""),
+        ("Kachchh", "East"), ("Dang", ""),
+        ("Alwar", "EAAA"),   # orphan "(EAAA)" overwrites the note of the previous row
+    ]
+    assert out[0]["ga_name"] == "N G" and out[0]["entity"] == "Y Ltd"  # whitespace collapsed
+
+
+# --------------------------- join_final.py : build_alloc ---------------------------
+
+def test_build_alloc_alias_ap_expand_and_unmatched():
+    jf = load_funcs("join_final.py")
+    pairs = [("Andhra Pradesh", "East Godavari"), ("Andhra Pradesh", "Kakinada"),
+             ("Kerala", "Kasaragod")]
+    base = {"ga_id": "1", "ga_name": "G", "note": "", "entity": "HPCL"}
+    rows = [
+        dict(base, state="Andhra Pradesh", district="East Godavari"),
+        dict(base, state="Kerala", district="Kasargod"),
+        dict(base, state="Kerala", district="Nowhereville"),
+    ]
+    alloc, unmatched = jf.build_alloc(rows, pairs)
+    assert "Andhra Pradesh|Kakinada" in alloc
+    assert alloc["Andhra Pradesh|Kakinada"][0]["note"] == "successor of pre-2022 district"
+    assert alloc["Kerala|Kasaragod"][0]["entity"] == "Hindustan Petroleum Corporation Limited"
+    assert unmatched == [("Kerala", "Nowhereville", "1", "no-match")]
+
+
+# --------------------------- join_outlets.py : pure stages -------------------------
+
+def test_load_outlets_dedups_content_and_rejects_bad_coords():
+    import json
+
+    jo = load_funcs("join_outlets.py")
+    good = {"id": 1, "name": "A", "address": "x", "company": "IOCL",
+            "latitude": "28.6", "longitude": "77.2"}
+    lines = [json.dumps(p) for p in (
+        good,
+        dict(good, id=2),                               # same content, new id -> dupe
+        dict(good, id=3, latitude="oops"),              # unparsable
+        dict(good, id=4, latitude="50.0"),              # outside India
+        dict(good, id=5, name="B"),
+    )]
+    rows, dupes, bad = jo.load_outlets(lines)
+    assert [r["id"] for r in rows] == [1, 5] and dupes == 1 and bad == 2
+
+
+def test_assign_districts_and_cgd_columns():
+    jo = load_funcs("join_outlets.py")
+    square = {"type": "Polygon", "coordinates": [[[77, 28], [78, 28], [78, 29], [77, 29], [77, 28]]]}
+    gj = {"features": [{"geometry": square, "properties": {"st_nm": "Delhi", "district": "New Delhi"}}]}
+    rows = [{"lon": 77.5, "lat": 28.5}, {"lon": 77.51, "lat": 29.02}, {"lon": 90.0, "lat": 10.0}]
+    assert jo.assign_districts(rows, gj) == 1
+    assert rows[0]["gj_district"] == "New Delhi"
+    assert rows[1]["gj_district"] == "New Delhi"        # within coastal tolerance
+    assert rows[2]["gj_district"] is None
+    alloc = {"Delhi|New Delhi": [{"entity": "IGL", "ga_id": "1", "ga_name": "G"}]}
+    assert jo.cgd_columns(rows[0], alloc) == ("IGL", "1", "G", "CGD GA authorised")
+    assert jo.cgd_columns(rows[0], {})[3] == "no authorised CGD GA"
+    assert jo.cgd_columns(rows[2], alloc)[3] == "outside district map"
+
+
+def test_build_map_payload_skips_unassigned_and_indexes_districts():
+    jo = load_funcs("join_outlets.py")
+    rows = [
+        {"company": "BPCL", "lat": 1.23456, "lon": 2.0, "has_cng": True, "gj_state": "S", "gj_district": "D"},
+        {"company": None, "lat": 1.0, "lon": 2.0, "has_cng": False, "gj_state": None, "gj_district": None},
+        {"company": "HPCL", "lat": 3.0, "lon": 4.0, "has_cng": False, "gj_state": "S", "gj_district": "D"},
+    ]
+    p = jo.build_map_payload(rows)
+    assert p["companies"] == ["?", "BPCL", "HPCL"] and p["dist_keys"] == ["S|D"]
+    assert p["lat"] == [1.2346, 3.0] and p["cng"] == [1, 0] and p["dist"] == [0, 0]
+
+
+# --------------------------- build_html.py : payload ------------------------------
+
+def test_build_payload_groups_stats_and_outlet_remap():
+    bh = load_funcs("build_html.py")
+    tri = {"type": "Polygon", "coordinates": [[[0, 10], [1, 10], [0, 9]]]}
+    gj = {"features": [
+        {"geometry": tri, "properties": {"st": "S", "dt": "A"}},
+        {"geometry": tri, "properties": {"st": "S", "dt": "B"}},
+    ]}
+    alloc = {"S|A": [{"ga_id": "1", "ga_name": "g", "entity": "e", "group": "Torrent Gas", "note": ""}]}
+    outlets = {"dist_keys": ["S|B"], "dist": [0], "lat": [1]}
+    payload = bh.build_payload(gj, alloc, outlets)
+    assert [d["g"] for d in payload["dist"]] == [bh.GROUP_IDX["Torrent Gas"], bh.UNCOVERED]
+    assert payload["stats"] == {"gas": 1, "entities": 1, "covered": 1, "total": 2}
+    assert payload["outlets"]["dist"] == [1] and "dist_keys" not in payload["outlets"]
+    html = bh.render_html("<script>/*__DATA__*/</script>", {"a": 1})
+    assert html == '<script>const DATA={"a":1};</script>'
+
+
+# --------------------------- parse_ga.py : table folding (no PDF needed) ----------
+
+def test_parse_tables_tracks_state_and_continuation_rows():
+    pg = load_funcs("parse_ga.py")
+    tables = [[
+        ["S. No", "GA ID", "GA", "Districts", "Entity"],
+        ["Kerala", None, None, None, None],
+        ["1", "9.1", "Kochi", "Ernakulam", "IOAGPL"],
+        ["", "", "GA", "and Alappuzha", ""],
+    ]]
+    rows = []
+    state = pg.parse_tables(tables, 3, None, rows)
+    assert state == "Kerala" and len(rows) == 1
+    assert rows[0]["districts"] == "Ernakulam and Alappuzha" and rows[0]["ga_name"] == "Kochi GA"
+    assert rows[0]["page"] == 3 and rows[0]["sno"] == 1
