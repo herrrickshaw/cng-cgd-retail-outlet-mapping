@@ -5,12 +5,17 @@ Outputs:
   district_alloc.json  -- "State|District" -> [ {ga_id, ga_name, entity, entity_group, note}, ... ]
   cgd_ga_allotment.csv -- flat table
 """
+from __future__ import annotations
+
 import csv
 import json
 import re
+from pathlib import Path
 
-rows = json.load(open("ga_districts.json"))
-gj_pairs = [tuple(p) for p in json.load(open("gj_pairs.json"))]
+DISTRICTS_IN = Path("ga_districts.json")
+GJ_PAIRS_IN = Path("gj_pairs.json")
+ALLOC_OUT = Path("district_alloc.json")
+CSV_OUT = Path("cgd_ga_allotment.csv")
 
 STATE_MAP = {
  "Andhra Pradesh":["Andhra Pradesh"],"Telangana":["Telangana"],"West Bengal":["West Bengal"],
@@ -185,7 +190,8 @@ ENTITY_FIX = {
  "Haridwar Natrural Gas Private Limited": "Haridwar Natural Gas Private Limited",
 }
 
-def entity_group(e):
+def entity_group(e: str) -> str:
+    """Bucket an entity name into the legend group used for map colouring."""
     if e.startswith("Think Gas"): return "Think Gas"
     if e.startswith("Torrent Gas"): return "Torrent Gas"
     if e.startswith("Gasonet Services"): return "Gasonet Services"
@@ -194,31 +200,29 @@ def entity_group(e):
     if e == "GAIL Gas Limited" or e == "GAIL (India) Limited": return e  # keep distinct
     return e
 
-def norm(s):
+
+def norm(s: str) -> str:
+    """Upper-case, strip punctuation and collapse spaces for fuzzy district matching."""
     s = s.upper().strip()
     s = re.sub(r"[^A-Z0-9& ]", " ", s)
     return re.sub(r"\s+", " ", s).strip()
 
-by_state = {}
-for st, d in gj_pairs:
-    by_state.setdefault(st, {})[norm(d)] = d
 
-alloc = {}
-unmatched = []
-
-def add(st, dist, r, extra_note=""):
+def _add(alloc: dict, st: str, dist: str, r: dict, extra_note: str = "") -> None:
+    """Record GA ``r`` against ``st|dist`` unless the same GA+entity is already there."""
     key = f"{st}|{dist}"
     ent = ENTITY_FIX.get(r["entity"], r["entity"])
     note = "; ".join(x for x in (r["note"], extra_note) if x)
     rec = dict(ga_id=r["ga_id"], ga_name=r["ga_name"], entity=ent,
                group=entity_group(ent), note=note)
-    # dedupe same GA in same district
     for existing in alloc.get(key, []):
         if existing["ga_id"] == rec["ga_id"] and existing["entity"] == rec["entity"]:
             return
     alloc.setdefault(key, []).append(rec)
 
-for r in rows:
+
+def _match_row(alloc: dict, by_state: dict, r: dict) -> bool:
+    """Match one PNGRB district row to geojson districts; True if at least one hit."""
     states = STATE_MAP[r["state"]]
     d_up = norm(r["district"])
     hit = False
@@ -228,57 +232,85 @@ for r in rows:
             for st in states:
                 lut = by_state.get(st, {})
                 if norm(nd) in lut:
-                    add(st, lut[norm(nd)], r)
+                    _add(alloc, st, lut[norm(nd)], r)
                     hit = True
                     break
-        if not hit:
-            unmatched.append((r["state"], r["district"], r["ga_id"], "alias-miss"))
-        continue
+        return hit
     for st in states:
         lut = by_state.get(st, {})
         if st == "Andhra Pradesh" and d_up in AP_EXPAND:
             for nd in AP_EXPAND[d_up]:
                 if norm(nd) in lut:
-                    add(st, lut[norm(nd)], r,
-                        extra_note=("successor of pre-2022 district" if norm(nd) != d_up else ""))
+                    _add(alloc, st, lut[norm(nd)], r,
+                         extra_note=("successor of pre-2022 district" if norm(nd) != d_up else ""))
                     hit = True
             if hit: break
             continue
         if d_up in lut:
-            add(st, lut[d_up], r); hit = True; break
+            _add(alloc, st, lut[d_up], r); hit = True; break
         cands = [v for k, v in lut.items() if d_up in k or k in d_up]
         if len(cands) == 1:
-            add(st, cands[0], r); hit = True; break
-    if not hit:
-        unmatched.append((r["state"], r["district"], r["ga_id"], "no-match"))
+            _add(alloc, st, cands[0], r); hit = True; break
+    return hit
 
-# apply supplements (districts named in GA title but missing from the PDF column)
-ga_lookup = {}
-for r in rows:
-    ga_lookup.setdefault((r["state"], r["ga_id"]), r)
-for (st_pdf, ga_id), extras in SUPPLEMENTS.items():
-    r = ga_lookup.get((st_pdf, ga_id))
-    if not r:
-        print(f"!! supplement source row not found: {st_pdf} {ga_id}")
-        continue
-    for st in STATE_MAP[st_pdf]:
-        lut = by_state.get(st, {})
-        for nd in extras:
-            if norm(nd) in lut:
-                r2 = dict(r, note=(r["note"] + "; " if r["note"] else "") + "district named in GA title (PDF column under-filled)")
-                add(st, lut[norm(nd)], r2)
 
-n_alloc = sum(len(v) for v in alloc.values())
-print(f"allotments: {n_alloc} across {len(alloc)} districts; unmatched: {len(unmatched)}")
-for u in unmatched: print("  ", u)
+def _apply_supplements(alloc: dict, by_state: dict, rows: list[dict]) -> None:
+    """Add districts named in a GA title but missing from the PDF column."""
+    ga_lookup: dict = {}
+    for r in rows:
+        ga_lookup.setdefault((r["state"], r["ga_id"]), r)
+    for (st_pdf, ga_id), extras in SUPPLEMENTS.items():
+        r = ga_lookup.get((st_pdf, ga_id))
+        if not r:
+            print(f"!! supplement source row not found: {st_pdf} {ga_id}")
+            continue
+        for st in STATE_MAP[st_pdf]:
+            lut = by_state.get(st, {})
+            for nd in extras:
+                if norm(nd) in lut:
+                    prefix = r["note"] + "; " if r["note"] else ""
+                    r2 = dict(r, note=prefix + "district named in GA title (PDF column under-filled)")
+                    _add(alloc, st, lut[norm(nd)], r2)
 
-json.dump(alloc, open("district_alloc.json", "w"), indent=1)
 
-with open("cgd_ga_allotment.csv", "w", newline="") as f:
-    w = csv.writer(f)
-    w.writerow(["state", "district", "ga_id", "ga_name", "entity", "entity_group", "note"])
-    for key in sorted(alloc):
-        st, dist = key.split("|")
-        for rec in alloc[key]:
-            w.writerow([st, dist, rec["ga_id"], rec["ga_name"], rec["entity"], rec["group"], rec["note"]])
-print("wrote district_alloc.json + cgd_ga_allotment.csv")
+def build_alloc(rows: list[dict], gj_pairs: list[tuple]) -> tuple[dict, list[tuple]]:
+    """Return (``"State|District"`` -> [GA records], unmatched rows) for the PNGRB rows."""
+    by_state: dict = {}
+    for st, d in gj_pairs:
+        by_state.setdefault(st, {})[norm(d)] = d
+    alloc: dict = {}
+    unmatched: list[tuple] = []
+    for r in rows:
+        if not _match_row(alloc, by_state, r):
+            kind = "alias-miss" if (r["state"], norm(r["district"])) in ALIASES else "no-match"
+            unmatched.append((r["state"], r["district"], r["ga_id"], kind))
+    _apply_supplements(alloc, by_state, rows)
+    return alloc, unmatched
+
+
+def write_csv(alloc: dict, path: Path = CSV_OUT) -> None:
+    """Write the flat state/district/GA/entity table."""
+    with open(path, "w", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["state", "district", "ga_id", "ga_name", "entity", "entity_group", "note"])
+        for key in sorted(alloc):
+            st, dist = key.split("|")
+            for rec in alloc[key]:
+                w.writerow([st, dist, rec["ga_id"], rec["ga_name"], rec["entity"], rec["group"], rec["note"]])
+
+
+def main() -> int:
+    rows = json.load(open(DISTRICTS_IN))
+    gj_pairs = [tuple(p) for p in json.load(open(GJ_PAIRS_IN))]
+    alloc, unmatched = build_alloc(rows, gj_pairs)
+    n_alloc = sum(len(v) for v in alloc.values())
+    print(f"allotments: {n_alloc} across {len(alloc)} districts; unmatched: {len(unmatched)}")
+    for u in unmatched: print("  ", u)
+    json.dump(alloc, open(ALLOC_OUT, "w"), indent=1)
+    write_csv(alloc)
+    print("wrote district_alloc.json + cgd_ga_allotment.csv")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
