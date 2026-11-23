@@ -247,7 +247,7 @@ def test_join_embedded_tables_are_consistent(tmp_path, monkeypatch):
 @pytest.fixture
 def outlets_dir(tmp_path, monkeypatch):
     pytest.importorskip("shapely")
-    sq = lambda x0, x1: [[[x0, 10], [x1, 10], [x1, 12], [x0, 12], [x0, 10]]]    # noqa: E731
+    sq = lambda x0, x1: [[[x0, 10], [x1, 10], [x1, 12], [x0, 12], [x0, 10]]]
     gj = {"features": [
         {"properties": {"st_nm": "S1", "district": "D1"}, "geometry": {"type": "Polygon", "coordinates": sq(70, 72)}},
         {"properties": {"st_nm": "S1", "district": "D2"}, "geometry": {"type": "Polygon", "coordinates": sq(72, 74)}},
@@ -358,7 +358,7 @@ def data_of(html):
 
 def test_build_html_payload_groups_paths_and_stats(html_dir, capsys):
     ns = run_script("build_html.py")
-    d = data_of(open(html_dir / "cgd_ga_map.html").read())
+    d = data_of((html_dir / "cgd_ga_map.html").read_text())
     assert [x["g"] for x in d["dist"]] == [ns["gidx"]["Indraprastha Gas Limited"], ns["gidx"]["GAIL Gas Limited"], 15, -1]
     assert d["dist"][1]["a"] == [["2", "G2", "E2", ""], ["3", "G3", "E2", ""]]      # first GA's group colours the district
     assert d["stats"] == {"gas": 4, "entities": 3, "covered": 3, "total": 4}
@@ -371,7 +371,7 @@ def test_build_html_payload_groups_paths_and_stats(html_dir, capsys):
 
 def test_build_html_projection_is_north_up_and_scales_with_latitude(html_dir):
     ns = run_script("build_html.py")
-    d = data_of(open(html_dir / "cgd_ga_map.html").read())
+    d = data_of((html_dir / "cgd_ga_map.html").read_text())
     lons = [70, 71, 72, 73, 74, 75]
     lats = [10, 11, 14, 15]
     assert d["proj"]["lomin"] == min(lons) and d["proj"]["lamax"] == max(lats)
@@ -388,20 +388,20 @@ def test_build_html_embeds_outlets_with_remapped_district_indices(html_dir, caps
         "companies": ["IOCL"], "dist_keys": ["S2|D3", "S1|D2", "NOPE|X"], "lat": [1, 2, 3], "lon": [1, 2, 3],
         "comp": [0, 0, 0], "cng": [0, 1, 0], "dist": [0, 1, 2]}))
     run_script("build_html.py")
-    d = data_of(open(html_dir / "cgd_ga_map.html").read())
+    d = data_of((html_dir / "cgd_ga_map.html").read_text())
     assert d["outlets"]["dist"] == [2, 1, -1] and "dist_keys" not in d["outlets"]
     assert "embedded 3 outlets" in capsys.readouterr().out
 
 
 def test_build_html_palette_covers_every_named_group():
-    ns = {}
     with open(os.path.join(SCRIPTS, "build_html.py")) as fh:
         src = fh.read()
     import re
-    names = re.search(r"GROUP_ORDER = (\[.*?\])\nLIGHT", src, re.S).group(1)
-    light = re.search(r"LIGHT = (\[.*?\])\nDARK", src, re.S).group(1)
-    dark = re.search(r"DARK  = (\[.*?\])\ngidx", src, re.S).group(1)
-    ns = {"names": eval(names), "light": eval(light), "dark": eval(dark)}          # literals only
+    names = re.search(r"GROUP_ORDER = (\[.*?\])\nLIGHT", src, re.DOTALL).group(1)
+    light = re.search(r"LIGHT = (\[.*?\])\nDARK", src, re.DOTALL).group(1)
+    dark = re.search(r"DARK  = (\[.*?\])\ngidx", src, re.DOTALL).group(1)
+    import ast
+    ns = {"names": ast.literal_eval(names), "light": ast.literal_eval(light), "dark": ast.literal_eval(dark)}
     assert len(ns["names"]) == len(ns["light"]) == len(ns["dark"]) == len(set(ns["names"])) == 15
 
 
