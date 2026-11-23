@@ -169,6 +169,7 @@ def drow(state, district, ga_id="1", entity="E", note="", ga_name="GA"):
 def test_join_helpers(tmp_path, monkeypatch):
     ns, _ = run_join(tmp_path, monkeypatch, [], [])
     assert ns["norm"]("  Sri-Sathya  Sai (x) ") == "SRI SATHYA SAI X"
+    assert ns["norm"]("Dadra & Nagar-Haveli") == "DADRA & NAGAR HAVELI"          # '&' is kept (state names use it)
     assert ns["entity_group"]("Think Gas Pvt") == "Think Gas" and ns["entity_group"]("Torrent Gas Chennai") == "Torrent Gas"
     assert ns["entity_group"]("Gasonet Services Ltd") == "Gasonet Services"
     assert ns["entity_group"]("AGP City Gas") == "AGP / AG&P Pratham" and ns["entity_group"]("HCG Pvt") == "Haryana City Gas group"
@@ -187,6 +188,20 @@ def test_join_andhra_successor_districts_get_a_note(tmp_path, monkeypatch):
 
 def test_join_andhra_expansion_with_no_matching_districts_is_unmatched(tmp_path, monkeypatch, capsys):
     _, alloc = run_join(tmp_path, monkeypatch, [drow("Andhra Pradesh", "Visakhapatnam")], [["Andhra Pradesh", "Chittoor"]])
+    assert alloc == {} and "no-match" in capsys.readouterr().out
+
+
+def test_join_note_order_is_ga_note_then_successor_note(tmp_path, monkeypatch):
+    _, alloc = run_join(tmp_path, monkeypatch, [drow("Andhra Pradesh", "East Godavari", note="PDF note")],
+                        [["Andhra Pradesh", "East Godavari"], ["Andhra Pradesh", "Kakinada"]])
+    assert alloc["Andhra Pradesh|Kakinada"][0]["note"] == "PDF note; successor of pre-2022 district"
+    assert alloc["Andhra Pradesh|East Godavari"][0]["note"] == "PDF note"
+
+
+def test_join_andhra_expansion_table_takes_precedence_over_a_direct_name_match(tmp_path, monkeypatch, capsys):
+    """Characterisation: ANANTAPUR is expanded to [Anantapuramu, Sri Sathya Sai]; a geojson that still
+    spells it 'Anantapur' is NOT matched directly because the expansion branch `continue`s."""
+    _, alloc = run_join(tmp_path, monkeypatch, [drow("Andhra Pradesh", "Anantapur")], [["Andhra Pradesh", "Anantapur"]])
     assert alloc == {} and "no-match" in capsys.readouterr().out
 
 
@@ -305,18 +320,19 @@ def test_join_outlets_content_dedup_and_map_payload(outlets_dir, capsys):
         pump(2, 11.0, 71.0, name="Same", has_cng=True),                         # byte-identical content under a new id
         pump(3, 11.0, 71.0000004, name="Same", has_cng=False),                  # rounds to the same 6-dp coordinate
         pump(4, 11.0, 71.001, name="Same", company=None),                       # different coordinate -> distinct
+        pump(7, 11.0, 71.0004, name="Same", has_cng=True),                      # differs only at the 4th decimal: still distinct at 6 dp
         pump(5, 11.0, 73.0, name="Other", company="BPCL", has_cng=True),
         pump(6, 11.0, 80.0, name="Outside"),
     ]
     write_pumps(outlets_dir, pumps)
     run_script("join_outlets.py")
-    assert "outlets after dedup: 4 (dropped 2 dupes, 0 bad coords)" in capsys.readouterr().out
+    assert "outlets after dedup: 5 (dropped 2 dupes, 0 bad coords)" in capsys.readouterr().out
     m = jload(outlets_dir / "outlets_map.json")
     assert m["companies"] == ["?", "BPCL", "IOCL"]                              # sorted, None -> '?'
-    assert m["dist_keys"] == ["S1|D1", "S1|D2"] and len(m["lat"]) == 3          # the unassigned outlet is not in the map
-    assert m["cng"] == [1, 0, 1] and m["dist"] == [0, 0, 1]
-    assert m["comp"] == [2, 0, 1]
-    assert m["lat"][0] == 11.0 and m["lon"][1] == 71.001
+    assert m["dist_keys"] == ["S1|D1", "S1|D2"] and len(m["lat"]) == 4          # the unassigned outlet is not in the map
+    assert m["cng"] == [1, 0, 1, 1] and m["dist"] == [0, 0, 0, 1]
+    assert m["comp"] == [2, 0, 2, 1]
+    assert m["lat"][0] == 11.0 and m["lon"][1] == 71.001 and m["lon"][2] == 71.0004
 
 
 def test_join_outlets_missing_cng_price_is_blank(outlets_dir):
@@ -477,6 +493,7 @@ def test_progress_line_every_hundred_pages(crawl, capsys):
     crawl.main()
     out = capsys.readouterr().out
     assert "100/100 pages, 0 unique, 0 failed" in out and "count=10000 pages=100" in out
+    assert "50/100 pages" not in out and out.count(" pages, ") == 1                 # progress only at multiples of 100
 
 
 def test_page_count_rounds_up(crawl, capsys):
